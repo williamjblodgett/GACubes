@@ -8,6 +8,7 @@ import ResultsPanel from "./ResultsPanel";
 import MapPanel from "./MapPanel";
 import MobileNav from "./MobileNav";
 import MobileFilters from "./MobileFilters";
+import Link from "next/link";
 import { Search, MapPin, Snowflake } from "lucide-react";
 
 function SearchLayoutInner() {
@@ -38,11 +39,11 @@ function SearchLayoutInner() {
     <div className="h-screen flex flex-col">
       {/* Mobile top bar */}
       <div className="lg:hidden bg-surface border-b border-border px-4 py-3 flex items-center gap-2">
-        <a href="/" className="flex items-center gap-1.5 mr-2">
+        <Link href="/" className="flex items-center gap-1.5 mr-2">
           <div className="w-7 h-7 bg-primary rounded-lg flex items-center justify-center">
             <Snowflake size={16} className="text-white" />
           </div>
-        </a>
+        </Link>
         <div className="flex-1 relative">
           <Search size={16} className="absolute left-3 top-1/2 -translate-y-1/2 text-muted" />
           <input
@@ -87,9 +88,9 @@ function SearchLayoutInner() {
             <div className="text-center py-8">
               <p className="text-foreground font-medium">Submit a Location</p>
               <p className="text-muted text-sm mt-1">Know a location we&apos;re missing?</p>
-              <a href="/submit" className="inline-block mt-4 px-6 py-2.5 bg-primary text-white rounded-lg text-sm font-medium">
+              <Link href="/submit" className="inline-block mt-4 px-6 py-2.5 bg-primary text-white rounded-lg text-sm font-medium">
                 Submit Location
-              </a>
+              </Link>
             </div>
           </div>
         )}
