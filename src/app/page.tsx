@@ -298,7 +298,8 @@ export default function HomePage() {
             </div>
           </div>
           <div className="mt-8 pt-8 border-t border-white/10 text-center text-xs text-white/40">
-            &copy; {new Date().getFullYear()} GACubes. All rights reserved.
+            <p>&copy; {new Date().getFullYear()} GACubes. All rights reserved.</p>
+            <p className="mt-2">Brand names, logos, and trademarks shown are the property of their respective owners and are used solely to identify listed businesses.</p>
           </div>
         </div>
       </footer>
