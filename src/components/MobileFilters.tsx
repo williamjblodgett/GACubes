@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { useSearch } from "@/lib/search-context";
 import { CATEGORY_LABELS, CategoryType, RADIUS_OPTIONS } from "@/lib/types";
 import { SlidersHorizontal, X } from "lucide-react";
@@ -8,6 +8,21 @@ import { SlidersHorizontal, X } from "lucide-react";
 export default function MobileFilters() {
   const [open, setOpen] = useState(false);
   const { filters, updateFilters, resetFilters } = useSearch();
+
+  // Lock body scroll when modal is open to prevent map interaction behind
+  useEffect(() => {
+    if (open) {
+      document.body.style.overflow = "hidden";
+      document.body.style.touchAction = "none";
+    } else {
+      document.body.style.overflow = "";
+      document.body.style.touchAction = "";
+    }
+    return () => {
+      document.body.style.overflow = "";
+      document.body.style.touchAction = "";
+    };
+  }, [open]);
 
   const toggleCategory = (cat: CategoryType) => {
     const cats = filters.categories.includes(cat)
@@ -36,17 +51,40 @@ export default function MobileFilters() {
       </button>
 
       {open && (
-        <div className="fixed inset-0 z-50 lg:hidden">
-          <div className="absolute inset-0 bg-black/50" onClick={() => setOpen(false)} />
-          <div className="absolute bottom-0 left-0 right-0 bg-surface rounded-t-3xl flex flex-col" style={{ maxHeight: "85vh" }}>
+        <div
+          className="fixed inset-0 z-50 lg:hidden"
+          onTouchMove={(e) => {
+            // Allow scrolling inside the content area but prevent backdrop touch-through
+            const target = e.target as HTMLElement;
+            if (!target.closest("[data-filter-content]")) {
+              e.preventDefault();
+            }
+          }}
+        >
+          <div
+            className="absolute inset-0 bg-black/50"
+            onClick={() => setOpen(false)}
+            onTouchEnd={(e) => {
+              e.stopPropagation();
+              setOpen(false);
+            }}
+          />
+          <div
+            className="absolute bottom-0 left-0 right-0 bg-surface rounded-t-3xl flex flex-col"
+            style={{ maxHeight: "70vh" }}
+          >
             <div className="flex items-center justify-between p-4 border-b border-border shrink-0">
               <h2 className="font-bold text-foreground">Filters</h2>
-              <button onClick={() => setOpen(false)}>
+              <button onClick={() => setOpen(false)} className="p-1">
                 <X size={24} className="text-muted" />
               </button>
             </div>
 
-            <div className="p-4 space-y-5 overflow-y-auto flex-1 min-h-0">
+            <div
+              data-filter-content
+              className="p-4 space-y-5 overflow-y-auto flex-1 min-h-0 overscroll-contain"
+              style={{ WebkitOverflowScrolling: "touch" }}
+            >
               <div>
                 <h3 className="text-sm font-bold text-foreground mb-3">Categories</h3>
                 <div className="flex flex-wrap gap-2">
@@ -83,7 +121,7 @@ export default function MobileFilters() {
                 </div>
               </div>
 
-              <div className="space-y-2">
+              <div className="space-y-1">
                 {[
                   { key: "openNow" as const, label: "Open Now" },
                   { key: "open24h" as const, label: "24/7" },
@@ -94,7 +132,7 @@ export default function MobileFilters() {
                   { key: "nearBeer" as const, label: "Near Beer / Drinks" },
                   { key: "highDensity" as const, label: "High Density Area" },
                 ].map(({ key, label }) => (
-                  <label key={key} className="flex items-center justify-between py-2">
+                  <label key={key} className="flex items-center justify-between py-1.5">
                     <span className="text-sm text-foreground">{label}</span>
                     <input
                       type="checkbox"
@@ -107,18 +145,21 @@ export default function MobileFilters() {
               </div>
             </div>
 
-            <div className="p-4 pb-6 border-t border-border flex gap-3 shrink-0">
+            <div
+              className="p-4 border-t border-border flex gap-3 shrink-0"
+              style={{ paddingBottom: "max(1rem, env(safe-area-inset-bottom))" }}
+            >
               <button
                 onClick={() => { resetFilters(); setOpen(false); }}
-                className="flex-1 py-3 border border-border rounded-xl text-sm font-semibold text-foreground"
+                className="flex-1 py-3.5 border border-border rounded-xl text-sm font-semibold text-foreground active:bg-surface-secondary"
               >
                 Reset
               </button>
               <button
                 onClick={() => setOpen(false)}
-                className="flex-1 py-3 bg-primary text-white rounded-xl text-sm font-semibold"
+                className="flex-1 py-3.5 bg-primary text-white rounded-xl text-sm font-bold active:bg-primary-hover"
               >
-                Apply
+                Apply Filters
               </button>
             </div>
           </div>
