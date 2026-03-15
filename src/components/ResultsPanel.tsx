@@ -7,11 +7,11 @@ export default function ResultsPanel() {
   const { results, selectedId, selectListing, locationLabel, loading } = useSearch();
 
   return (
-    <div className="flex flex-col h-full bg-surface">
-      <div className="px-4 py-3 border-b border-border bg-surface-secondary">
+    <div className="flex flex-col h-full bg-background">
+      <div className="px-4 py-3 border-b border-border bg-surface">
         <div className="flex items-center justify-between">
-          <span className="text-sm font-medium text-foreground">{locationLabel}</span>
-          <span className="text-xs text-muted">
+          <span className="text-sm font-bold text-foreground">{locationLabel}</span>
+          <span className="text-xs text-muted font-medium">
             {results.length} result{results.length !== 1 ? "s" : ""}
           </span>
         </div>

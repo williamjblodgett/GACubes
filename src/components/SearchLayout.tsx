@@ -17,7 +17,6 @@ function SearchLayoutInner() {
   const searchParams = useSearchParams();
   const appliedParams = useRef(false);
 
-  // Apply URL params on mount (for lake area quick links, etc.)
   useEffect(() => {
     if (appliedParams.current) return;
     const lat = searchParams.get("lat");
@@ -38,23 +37,23 @@ function SearchLayoutInner() {
   return (
     <div className="h-screen flex flex-col">
       {/* Mobile top bar */}
-      <div className="lg:hidden bg-surface border-b border-border px-4 py-3 flex items-center gap-2">
+      <div className="lg:hidden bg-header-bg px-4 py-3 flex items-center gap-2">
         <Link href="/" className="flex items-center gap-1.5 mr-2">
-          <div className="w-7 h-7 bg-primary rounded-lg flex items-center justify-center">
+          <div className="w-7 h-7 bg-primary rounded-xl flex items-center justify-center">
             <Snowflake size={16} className="text-white" />
           </div>
         </Link>
         <div className="flex-1 relative">
-          <Search size={16} className="absolute left-3 top-1/2 -translate-y-1/2 text-muted" />
+          <Search size={16} className="absolute left-3 top-1/2 -translate-y-1/2 text-white/40" />
           <input
             type="text"
             placeholder="Town, ZIP, or business..."
             value={filters.query}
             onChange={(e) => updateFilters({ query: e.target.value })}
-            className="w-full pl-9 pr-3 py-2 border border-border rounded-lg text-sm bg-surface text-foreground outline-none focus:ring-2 focus:ring-primary"
+            className="w-full pl-9 pr-3 py-2 border border-white/10 rounded-xl text-sm bg-white/5 text-white placeholder:text-white/40 outline-none focus:ring-2 focus:ring-primary"
           />
         </div>
-        <button onClick={locateMe} disabled={loading} className="p-2 bg-primary text-white rounded-lg">
+        <button onClick={locateMe} disabled={loading} className="p-2 bg-primary text-white rounded-xl">
           <MapPin size={18} />
         </button>
         <MobileFilters />
@@ -86,9 +85,9 @@ function SearchLayoutInner() {
         {mobileTab === "submit" && (
           <div className="flex-1 lg:hidden p-4 bg-surface">
             <div className="text-center py-8">
-              <p className="text-foreground font-medium">Submit a Location</p>
+              <p className="text-foreground font-semibold">Submit a Location</p>
               <p className="text-muted text-sm mt-1">Know a location we&apos;re missing?</p>
-              <Link href="/submit" className="inline-block mt-4 px-6 py-2.5 bg-primary text-white rounded-lg text-sm font-medium">
+              <Link href="/submit" className="inline-block mt-4 px-6 py-2.5 bg-primary text-white rounded-xl text-sm font-semibold">
                 Submit Location
               </Link>
             </div>

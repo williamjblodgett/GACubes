@@ -11,17 +11,20 @@ export const metadata: Metadata = {
 
 export default function AboutPage() {
   return (
-    <div className="min-h-screen bg-surface-secondary">
+    <div className="min-h-screen bg-background">
       <Header />
-      <main className="max-w-4xl mx-auto px-4 py-8">
-        <div className="flex items-center gap-2 text-sm text-muted mb-4">
-          <Link href="/" className="hover:text-primary">Home</Link><span>/</span><span className="text-foreground">About</span>
-        </div>
-        <h1 className="text-3xl font-bold text-foreground mb-4">
-          About GACubes
-        </h1>
 
-        <div className="bg-surface rounded-xl border border-border p-6 mb-8">
+      <div className="bg-header-bg text-white py-8">
+        <div className="max-w-4xl mx-auto px-4">
+          <div className="flex items-center gap-2 text-sm text-white/50 mb-3">
+            <Link href="/" className="hover:text-white">Home</Link><span>/</span><span className="text-white">About</span>
+          </div>
+          <h1 className="text-3xl font-bold">About GACubes</h1>
+        </div>
+      </div>
+
+      <main className="max-w-4xl mx-auto px-4 py-8">
+        <div className="bg-surface rounded-2xl border border-border p-6 mb-8">
           <p className="text-muted leading-relaxed text-lg">
             GACubes is Georgia&apos;s comprehensive directory for finding ice
             vending machines, water refill stations, dry ice sellers, propane
@@ -53,61 +56,34 @@ export default function AboutPage() {
               desc: "Know a location we're missing? Submit it. See wrong info? Report it. GACubes gets better with every contribution from Georgia residents and visitors.",
             },
           ].map(({ icon, title, desc }) => (
-            <div
-              key={title}
-              className="bg-surface rounded-xl border border-border p-6"
-            >
-              <div className="w-12 h-12 bg-primary-light rounded-xl flex items-center justify-center text-primary mb-4">
+            <div key={title} className="bg-surface rounded-2xl border border-border p-6">
+              <div className="w-12 h-12 bg-primary/10 rounded-2xl flex items-center justify-center text-primary mb-4">
                 {icon}
               </div>
-              <h3 className="font-semibold text-foreground mb-2">{title}</h3>
+              <h3 className="font-bold text-foreground mb-2">{title}</h3>
               <p className="text-sm text-muted">{desc}</p>
             </div>
           ))}
         </div>
 
-        <div className="bg-surface rounded-xl border border-border p-6 mb-8">
-          <h2 className="text-xl font-bold text-foreground mb-3">
-            Our Data Sources
-          </h2>
+        <div className="bg-surface rounded-2xl border border-border p-6 mb-8">
+          <h2 className="text-xl font-bold text-foreground mb-3">Our Data Sources</h2>
           <ul className="space-y-2 text-sm text-muted">
-            <li>
-              <strong className="text-foreground">Ice Vending:</strong> Twice the Ice, Kooler Ice, Ice
-              House America, Ice Merchant
-            </li>
-            <li>
-              <strong className="text-foreground">Dry Ice:</strong> Airgas, Penguin Dry Ice,
-              DryIceDirectory
-            </li>
-            <li>
-              <strong className="text-foreground">Propane:</strong> AmeriGas, U-Haul propane locations
-            </li>
-            <li>
-              <strong className="text-foreground">Beer &amp; Drinks:</strong> Georgia Department of Revenue
-              active alcohol license reports (updated quarterly)
-            </li>
-            <li>
-              <strong className="text-foreground">Convenience Stores:</strong> Georgia Association of
-              Convenience Stores ecosystem
-            </li>
-            <li>
-              <strong className="text-foreground">Community:</strong> User-submitted locations, verified by
-              our team
-            </li>
+            <li><strong className="text-foreground">Ice Vending:</strong> Twice the Ice, Kooler Ice, Ice House America, Ice Merchant</li>
+            <li><strong className="text-foreground">Dry Ice:</strong> Airgas, Penguin Dry Ice, DryIceDirectory</li>
+            <li><strong className="text-foreground">Propane:</strong> AmeriGas, U-Haul propane locations</li>
+            <li><strong className="text-foreground">Beer &amp; Drinks:</strong> Georgia Department of Revenue active alcohol license reports (updated quarterly)</li>
+            <li><strong className="text-foreground">Convenience Stores:</strong> Georgia Association of Convenience Stores ecosystem</li>
+            <li><strong className="text-foreground">Community:</strong> User-submitted locations, verified by our team</li>
           </ul>
         </div>
 
-        <div className="bg-primary-light rounded-xl p-6 text-center">
-          <h2 className="text-xl font-bold text-foreground mb-2">
-            Contact Us
-          </h2>
-          <p className="text-muted mb-4">
-            Questions, feedback, or partnership inquiries? We&apos;d love to
-            hear from you.
-          </p>
+        <div className="bg-primary-light rounded-2xl p-8 text-center">
+          <h2 className="text-xl font-bold text-foreground mb-2">Contact Us</h2>
+          <p className="text-muted mb-4">Questions, feedback, or partnership inquiries? We&apos;d love to hear from you.</p>
           <a
             href="mailto:hello@gacubes.com"
-            className="inline-flex items-center gap-2 px-5 py-2.5 bg-primary text-white rounded-lg text-sm font-medium hover:bg-primary-hover"
+            className="inline-flex items-center gap-2 px-6 py-3 bg-primary text-white rounded-xl text-sm font-semibold hover:bg-primary-hover"
           >
             hello@gacubes.com
           </a>

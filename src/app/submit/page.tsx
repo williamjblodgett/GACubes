@@ -11,70 +11,63 @@ export const metadata: Metadata = {
 
 export default function SubmitPage() {
   return (
-    <div className="min-h-screen bg-surface-secondary">
+    <div className="min-h-screen bg-background">
       <Header />
-      <main className="max-w-3xl mx-auto px-4 py-8">
-        <div className="flex items-center gap-2 text-sm text-muted mb-4">
-          <Link href="/" className="hover:text-primary">Home</Link><span>/</span><span className="text-foreground">Submit Location</span>
-        </div>
-        <h1 className="text-3xl font-bold text-foreground mb-2">
-          Submit a Location
-        </h1>
-        <p className="text-muted mb-8">
-          Know an ice, water, propane, or store location we&apos;re missing?
-          Help us keep Georgia&apos;s directory complete.
-        </p>
 
-        <form className="bg-surface rounded-xl border border-border p-6 space-y-5">
+      <div className="bg-header-bg text-white py-8">
+        <div className="max-w-3xl mx-auto px-4">
+          <div className="flex items-center gap-2 text-sm text-white/50 mb-3">
+            <Link href="/" className="hover:text-white">Home</Link><span>/</span><span className="text-white">Submit Location</span>
+          </div>
+          <h1 className="text-3xl font-bold">Submit a Location</h1>
+          <p className="text-white/60 mt-2">
+            Know an ice, water, propane, or store location we&apos;re missing?
+            Help us keep Georgia&apos;s directory complete.
+          </p>
+        </div>
+      </div>
+
+      <main className="max-w-3xl mx-auto px-4 py-8">
+        <form className="bg-surface rounded-2xl border border-border p-6 space-y-5">
           <div>
-            <label className="block text-sm font-medium text-foreground mb-1">
-              Business Name *
-            </label>
+            <label className="block text-sm font-semibold text-foreground mb-1">Business Name *</label>
             <input
               type="text"
               required
-              className="w-full border border-border rounded-lg px-3 py-2.5 text-sm bg-surface text-foreground focus:ring-2 focus:ring-primary outline-none"
+              className="w-full border border-border rounded-xl px-4 py-3 text-sm bg-background text-foreground focus:ring-2 focus:ring-primary outline-none"
               placeholder="e.g., Twice the Ice - Roswell"
             />
           </div>
 
           <div>
-            <label className="block text-sm font-medium text-foreground mb-1">
-              Category *
-            </label>
+            <label className="block text-sm font-semibold text-foreground mb-1">Category *</label>
             <select
               required
-              className="w-full border border-border rounded-lg px-3 py-2.5 text-sm bg-surface text-foreground focus:ring-2 focus:ring-primary outline-none"
+              className="w-full border border-border rounded-xl px-4 py-3 text-sm bg-background text-foreground focus:ring-2 focus:ring-primary outline-none"
             >
               <option value="">Select a category</option>
               {(Object.keys(CATEGORY_LABELS) as CategoryType[]).map((cat) => (
-                <option key={cat} value={cat}>
-                  {CATEGORY_LABELS[cat]}
-                </option>
+                <option key={cat} value={cat}>{CATEGORY_LABELS[cat]}</option>
               ))}
             </select>
           </div>
 
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
             <div>
-              <label className="block text-sm font-medium text-foreground mb-1">
-                Street Address *
-              </label>
+              <label className="block text-sm font-semibold text-foreground mb-1">Street Address *</label>
               <input
                 type="text"
                 required
-                className="w-full border border-border rounded-lg px-3 py-2.5 text-sm bg-surface text-foreground focus:ring-2 focus:ring-primary outline-none"
+                className="w-full border border-border rounded-xl px-4 py-3 text-sm bg-background text-foreground focus:ring-2 focus:ring-primary outline-none"
                 placeholder="1025 Alpharetta St"
               />
             </div>
             <div>
-              <label className="block text-sm font-medium text-foreground mb-1">
-                City *
-              </label>
+              <label className="block text-sm font-semibold text-foreground mb-1">City *</label>
               <input
                 type="text"
                 required
-                className="w-full border border-border rounded-lg px-3 py-2.5 text-sm bg-surface text-foreground focus:ring-2 focus:ring-primary outline-none"
+                className="w-full border border-border rounded-xl px-4 py-3 text-sm bg-background text-foreground focus:ring-2 focus:ring-primary outline-none"
                 placeholder="Roswell"
               />
             </div>
@@ -82,74 +75,52 @@ export default function SubmitPage() {
 
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
             <div>
-              <label className="block text-sm font-medium text-foreground mb-1">
-                ZIP Code *
-              </label>
+              <label className="block text-sm font-semibold text-foreground mb-1">ZIP Code *</label>
               <input
                 type="text"
                 required
                 pattern="[0-9]{5}"
-                className="w-full border border-border rounded-lg px-3 py-2.5 text-sm bg-surface text-foreground focus:ring-2 focus:ring-primary outline-none"
+                className="w-full border border-border rounded-xl px-4 py-3 text-sm bg-background text-foreground focus:ring-2 focus:ring-primary outline-none"
                 placeholder="30075"
               />
             </div>
             <div>
-              <label className="block text-sm font-medium text-foreground mb-1">
-                Phone
-              </label>
+              <label className="block text-sm font-semibold text-foreground mb-1">Phone</label>
               <input
                 type="tel"
-                className="w-full border border-border rounded-lg px-3 py-2.5 text-sm bg-surface text-foreground focus:ring-2 focus:ring-primary outline-none"
+                className="w-full border border-border rounded-xl px-4 py-3 text-sm bg-background text-foreground focus:ring-2 focus:ring-primary outline-none"
                 placeholder="(770) 555-0101"
               />
             </div>
           </div>
 
           <div>
-            <label className="block text-sm font-medium text-foreground mb-1">
-              Website
-            </label>
+            <label className="block text-sm font-semibold text-foreground mb-1">Website</label>
             <input
               type="url"
-              className="w-full border border-border rounded-lg px-3 py-2.5 text-sm bg-surface text-foreground focus:ring-2 focus:ring-primary outline-none"
+              className="w-full border border-border rounded-xl px-4 py-3 text-sm bg-background text-foreground focus:ring-2 focus:ring-primary outline-none"
               placeholder="https://example.com"
             />
           </div>
 
           <div>
-            <label className="block text-sm font-medium text-foreground mb-1">
-              Hours
-            </label>
+            <label className="block text-sm font-semibold text-foreground mb-1">Hours</label>
             <input
               type="text"
-              className="w-full border border-border rounded-lg px-3 py-2.5 text-sm bg-surface text-foreground focus:ring-2 focus:ring-primary outline-none"
+              className="w-full border border-border rounded-xl px-4 py-3 text-sm bg-background text-foreground focus:ring-2 focus:ring-primary outline-none"
               placeholder="24/7 or Mon-Fri 8AM-5PM"
             />
           </div>
 
           <div>
-            <label className="block text-sm font-medium text-foreground mb-2">
-              Features
-            </label>
+            <label className="block text-sm font-semibold text-foreground mb-2">Features</label>
             <div className="grid grid-cols-2 gap-2">
               {[
-                "Open 24/7",
-                "Card Accepted",
-                "Cash Accepted",
-                "Water Refill",
-                "Dry Ice",
-                "Propane Refill",
-                "Propane Exchange",
-                "Beer / Drinks Nearby",
+                "Open 24/7", "Card Accepted", "Cash Accepted", "Water Refill",
+                "Dry Ice", "Propane Refill", "Propane Exchange", "Beer / Drinks Nearby",
               ].map((feat) => (
-                <label
-                  key={feat}
-                  className="flex items-center gap-2 text-sm text-foreground"
-                >
-                  <input
-                    type="checkbox"
-                    className="rounded border-border text-primary"
-                  />
+                <label key={feat} className="flex items-center gap-2 text-sm text-foreground">
+                  <input type="checkbox" className="rounded border-border text-primary focus:ring-primary" />
                   {feat}
                 </label>
               ))}
@@ -157,19 +128,17 @@ export default function SubmitPage() {
           </div>
 
           <div>
-            <label className="block text-sm font-medium text-foreground mb-1">
-              Additional Notes
-            </label>
+            <label className="block text-sm font-semibold text-foreground mb-1">Additional Notes</label>
             <textarea
               rows={3}
-              className="w-full border border-border rounded-lg px-3 py-2.5 text-sm bg-surface text-foreground focus:ring-2 focus:ring-primary outline-none resize-none"
+              className="w-full border border-border rounded-xl px-4 py-3 text-sm bg-background text-foreground focus:ring-2 focus:ring-primary outline-none resize-none"
               placeholder="Any extra details about this location..."
             />
           </div>
 
           <button
             type="submit"
-            className="w-full py-3 bg-primary text-white rounded-lg text-sm font-medium hover:bg-primary-hover transition-colors"
+            className="w-full py-3.5 bg-primary text-white rounded-xl text-sm font-semibold hover:bg-primary-hover transition-colors"
           >
             Submit Location
           </button>

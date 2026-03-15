@@ -11,24 +11,23 @@ export const metadata: Metadata = {
 
 export default function AdvertisePage() {
   return (
-    <div className="min-h-screen bg-surface-secondary">
+    <div className="min-h-screen bg-background">
       <Header />
-      <main className="max-w-5xl mx-auto px-4 py-8">
-        <div className="flex items-center gap-2 text-sm text-muted mb-4">
-          <Link href="/" className="hover:text-primary">Home</Link><span>/</span><span className="text-foreground">Advertise</span>
-        </div>
 
-        <div className="text-center mb-12">
-          <h1 className="text-3xl md:text-4xl font-bold text-foreground mb-4">
-            Advertise on GACubes
-          </h1>
-          <p className="text-lg text-muted max-w-2xl mx-auto">
+      <div className="bg-header-bg text-white py-8">
+        <div className="max-w-5xl mx-auto px-4">
+          <div className="flex items-center gap-2 text-sm text-white/50 mb-3">
+            <Link href="/" className="hover:text-white">Home</Link><span>/</span><span className="text-white">Advertise</span>
+          </div>
+          <h1 className="text-3xl font-bold">Advertise on GACubes</h1>
+          <p className="text-white/60 mt-2 max-w-2xl">
             Reach customers searching for ice, water, propane, and essentials
-            across Georgia. Get your business in front of high-intent local
-            searchers.
+            across Georgia. Get your business in front of high-intent local searchers.
           </p>
         </div>
+      </div>
 
+      <main className="max-w-5xl mx-auto px-4 py-8">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-12">
           {[
             {
@@ -47,31 +46,28 @@ export default function AdvertisePage() {
               desc: "Track clicks, calls, and direction requests. See how many customers find your business through GACubes.",
             },
           ].map(({ icon, title, desc }) => (
-            <div
-              key={title}
-              className="bg-surface rounded-xl border border-border p-6"
-            >
-              <div className="w-12 h-12 bg-primary-light rounded-xl flex items-center justify-center text-primary mb-4">
+            <div key={title} className="bg-surface rounded-2xl border border-border p-6">
+              <div className="w-12 h-12 bg-primary/10 rounded-2xl flex items-center justify-center text-primary mb-4">
                 {icon}
               </div>
-              <h3 className="font-semibold text-foreground mb-2">{title}</h3>
+              <h3 className="font-bold text-foreground mb-2">{title}</h3>
               <p className="text-sm text-muted">{desc}</p>
             </div>
           ))}
         </div>
 
-        <div className="bg-surface rounded-xl border border-border p-8 text-center">
-          <Zap size={32} className="text-primary mx-auto mb-4" />
-          <h2 className="text-2xl font-bold text-foreground mb-2">
-            Get Started
-          </h2>
+        <div className="bg-surface rounded-2xl border border-border p-8 text-center">
+          <div className="w-14 h-14 bg-primary/10 rounded-2xl flex items-center justify-center mx-auto mb-4">
+            <Zap size={28} className="text-primary" />
+          </div>
+          <h2 className="text-2xl font-bold text-foreground mb-2">Get Started</h2>
           <p className="text-muted mb-6 max-w-lg mx-auto">
             Contact us to discuss advertising options and pricing.
             We offer flexible plans for businesses of all sizes.
           </p>
           <a
             href="mailto:advertise@gacubes.com"
-            className="inline-flex items-center gap-2 px-6 py-3 bg-primary text-white rounded-lg text-sm font-medium hover:bg-primary-hover transition-colors"
+            className="inline-flex items-center gap-2 px-6 py-3 bg-primary text-white rounded-xl text-sm font-semibold hover:bg-primary-hover transition-colors"
           >
             Contact Us: advertise@gacubes.com
           </a>
