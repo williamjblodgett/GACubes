@@ -1,5 +1,6 @@
 "use client";
 
+import Link from "next/link";
 import { Listing, CATEGORY_LABELS, CATEGORY_COLORS } from "@/lib/types";
 import { formatDistance } from "@/lib/geo";
 import { MapPin, Phone, Navigation, Beer } from "lucide-react";
@@ -96,13 +97,13 @@ export default function ListingCard({ listing, selected, onClick }: ListingCardP
             Call
           </a>
         )}
-        <a
+        <Link
           href={`/listing/${listing.id}`}
           className="ml-auto text-primary hover:underline"
           onClick={(e) => e.stopPropagation()}
         >
           Details
-        </a>
+        </Link>
       </div>
     </div>
   );

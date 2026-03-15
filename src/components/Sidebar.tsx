@@ -7,6 +7,7 @@ import {
   RADIUS_OPTIONS,
   SearchFilters,
 } from "@/lib/types";
+import Link from "next/link";
 import {
   Search,
   MapPin,
@@ -45,12 +46,12 @@ export default function Sidebar() {
   return (
     <aside className="w-full lg:w-80 bg-surface border-r border-border flex flex-col h-full overflow-y-auto">
       <div className="p-4 border-b border-border">
-        <a href="/" className="flex items-center gap-2">
+        <Link href="/" className="flex items-center gap-2">
           <div className="w-8 h-8 bg-primary rounded-lg flex items-center justify-center">
             <Snowflake size={20} className="text-white" />
           </div>
           <span className="text-xl font-bold text-foreground">GACubes</span>
-        </a>
+        </Link>
         <p className="text-xs text-muted mt-1">Georgia Ice + Water + Essentials</p>
       </div>
 
