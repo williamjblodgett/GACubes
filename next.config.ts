@@ -1,8 +1,11 @@
 import type { NextConfig } from "next";
 
+const isProd = process.env.NODE_ENV === "production";
+const useCustomDomain = process.env.CUSTOM_DOMAIN === "true";
+
 const nextConfig: NextConfig = {
   output: "export",
-  basePath: "/GACubes",
+  basePath: isProd && !useCustomDomain ? "/GACubes" : "",
   trailingSlash: true,
   images: { unoptimized: true },
 };
