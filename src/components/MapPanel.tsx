@@ -1,10 +1,11 @@
 "use client";
 
-import { useEffect, useCallback } from "react";
+import { useEffect, useCallback, useMemo } from "react";
 import {
   APIProvider,
   Map,
   AdvancedMarker,
+  InfoWindow,
   useMap,
 } from "@vis.gl/react-google-maps";
 import { useSearch } from "@/lib/search-context";
@@ -109,6 +110,45 @@ export default function MapPanel() {
               </AdvancedMarker>
             );
           })}
+
+          {/* Info window for selected listing */}
+          {selectedId &&
+            (() => {
+              const sel = results.find((l) => l.id === selectedId);
+              if (!sel) return null;
+              return (
+                <InfoWindow
+                  position={{ lat: sel.lat, lng: sel.lng }}
+                  onCloseClick={() => selectListing(null)}
+                  pixelOffset={[0, -14]}
+                >
+                  <div style={{ minWidth: 160, fontFamily: "sans-serif" }}>
+                    <p
+                      style={{
+                        margin: "0 0 4px",
+                        fontWeight: 700,
+                        fontSize: 14,
+                        color: "#111",
+                      }}
+                    >
+                      {sel.name}
+                    </p>
+                    <p
+                      style={{
+                        margin: "0 0 2px",
+                        fontSize: 12,
+                        color: "#6b7280",
+                      }}
+                    >
+                      {sel.category_primary.replace(/_/g, " ").replace(/\b\w/g, (c) => c.toUpperCase())}
+                    </p>
+                    <p style={{ margin: 0, fontSize: 12, color: "#6b7280" }}>
+                      {sel.address}, {sel.city}
+                    </p>
+                  </div>
+                </InfoWindow>
+              );
+            })()}
 
           {/* User location marker */}
           {filters.lat && filters.lng && (
