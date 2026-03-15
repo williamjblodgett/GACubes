@@ -84,48 +84,16 @@ export default async function ListingPage({ params }: Props) {
       </header>
 
       <main className="max-w-4xl mx-auto px-4 py-6 space-y-6">
-        {/* Static map showing pin + street context */}
+        {/* Google Maps embed */}
         <div className="w-full h-64 bg-surface rounded-xl border border-border relative overflow-hidden">
-          <div className="absolute inset-0 bg-gradient-to-br from-green-50 to-blue-50 dark:from-gray-800 dark:to-gray-700">
-            {/* Grid for map feel */}
-            <div className="absolute inset-0 opacity-10">
-              {Array.from({ length: 10 }).map((_, i) => (
-                <div key={`h-${i}`} className="absolute w-full border-t border-gray-400" style={{ top: `${i * 10}%` }} />
-              ))}
-              {Array.from({ length: 10 }).map((_, i) => (
-                <div key={`v-${i}`} className="absolute h-full border-l border-gray-400" style={{ left: `${i * 10}%` }} />
-              ))}
-            </div>
-
-            {/* Main pin */}
-            <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-10">
-              <div className="w-8 h-8 bg-primary rounded-full border-3 border-white shadow-xl flex items-center justify-center">
-                <MapPin size={16} className="text-white" />
-              </div>
-              <div className="absolute -bottom-6 left-1/2 -translate-x-1/2 whitespace-nowrap bg-surface px-2 py-0.5 rounded text-xs font-medium text-foreground shadow">
-                {listing.name}
-              </div>
-            </div>
-
-            {/* Nearby pins on the map */}
-            {nearby.slice(0, 4).map((nl, i) => {
-              const angle = (i * 90 + 45) * (Math.PI / 180);
-              const radius = 25 + Math.random() * 15;
-              const x = 50 + Math.cos(angle) * radius;
-              const y = 50 + Math.sin(angle) * radius;
-              return (
-                <div
-                  key={nl.id}
-                  className={`absolute w-3 h-3 rounded-full border border-white shadow ${CATEGORY_COLORS[nl.category_primary].replace('bg-', 'bg-')}`}
-                  style={{ left: `${x}%`, top: `${y}%`, transform: 'translate(-50%, -50%)' }}
-                  title={nl.name}
-                />
-              );
-            })}
-          </div>
-          <div className="absolute bottom-2 right-2 bg-surface/80 rounded px-2 py-1 text-xs text-muted">
-            Add Google Maps API key for street-level view
-          </div>
+          <iframe
+            className="absolute inset-0 w-full h-full"
+            loading="lazy"
+            referrerPolicy="no-referrer-when-downgrade"
+            src={`https://www.google.com/maps/embed/v1/place?key=${process.env.NEXT_PUBLIC_GOOGLE_MAPS_API_KEY || ""}&q=${encodeURIComponent(listing.name + ", " + fullAddr)}&zoom=15`}
+            allowFullScreen
+            title={`Map of ${listing.name}`}
+          />
         </div>
 
         {/* Details card */}
