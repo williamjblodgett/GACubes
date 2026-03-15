@@ -25,12 +25,11 @@ export default function MobileFilters() {
     <>
       <button
         onClick={() => setOpen(true)}
-        className="flex items-center gap-1.5 px-3 py-2 bg-surface border border-border rounded-lg text-sm text-foreground hover:bg-surface-secondary"
+        className="flex items-center gap-1.5 px-3 py-2 bg-white/5 border border-white/10 rounded-xl text-sm text-white hover:bg-white/10"
       >
         <SlidersHorizontal size={16} />
-        Filters
         {activeCount > 0 && (
-          <span className="ml-1 w-5 h-5 bg-primary text-white rounded-full text-xs flex items-center justify-center">
+          <span className="w-5 h-5 bg-primary text-white rounded-full text-[10px] font-bold flex items-center justify-center">
             {activeCount}
           </span>
         )}
@@ -39,26 +38,26 @@ export default function MobileFilters() {
       {open && (
         <div className="fixed inset-0 z-50 lg:hidden">
           <div className="absolute inset-0 bg-black/50" onClick={() => setOpen(false)} />
-          <div className="absolute bottom-0 left-0 right-0 bg-surface rounded-t-2xl max-h-[80vh] overflow-y-auto">
+          <div className="absolute bottom-0 left-0 right-0 bg-surface rounded-t-3xl max-h-[80vh] overflow-y-auto">
             <div className="flex items-center justify-between p-4 border-b border-border">
-              <h2 className="font-semibold text-foreground">Filters</h2>
+              <h2 className="font-bold text-foreground">Filters</h2>
               <button onClick={() => setOpen(false)}>
                 <X size={24} className="text-muted" />
               </button>
             </div>
 
-            <div className="p-4 space-y-4">
+            <div className="p-4 space-y-5">
               <div>
-                <h3 className="text-sm font-semibold text-foreground mb-2">Categories</h3>
+                <h3 className="text-sm font-bold text-foreground mb-3">Categories</h3>
                 <div className="flex flex-wrap gap-2">
                   {(Object.keys(CATEGORY_LABELS) as CategoryType[]).map((cat) => (
                     <button
                       key={cat}
                       onClick={() => toggleCategory(cat)}
-                      className={`px-3 py-1.5 rounded-full text-xs font-medium transition-colors ${
+                      className={`px-3.5 py-1.5 rounded-full text-xs font-semibold transition-colors ${
                         filters.categories.includes(cat)
                           ? "bg-primary text-white"
-                          : "bg-surface-secondary text-muted"
+                          : "bg-surface-secondary text-muted hover:text-foreground"
                       }`}
                     >
                       {CATEGORY_LABELS[cat]}
@@ -68,13 +67,13 @@ export default function MobileFilters() {
               </div>
 
               <div>
-                <h3 className="text-sm font-semibold text-foreground mb-2">Distance</h3>
+                <h3 className="text-sm font-bold text-foreground mb-3">Distance</h3>
                 <div className="flex gap-2">
                   {RADIUS_OPTIONS.map((r) => (
                     <button
                       key={r}
                       onClick={() => updateFilters({ radius: r })}
-                      className={`px-3 py-1.5 rounded-full text-xs font-medium ${
+                      className={`px-3.5 py-1.5 rounded-full text-xs font-semibold ${
                         filters.radius === r ? "bg-primary text-white" : "bg-surface-secondary text-muted"
                       }`}
                     >
@@ -101,7 +100,7 @@ export default function MobileFilters() {
                       type="checkbox"
                       checked={filters[key] as boolean}
                       onChange={() => updateFilters({ [key]: !filters[key] })}
-                      className="rounded border-border text-primary"
+                      className="rounded border-border text-primary focus:ring-primary"
                     />
                   </label>
                 ))}
@@ -111,13 +110,13 @@ export default function MobileFilters() {
             <div className="p-4 border-t border-border flex gap-3">
               <button
                 onClick={() => { resetFilters(); setOpen(false); }}
-                className="flex-1 py-2.5 border border-border rounded-lg text-sm font-medium text-foreground"
+                className="flex-1 py-3 border border-border rounded-xl text-sm font-semibold text-foreground"
               >
                 Reset
               </button>
               <button
                 onClick={() => setOpen(false)}
-                className="flex-1 py-2.5 bg-primary text-white rounded-lg text-sm font-medium"
+                className="flex-1 py-3 bg-primary text-white rounded-xl text-sm font-semibold"
               >
                 Apply
               </button>

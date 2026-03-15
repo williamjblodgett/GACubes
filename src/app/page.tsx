@@ -9,8 +9,11 @@ import {
   Search,
   ArrowRight,
   Waves,
+  Star,
+  Clock,
 } from "lucide-react";
 import { GA_CITIES, GA_CATEGORIES, SEED_LISTINGS } from "@/lib/seed-data";
+import { CATEGORY_LABELS, CATEGORY_COLORS } from "@/lib/types";
 import Header from "@/components/Header";
 
 const LAKE_AREAS = [
@@ -23,160 +26,266 @@ const LAKE_AREAS = [
 ];
 
 const HERO_CATEGORIES = [
-  { icon: <Snowflake size={24} />, label: "Ice Vending", href: "/georgia/ice-vending-machines", color: "bg-blue-500" },
-  { icon: <Droplets size={24} />, label: "Water Refill", href: "/georgia/water-refill-stations", color: "bg-cyan-500" },
-  { icon: <Snowflake size={24} />, label: "Dry Ice", href: "/georgia/dry-ice", color: "bg-indigo-500" },
-  { icon: <Flame size={24} />, label: "Propane", href: "/georgia/propane-refill", color: "bg-orange-500" },
-  { icon: <Beer size={24} />, label: "Beer Near Ice", href: "/georgia/beer-near-ice", color: "bg-yellow-600" },
-  { icon: <Store size={24} />, label: "Convenience", href: "/georgia/convenience-stores", color: "bg-green-500" },
+  { icon: <Snowflake size={28} />, label: "Ice Vending", href: "/georgia/ice-vending-machines", color: "bg-blue-500" },
+  { icon: <Droplets size={28} />, label: "Water Refill", href: "/georgia/water-refill-stations", color: "bg-cyan-500" },
+  { icon: <Snowflake size={28} />, label: "Dry Ice", href: "/georgia/dry-ice", color: "bg-indigo-500" },
+  { icon: <Flame size={28} />, label: "Propane", href: "/georgia/propane-refill", color: "bg-orange-500" },
+  { icon: <Beer size={28} />, label: "Beer & Ice", href: "/georgia/beer-near-ice", color: "bg-yellow-600" },
+  { icon: <Store size={28} />, label: "Convenience", href: "/georgia/convenience-stores", color: "bg-green-500" },
 ];
+
+// Get featured listings (pick some with good data)
+const FEATURED = SEED_LISTINGS.filter(l => l.status === "active").slice(0, 8);
 
 export default function HomePage() {
   return (
     <div className="min-h-screen bg-background">
       <Header />
 
-      {/* Hero */}
-      <section className="bg-gradient-to-br from-gray-900 to-gray-800 text-white">
-        <div className="max-w-7xl mx-auto px-4 py-16 md:py-24 text-center">
-          <h1 className="text-4xl md:text-6xl font-bold tracking-tight">
-            Find Ice, Water &amp; Essentials
+      {/* Hero - dark section with search */}
+      <section className="bg-header-bg text-white">
+        <div className="max-w-7xl mx-auto px-4 pt-8 pb-12 md:pt-12 md:pb-16">
+          <div className="flex items-center gap-2 text-primary text-sm font-medium mb-4">
+            <MapPin size={16} />
+            <span>Georgia, USA</span>
+          </div>
+          <h1 className="text-3xl md:text-5xl font-bold tracking-tight leading-tight">
+            Find Ice, Water &amp;
             <br />
-            <span className="text-red-400">Fast in Georgia</span>
+            <span className="text-primary">Essentials Near You</span>
           </h1>
-          <p className="mt-4 text-lg md:text-xl text-gray-300 max-w-2xl mx-auto">
-            Ice vending, water refill, dry ice, propane, and nearby stores.
-            One search. {SEED_LISTINGS.length}+ locations across Georgia.
+          <p className="mt-3 text-white/60 max-w-lg">
+            {SEED_LISTINGS.length}+ locations across Georgia. Ice vending, water refill, dry ice, propane, and nearby stores.
           </p>
 
-          <div className="mt-8 max-w-lg mx-auto">
+          {/* Search bar */}
+          <div className="mt-6 max-w-lg">
             <Link
               href="/search"
-              className="flex items-center gap-3 bg-white rounded-xl px-5 py-4 shadow-xl hover:shadow-2xl transition-shadow"
+              className="flex items-center gap-3 bg-white rounded-2xl px-5 py-4 shadow-xl hover:shadow-2xl transition-shadow"
             >
               <Search size={20} className="text-gray-400" />
               <span className="text-gray-400 text-left flex-1">Search by town, ZIP, or business...</span>
-              <ArrowRight size={20} className="text-primary" />
+              <div className="w-10 h-10 bg-primary rounded-xl flex items-center justify-center shrink-0">
+                <ArrowRight size={18} className="text-white" />
+              </div>
             </Link>
           </div>
 
-          <Link href="/search" className="mt-4 inline-flex items-center gap-2 text-gray-400 hover:text-white text-sm transition-colors">
-            <MapPin size={16} /> Use my location
-          </Link>
+          {/* Special offers banner */}
+          <div className="mt-8 bg-gradient-to-r from-primary to-yellow-500 rounded-2xl p-6 max-w-lg relative overflow-hidden">
+            <div className="relative z-10">
+              <p className="text-white font-bold text-lg">Free Listings for Local Businesses</p>
+              <p className="text-white/80 text-sm mt-1">Add your ice, propane, or convenience store</p>
+              <Link href="/submit" className="inline-flex items-center gap-1 mt-3 text-white text-sm font-semibold underline underline-offset-2">
+                Submit Now <ArrowRight size={14} />
+              </Link>
+            </div>
+            <div className="absolute right-4 top-1/2 -translate-y-1/2 w-20 h-20 bg-white/10 rounded-full" />
+            <div className="absolute right-8 top-1/2 -translate-y-1/2 w-12 h-12 bg-white/10 rounded-full" />
+          </div>
         </div>
       </section>
 
-      {/* Categories */}
-      <section className="max-w-7xl mx-auto px-4 py-12">
-        <h2 className="text-2xl font-bold text-foreground text-center mb-8">What are you looking for?</h2>
-        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4">
+      {/* Categories grid */}
+      <section className="max-w-7xl mx-auto px-4 py-10">
+        <div className="flex items-center justify-between mb-6">
+          <h2 className="text-xl font-bold text-foreground">Categories</h2>
+          <Link href="/search" className="text-primary text-sm font-medium hover:underline">View All</Link>
+        </div>
+        <div className="grid grid-cols-3 md:grid-cols-6 gap-4">
           {HERO_CATEGORIES.map(({ icon, label, href, color }) => (
-            <Link key={label} href={href} className="flex flex-col items-center gap-3 p-6 rounded-xl border border-border bg-surface hover:border-primary hover:shadow-md transition-all">
-              <div className={`w-12 h-12 ${color} rounded-xl flex items-center justify-center text-white`}>{icon}</div>
-              <span className="text-sm font-medium text-foreground">{label}</span>
+            <Link
+              key={label}
+              href={href}
+              className="flex flex-col items-center gap-3 p-4 rounded-2xl bg-surface border border-border hover:border-primary hover:shadow-lg transition-all group"
+            >
+              <div className={`w-14 h-14 ${color} rounded-2xl flex items-center justify-center text-white group-hover:scale-110 transition-transform`}>
+                {icon}
+              </div>
+              <span className="text-xs font-semibold text-foreground text-center">{label}</span>
             </Link>
           ))}
         </div>
       </section>
 
-      {/* Cities */}
-      <section className="bg-surface-secondary py-12">
+      {/* Nearest / Featured listings */}
+      <section className="max-w-7xl mx-auto px-4 py-8">
+        <div className="flex items-center justify-between mb-6">
+          <h2 className="text-xl font-bold text-foreground">Nearest Locations</h2>
+          <Link href="/search" className="text-primary text-sm font-medium hover:underline">See All</Link>
+        </div>
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
+          {FEATURED.map((l) => (
+            <Link
+              key={l.id}
+              href={`/listing/${l.id}`}
+              className="bg-surface rounded-2xl border border-border overflow-hidden hover:shadow-lg transition-all group"
+            >
+              {/* Category color header bar */}
+              <div className={`h-32 ${CATEGORY_COLORS[l.category_primary]} relative flex items-center justify-center`}>
+                <div className="text-white/30">
+                  {l.category_primary === "ice-vending" && <Snowflake size={48} />}
+                  {l.category_primary === "water-refill" && <Droplets size={48} />}
+                  {l.category_primary === "dry-ice" && <Snowflake size={48} />}
+                  {(l.category_primary === "propane-refill" || l.category_primary === "propane-exchange") && <Flame size={48} />}
+                  {l.category_primary === "convenience-store" && <Store size={48} />}
+                  {(l.category_primary === "beer-drinks" || l.category_primary === "package-store") && <Beer size={48} />}
+                </div>
+                {l.open_24h && (
+                  <span className="absolute top-3 left-3 bg-green-500 text-white text-[10px] font-bold px-2 py-0.5 rounded-full">
+                    24/7
+                  </span>
+                )}
+              </div>
+
+              <div className="p-4">
+                <div className="flex items-start justify-between gap-2">
+                  <h3 className="font-bold text-foreground text-sm leading-tight group-hover:text-primary transition-colors line-clamp-2">
+                    {l.name}
+                  </h3>
+                </div>
+                <div className="flex items-center gap-1 text-xs text-muted mt-1.5">
+                  <MapPin size={12} className="shrink-0" />
+                  <span className="truncate">{l.address}, {l.city}</span>
+                </div>
+                <div className="flex items-center justify-between mt-3">
+                  <div className="flex items-center gap-1">
+                    {l.rating && (
+                      <>
+                        <Star size={12} className="text-yellow-500 fill-yellow-500" />
+                        <span className="text-xs font-semibold text-foreground">{l.rating}</span>
+                      </>
+                    )}
+                  </div>
+                  <span className={`text-[10px] font-bold px-2 py-0.5 rounded-full text-white ${CATEGORY_COLORS[l.category_primary]}`}>
+                    {CATEGORY_LABELS[l.category_primary]}
+                  </span>
+                </div>
+              </div>
+            </Link>
+          ))}
+        </div>
+      </section>
+
+      {/* Browse by City */}
+      <section className="bg-surface py-10">
         <div className="max-w-7xl mx-auto px-4">
-          <h2 className="text-2xl font-bold text-foreground text-center mb-8">Browse by City</h2>
+          <h2 className="text-xl font-bold text-foreground mb-6">Browse by City</h2>
           <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-3">
             {GA_CITIES.slice(0, 20).map((city) => (
-              <Link key={city.slug} href={`/city/${city.slug}`} className="flex items-center gap-2 p-3 bg-surface rounded-lg border border-border hover:border-primary hover:shadow-sm transition-all">
-                <MapPin size={14} className="text-primary shrink-0" />
+              <Link
+                key={city.slug}
+                href={`/city/${city.slug}`}
+                className="flex items-center gap-2.5 p-3 bg-background rounded-xl border border-border hover:border-primary hover:shadow-sm transition-all"
+              >
+                <div className="w-8 h-8 bg-primary/10 rounded-lg flex items-center justify-center shrink-0">
+                  <MapPin size={14} className="text-primary" />
+                </div>
                 <span className="text-sm text-foreground font-medium truncate">{city.name}, GA</span>
+              </Link>
+            ))}
+          </div>
+          <div className="text-center mt-6">
+            <Link href="/search" className="text-primary text-sm font-medium hover:underline">
+              View all {GA_CITIES.length} cities →
+            </Link>
+          </div>
+        </div>
+      </section>
+
+      {/* Lake Areas */}
+      <section className="max-w-7xl mx-auto px-4 py-10">
+        <h2 className="text-xl font-bold text-foreground mb-2">Lake Areas</h2>
+        <p className="text-muted text-sm mb-6">Find ice, water &amp; essentials near Georgia&apos;s top lakes</p>
+        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4">
+          {LAKE_AREAS.map((lake) => (
+            <Link
+              key={lake.slug}
+              href={`/search?lat=${lake.lat}&lng=${lake.lng}&label=${encodeURIComponent(lake.name)}`}
+              className="flex flex-col items-center gap-2 p-5 rounded-2xl bg-surface border border-border hover:border-blue-400 hover:shadow-lg transition-all group"
+            >
+              <div className="w-12 h-12 bg-blue-100 dark:bg-blue-900/30 rounded-xl flex items-center justify-center">
+                <Waves size={22} className="text-blue-500" />
+              </div>
+              <span className="text-sm font-semibold text-foreground text-center group-hover:text-blue-600">{lake.name}</span>
+              <span className="text-[11px] text-muted text-center">{lake.description}</span>
+            </Link>
+          ))}
+        </div>
+      </section>
+
+      {/* Browse by Category */}
+      <section className="bg-surface py-10">
+        <div className="max-w-7xl mx-auto px-4">
+          <h2 className="text-xl font-bold text-foreground mb-6">Browse by Category</h2>
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3">
+            {GA_CATEGORIES.map((cat) => (
+              <Link
+                key={cat.slug}
+                href={`/georgia/${cat.slug}`}
+                className="flex items-center justify-between p-4 bg-background rounded-xl border border-border hover:border-primary hover:shadow-md transition-all group"
+              >
+                <span className="font-medium text-foreground group-hover:text-primary">{cat.label} in Georgia</span>
+                <ArrowRight size={16} className="text-muted group-hover:text-primary" />
               </Link>
             ))}
           </div>
         </div>
       </section>
 
-      {/* Lake Areas */}
-      <section className="max-w-7xl mx-auto px-4 py-12">
-        <h2 className="text-2xl font-bold text-foreground text-center mb-2">Lake Areas</h2>
-        <p className="text-muted text-center text-sm mb-8">Find ice, water &amp; essentials near Georgia&apos;s top lakes</p>
-        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4">
-          {LAKE_AREAS.map((lake) => (
-            <Link
-              key={lake.slug}
-              href={`/search?lat=${lake.lat}&lng=${lake.lng}&label=${encodeURIComponent(lake.name)}`}
-              className="flex flex-col items-center gap-2 p-5 rounded-xl border border-border bg-surface hover:border-blue-400 hover:shadow-md transition-all group"
-            >
-              <div className="w-10 h-10 bg-blue-100 dark:bg-blue-900/30 rounded-full flex items-center justify-center">
-                <Waves size={20} className="text-blue-500" />
-              </div>
-              <span className="text-sm font-medium text-foreground text-center group-hover:text-blue-600">{lake.name}</span>
-              <span className="text-xs text-muted text-center">{lake.description}</span>
-            </Link>
-          ))}
-        </div>
-      </section>
-
-      {/* Categories list */}
-      <section className="bg-surface-secondary py-12">
-        <div className="max-w-7xl mx-auto px-4">
-        <h2 className="text-2xl font-bold text-foreground text-center mb-8">Browse by Category</h2>
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
-          {GA_CATEGORIES.map((cat) => (
-            <Link key={cat.slug} href={`/georgia/${cat.slug}`} className="flex items-center justify-between p-4 bg-surface rounded-xl border border-border hover:border-primary hover:shadow-md transition-all group">
-              <span className="font-medium text-foreground group-hover:text-primary">{cat.label} in Georgia</span>
-              <ArrowRight size={16} className="text-muted group-hover:text-primary" />
-            </Link>
-          ))}
-        </div>
-        </div>
-      </section>
-
-      {/* About */}
-      <section className="bg-primary-light py-12">
+      {/* About CTA */}
+      <section className="bg-primary-light py-10">
         <div className="max-w-3xl mx-auto px-4 text-center">
-          <h2 className="text-2xl font-bold text-foreground mb-4">Georgia&apos;s #1 Ice &amp; Essentials Directory</h2>
-          <p className="text-muted leading-relaxed">
+          <h2 className="text-xl font-bold text-foreground mb-3">Georgia&apos;s #1 Ice &amp; Essentials Directory</h2>
+          <p className="text-muted leading-relaxed text-sm">
             GACubes combines data from ice vending networks, dry ice suppliers, propane services, and Georgia&apos;s official alcohol license reports into one fast, mobile-friendly search experience.
           </p>
-          <Link href="/about" className="inline-flex items-center gap-1 mt-4 text-primary font-medium text-sm hover:underline">
+          <Link href="/about" className="inline-flex items-center gap-1 mt-4 text-primary font-semibold text-sm hover:underline">
             Learn more <ArrowRight size={14} />
           </Link>
         </div>
       </section>
 
       {/* Footer */}
-      <footer className="border-t border-border py-8 bg-surface">
+      <footer className="bg-header-bg text-white/80 py-10">
         <div className="max-w-7xl mx-auto px-4">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
             <div>
-              <h3 className="font-semibold text-foreground text-sm mb-3">Search</h3>
+              <h3 className="font-semibold text-white text-sm mb-3">Search</h3>
               <div className="space-y-2">
                 {GA_CATEGORIES.slice(0, 4).map((cat) => (
-                  <Link key={cat.slug} href={`/georgia/${cat.slug}`} className="block text-sm text-muted hover:text-foreground">{cat.label}</Link>
+                  <Link key={cat.slug} href={`/georgia/${cat.slug}`} className="block text-sm text-white/50 hover:text-white">{cat.label}</Link>
                 ))}
               </div>
             </div>
             <div>
-              <h3 className="font-semibold text-foreground text-sm mb-3">Cities</h3>
+              <h3 className="font-semibold text-white text-sm mb-3">Cities</h3>
               <div className="space-y-2">
                 {GA_CITIES.slice(0, 5).map((city) => (
-                  <Link key={city.slug} href={`/city/${city.slug}`} className="block text-sm text-muted hover:text-foreground">{city.name}</Link>
+                  <Link key={city.slug} href={`/city/${city.slug}`} className="block text-sm text-white/50 hover:text-white">{city.name}</Link>
                 ))}
               </div>
             </div>
             <div>
-              <h3 className="font-semibold text-foreground text-sm mb-3">Company</h3>
+              <h3 className="font-semibold text-white text-sm mb-3">Company</h3>
               <div className="space-y-2">
-                <Link href="/about" className="block text-sm text-muted hover:text-foreground">About</Link>
-                <Link href="/advertise" className="block text-sm text-muted hover:text-foreground">Advertise</Link>
-                <Link href="/submit" className="block text-sm text-muted hover:text-foreground">Submit Location</Link>
+                <Link href="/about" className="block text-sm text-white/50 hover:text-white">About</Link>
+                <Link href="/advertise" className="block text-sm text-white/50 hover:text-white">Advertise</Link>
+                <Link href="/submit" className="block text-sm text-white/50 hover:text-white">Submit Location</Link>
               </div>
             </div>
             <div>
-              <h3 className="font-semibold text-foreground text-sm mb-3">GACubes</h3>
-              <p className="text-sm text-muted">Find ice, water refill, propane, and nearby stores fast in Georgia.</p>
+              <div className="flex items-center gap-2 mb-3">
+                <div className="w-8 h-8 bg-primary rounded-xl flex items-center justify-center">
+                  <Snowflake size={18} className="text-white" />
+                </div>
+                <span className="font-bold text-white">GACubes</span>
+              </div>
+              <p className="text-sm text-white/50">Find ice, water refill, propane, and nearby stores fast in Georgia.</p>
             </div>
           </div>
-          <div className="mt-8 pt-8 border-t border-border text-center text-xs text-muted">
+          <div className="mt-8 pt-8 border-t border-white/10 text-center text-xs text-white/40">
             &copy; {new Date().getFullYear()} GACubes. All rights reserved.
           </div>
         </div>

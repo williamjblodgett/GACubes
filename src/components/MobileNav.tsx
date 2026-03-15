@@ -24,12 +24,12 @@ export default function MobileNav({ activeTab, onTabChange }: MobileNavProps) {
           <button
             key={key}
             onClick={() => onTabChange(key)}
-            className={`flex flex-col items-center gap-0.5 px-3 py-1 rounded-lg transition-colors ${
+            className={`flex flex-col items-center gap-0.5 px-3 py-1 rounded-xl transition-colors ${
               activeTab === key ? "text-primary" : "text-muted hover:text-foreground"
             }`}
           >
             {icon}
-            <span className="text-xs font-medium">{label}</span>
+            <span className="text-[10px] font-semibold">{label}</span>
           </button>
         ))}
       </div>

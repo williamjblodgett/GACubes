@@ -139,7 +139,7 @@ export default function MapPanel() {
       </APIProvider>
 
       {/* Legend */}
-      <div className="absolute bottom-4 left-4 bg-surface/90 backdrop-blur-sm rounded-lg p-3 text-xs shadow-lg z-10">
+      <div className="absolute bottom-4 left-4 bg-surface/90 backdrop-blur-sm rounded-2xl p-3 text-xs shadow-lg z-10">
         <p className="font-medium text-foreground mb-1.5">Legend</p>
         <div className="grid grid-cols-2 gap-x-3 gap-y-1">
           {(

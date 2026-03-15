@@ -44,49 +44,49 @@ export default function Sidebar() {
   };
 
   return (
-    <aside className="w-full lg:w-80 bg-surface border-r border-border flex flex-col h-full overflow-y-auto">
-      <div className="p-4 border-b border-border">
+    <aside className="w-full lg:w-80 bg-header-bg text-white flex flex-col h-full overflow-y-auto">
+      <div className="p-4 border-b border-white/10">
         <Link href="/" className="flex items-center gap-2">
-          <div className="w-8 h-8 bg-primary rounded-lg flex items-center justify-center">
+          <div className="w-8 h-8 bg-primary rounded-xl flex items-center justify-center">
             <Snowflake size={20} className="text-white" />
           </div>
-          <span className="text-xl font-bold text-foreground">GACubes</span>
+          <span className="text-xl font-bold text-white">GACubes</span>
         </Link>
-        <p className="text-xs text-muted mt-1">Georgia Ice + Water + Essentials</p>
+        <p className="text-xs text-white/40 mt-1">Georgia Ice + Water + Essentials</p>
       </div>
 
-      <div className="p-4 border-b border-border space-y-3">
+      <div className="p-4 border-b border-white/10 space-y-3">
         <div className="relative">
-          <Search size={18} className="absolute left-3 top-1/2 -translate-y-1/2 text-muted" />
+          <Search size={18} className="absolute left-3 top-1/2 -translate-y-1/2 text-white/40" />
           <input
             type="text"
             placeholder="Town, ZIP, or business..."
             value={filters.query}
             onChange={(e) => updateFilters({ query: e.target.value })}
-            className="w-full pl-10 pr-3 py-2.5 border border-border rounded-lg text-sm bg-surface text-foreground focus:ring-2 focus:ring-primary focus:border-primary outline-none"
+            className="w-full pl-10 pr-3 py-2.5 border border-white/10 rounded-xl text-sm bg-white/5 text-white placeholder:text-white/40 focus:ring-2 focus:ring-primary focus:border-primary outline-none"
           />
         </div>
         <button
           onClick={locateMe}
           disabled={loading}
-          className="w-full flex items-center justify-center gap-2 py-2.5 bg-primary text-white rounded-lg text-sm font-medium hover:bg-primary-hover disabled:opacity-50 transition-colors"
+          className="w-full flex items-center justify-center gap-2 py-2.5 bg-primary text-white rounded-xl text-sm font-semibold hover:bg-primary-hover disabled:opacity-50 transition-colors"
         >
           <MapPin size={16} />
           {loading ? "Locating..." : "Use My Location"}
         </button>
       </div>
 
-      <div className="p-4 border-b border-border">
-        <h3 className="text-xs font-semibold text-muted uppercase tracking-wider mb-3">Categories</h3>
+      <div className="p-4 border-b border-white/10">
+        <h3 className="text-[10px] font-bold text-white/40 uppercase tracking-widest mb-3">Categories</h3>
         <div className="space-y-1">
           {(Object.keys(CATEGORY_LABELS) as CategoryType[]).map((cat) => (
             <button
               key={cat}
               onClick={() => toggleCategory(cat)}
-              className={`w-full flex items-center gap-2 px-3 py-2 rounded-lg text-sm transition-colors ${
+              className={`w-full flex items-center gap-2 px-3 py-2 rounded-xl text-sm transition-colors ${
                 filters.categories.includes(cat)
-                  ? "bg-primary-light text-primary font-medium"
-                  : "text-foreground hover:bg-surface-secondary"
+                  ? "bg-primary/20 text-primary font-semibold"
+                  : "text-white/70 hover:bg-white/5 hover:text-white"
               }`}
             >
               {CATEGORY_ICONS[cat]}
@@ -96,17 +96,17 @@ export default function Sidebar() {
         </div>
       </div>
 
-      <div className="p-4 border-b border-border">
-        <h3 className="text-xs font-semibold text-muted uppercase tracking-wider mb-3">Distance</h3>
+      <div className="p-4 border-b border-white/10">
+        <h3 className="text-[10px] font-bold text-white/40 uppercase tracking-widest mb-3">Distance</h3>
         <div className="flex gap-2 flex-wrap">
           {RADIUS_OPTIONS.map((r) => (
             <button
               key={r}
               onClick={() => updateFilters({ radius: r })}
-              className={`px-3 py-1.5 rounded-full text-xs font-medium transition-colors ${
+              className={`px-3 py-1.5 rounded-full text-xs font-semibold transition-colors ${
                 filters.radius === r
                   ? "bg-primary text-white"
-                  : "bg-surface-secondary text-muted hover:text-foreground"
+                  : "bg-white/5 text-white/50 hover:text-white hover:bg-white/10"
               }`}
             >
               {r} mi
@@ -115,8 +115,8 @@ export default function Sidebar() {
         </div>
       </div>
 
-      <div className="p-4 border-b border-border">
-        <h3 className="text-xs font-semibold text-muted uppercase tracking-wider mb-3">Quick Filters</h3>
+      <div className="p-4 border-b border-white/10">
+        <h3 className="text-[10px] font-bold text-white/40 uppercase tracking-widest mb-3">Quick Filters</h3>
         <div className="space-y-2">
           {[
             { key: "openNow" as const, label: "Open Now", icon: <Clock size={14} /> },
@@ -128,12 +128,12 @@ export default function Sidebar() {
             { key: "nearBeer" as const, label: "Near Beer / Drinks", icon: <Beer size={14} /> },
             { key: "highDensity" as const, label: "High Density Area", icon: <BarChart3 size={14} /> },
           ].map(({ key, label, icon }) => (
-            <label key={key} className="flex items-center gap-2 text-sm text-foreground cursor-pointer">
+            <label key={key} className="flex items-center gap-2 text-sm text-white/70 cursor-pointer hover:text-white">
               <input
                 type="checkbox"
                 checked={filters[key] as boolean}
                 onChange={() => updateFilters({ [key]: !filters[key] })}
-                className="rounded border-border text-primary focus:ring-primary"
+                className="rounded border-white/20 bg-white/5 text-primary focus:ring-primary"
               />
               {icon}
               {label}
@@ -142,12 +142,12 @@ export default function Sidebar() {
         </div>
       </div>
 
-      <div className="p-4 border-b border-border">
-        <h3 className="text-xs font-semibold text-muted uppercase tracking-wider mb-3">Sort By</h3>
+      <div className="p-4 border-b border-white/10">
+        <h3 className="text-[10px] font-bold text-white/40 uppercase tracking-widest mb-3">Sort By</h3>
         <select
           value={filters.sortBy}
           onChange={(e) => updateFilters({ sortBy: e.target.value as SearchFilters["sortBy"] })}
-          className="w-full border border-border rounded-lg px-3 py-2 text-sm bg-surface text-foreground focus:ring-2 focus:ring-primary outline-none"
+          className="w-full border border-white/10 rounded-xl px-3 py-2 text-sm bg-white/5 text-white focus:ring-2 focus:ring-primary outline-none"
         >
           <option value="distance">Closest First</option>
           <option value="rating">Highest Rated</option>
@@ -158,7 +158,7 @@ export default function Sidebar() {
       <div className="p-4">
         <button
           onClick={resetFilters}
-          className="w-full flex items-center justify-center gap-2 py-2 text-sm text-muted hover:text-foreground transition-colors"
+          className="w-full flex items-center justify-center gap-2 py-2 text-sm text-white/40 hover:text-white transition-colors"
         >
           <RotateCcw size={14} />
           Reset Filters
