@@ -1,10 +1,12 @@
 import { Metadata } from "next";
+import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { getListingById } from "@/lib/search";
 import { SEED_LISTINGS } from "@/lib/seed-data";
 import { CATEGORY_LABELS, CATEGORY_COLORS } from "@/lib/types";
 import { getDensityLabel } from "@/lib/search";
+import { getBrandLogo, getBrandFromName } from "@/lib/brand-logos";
 import {
   ArrowLeft,
   MapPin,
@@ -91,7 +93,17 @@ export default async function ListingPage({ params }: Props) {
             Back to search
           </Link>
           <div className="flex items-center justify-center py-6">
-            <CategoryIcon category={listing.category_primary} size={80} />
+            {getBrandLogo(listing.name) ? (
+              <Image
+                src={getBrandLogo(listing.name)!}
+                alt={getBrandFromName(listing.name)}
+                width={120}
+                height={120}
+                className="object-contain drop-shadow-lg"
+              />
+            ) : (
+              <CategoryIcon category={listing.category_primary} size={80} />
+            )}
           </div>
         </div>
       </div>

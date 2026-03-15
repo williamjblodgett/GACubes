@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import {
   Snowflake,
@@ -14,6 +15,7 @@ import {
 } from "lucide-react";
 import { GA_CITIES, GA_CATEGORIES, SEED_LISTINGS } from "@/lib/seed-data";
 import { CATEGORY_LABELS, CATEGORY_COLORS } from "@/lib/types";
+import { getBrandLogo, getBrandFromName } from "@/lib/brand-logos";
 import Header from "@/components/Header";
 
 const LAKE_AREAS = [
@@ -122,16 +124,26 @@ export default function HomePage() {
               href={`/listing/${l.id}`}
               className="bg-surface rounded-2xl border border-border overflow-hidden hover:shadow-lg transition-all group"
             >
-              {/* Category color header bar */}
+              {/* Category color header bar with brand logo */}
               <div className={`h-32 ${CATEGORY_COLORS[l.category_primary]} relative flex items-center justify-center`}>
-                <div className="text-white/30">
-                  {l.category_primary === "ice-vending" && <Snowflake size={48} />}
-                  {l.category_primary === "water-refill" && <Droplets size={48} />}
-                  {l.category_primary === "dry-ice" && <Snowflake size={48} />}
-                  {(l.category_primary === "propane-refill" || l.category_primary === "propane-exchange") && <Flame size={48} />}
-                  {l.category_primary === "convenience-store" && <Store size={48} />}
-                  {(l.category_primary === "beer-drinks" || l.category_primary === "package-store") && <Beer size={48} />}
-                </div>
+                {getBrandLogo(l.name) ? (
+                  <Image
+                    src={getBrandLogo(l.name)!}
+                    alt={getBrandFromName(l.name)}
+                    width={80}
+                    height={80}
+                    className="object-contain drop-shadow-lg"
+                  />
+                ) : (
+                  <div className="text-white/30">
+                    {l.category_primary === "ice-vending" && <Snowflake size={48} />}
+                    {l.category_primary === "water-refill" && <Droplets size={48} />}
+                    {l.category_primary === "dry-ice" && <Snowflake size={48} />}
+                    {(l.category_primary === "propane-refill" || l.category_primary === "propane-exchange") && <Flame size={48} />}
+                    {l.category_primary === "convenience-store" && <Store size={48} />}
+                    {(l.category_primary === "beer-drinks" || l.category_primary === "package-store") && <Beer size={48} />}
+                  </div>
+                )}
                 {l.open_24h && (
                   <span className="absolute top-3 left-3 bg-green-500 text-white text-[10px] font-bold px-2 py-0.5 rounded-full">
                     24/7
@@ -286,7 +298,8 @@ export default function HomePage() {
             </div>
           </div>
           <div className="mt-8 pt-8 border-t border-white/10 text-center text-xs text-white/40">
-            &copy; {new Date().getFullYear()} GACubes. All rights reserved.
+            <p>&copy; {new Date().getFullYear()} GACubes. All rights reserved.</p>
+            <p className="mt-2">Brand names, logos, and trademarks shown are the property of their respective owners and are used solely to identify listed businesses.</p>
           </div>
         </div>
       </footer>
