@@ -25,6 +25,7 @@ import {
   Store,
 } from "lucide-react";
 import CopyAddressButton from "@/components/CopyAddressButton";
+import BackButton from "@/components/BackButton";
 
 interface Props {
   params: Promise<{ id: string }>;
@@ -88,10 +89,7 @@ export default async function ListingPage({ params }: Props) {
       <div className={`${CATEGORY_COLORS[listing.category_primary]} relative`}>
         <div className="absolute inset-0 bg-black/20" />
         <div className="relative max-w-4xl mx-auto px-4 pt-4 pb-24">
-          <Link href="/search" className="inline-flex items-center gap-1.5 text-white/80 hover:text-white text-sm mb-4">
-            <ArrowLeft size={18} />
-            Back to search
-          </Link>
+          <BackButton className="text-white/80 mb-4" />
           <div className="flex items-center justify-center py-6">
             {getBrandLogo(listing.name) ? (
               <Image

@@ -2,6 +2,7 @@ import { Metadata } from "next";
 import Link from "next/link";
 import { Database, MapPin, Shield, Users } from "lucide-react";
 import Header from "@/components/Header";
+import BackButton from "@/components/BackButton";
 
 export const metadata: Metadata = {
   title: "About - GACubes",
@@ -16,8 +17,11 @@ export default function AboutPage() {
 
       <div className="bg-header-bg text-white py-8">
         <div className="max-w-4xl mx-auto px-4">
-          <div className="flex items-center gap-2 text-sm text-white/50 mb-3">
-            <Link href="/" className="hover:text-white">Home</Link><span>/</span><span className="text-white">About</span>
+          <div className="flex items-center gap-4 text-sm text-white/50 mb-3">
+            <BackButton className="text-white/70" />
+            <div className="flex items-center gap-2">
+              <Link href="/" className="hover:text-white">Home</Link><span>/</span><span className="text-white">About</span>
+            </div>
           </div>
           <h1 className="text-3xl font-bold">About GACubes</h1>
         </div>

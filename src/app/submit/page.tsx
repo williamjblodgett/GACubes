@@ -2,6 +2,7 @@ import { Metadata } from "next";
 import Link from "next/link";
 import { CATEGORY_LABELS, CategoryType } from "@/lib/types";
 import Header from "@/components/Header";
+import BackButton from "@/components/BackButton";
 
 export const metadata: Metadata = {
   title: "Submit a Location - GACubes",
@@ -16,8 +17,11 @@ export default function SubmitPage() {
 
       <div className="bg-header-bg text-white py-8">
         <div className="max-w-3xl mx-auto px-4">
-          <div className="flex items-center gap-2 text-sm text-white/50 mb-3">
-            <Link href="/" className="hover:text-white">Home</Link><span>/</span><span className="text-white">Submit Location</span>
+          <div className="flex items-center gap-4 text-sm text-white/50 mb-3">
+            <BackButton className="text-white/70" />
+            <div className="flex items-center gap-2">
+              <Link href="/" className="hover:text-white">Home</Link><span>/</span><span className="text-white">Submit Location</span>
+            </div>
           </div>
           <h1 className="text-3xl font-bold">Submit a Location</h1>
           <p className="text-white/60 mt-2">

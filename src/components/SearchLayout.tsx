@@ -8,8 +8,9 @@ import ResultsPanel from "./ResultsPanel";
 import MapPanel from "./MapPanel";
 import MobileNav from "./MobileNav";
 import MobileFilters from "./MobileFilters";
+import Image from "next/image";
 import Link from "next/link";
-import { Search, MapPin, Snowflake } from "lucide-react";
+import { Search, MapPin, ArrowLeft } from "lucide-react";
 
 function SearchLayoutInner() {
   const [mobileTab, setMobileTab] = useState<"search" | "map" | "saved" | "submit">("search");
@@ -21,27 +22,25 @@ function SearchLayoutInner() {
     if (appliedParams.current) return;
     const lat = searchParams.get("lat");
     const lng = searchParams.get("lng");
-    const label = searchParams.get("label");
     if (lat && lng) {
       appliedParams.current = true;
       updateFilters({
         lat: parseFloat(lat),
         lng: parseFloat(lng),
       });
+    } else {
+      // Auto-locate to show closest results by default
+      appliedParams.current = true;
+      locateMe();
     }
-    if (label) {
-      // Label is handled by location display
-    }
-  }, [searchParams, updateFilters]);
+  }, [searchParams, updateFilters, locateMe]);
 
   return (
     <div className="h-screen flex flex-col">
       {/* Mobile top bar */}
       <div className="lg:hidden bg-header-bg px-4 py-3 flex items-center gap-2">
         <Link href="/" className="flex items-center gap-1.5 mr-2">
-          <div className="w-7 h-7 bg-primary rounded-xl flex items-center justify-center">
-            <Snowflake size={16} className="text-white" />
-          </div>
+          <Image src="/logos/39C1E6E2-AF08-4656-BAE7-AC123CC3B5BC.png" alt="GACubes" width={28} height={28} className="object-contain" />
         </Link>
         <div className="flex-1 relative">
           <Search size={16} className="absolute left-3 top-1/2 -translate-y-1/2 text-white/40" />
