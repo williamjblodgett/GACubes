@@ -40,6 +40,11 @@ yarn-error.log*
 *.tsbuildinfo
 next-env.d.ts
 
-# temp scripts
+# temp generation files
 generate-locations.js
+generate-batch.js
 new-locations.txt
+new_cities.txt
+batch*.txt
+all_batches.txt
+formatted_batches.txt
