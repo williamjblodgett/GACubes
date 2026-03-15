@@ -1,8 +1,10 @@
 "use client";
 
+import Image from "next/image";
 import Link from "next/link";
 import { Listing, CATEGORY_LABELS, CATEGORY_COLORS } from "@/lib/types";
 import { formatDistance } from "@/lib/geo";
+import { getBrandLogo, getBrandFromName } from "@/lib/brand-logos";
 import { MapPin, Phone, Navigation, Beer, Star } from "lucide-react";
 
 interface ListingCardProps {
@@ -12,6 +14,7 @@ interface ListingCardProps {
 }
 
 export default function ListingCard({ listing, selected, onClick }: ListingCardProps) {
+  const logoPath = getBrandLogo(listing.name);
   const dirUrl = `https://www.google.com/maps/dir/?api=1&destination=${encodeURIComponent(
     listing.address + ", " + listing.city + ", GA " + listing.zip
   )}`;
@@ -27,9 +30,20 @@ export default function ListingCard({ listing, selected, onClick }: ListingCardP
     >
       {/* Row 1: Name + Distance */}
       <div className="flex items-center justify-between gap-2">
-        <h3 className="font-bold text-foreground text-sm truncate">
-          {listing.name}
-        </h3>
+        <div className="flex items-center gap-2 min-w-0">
+          {logoPath && (
+            <Image
+              src={logoPath}
+              alt={getBrandFromName(listing.name)}
+              width={24}
+              height={24}
+              className="rounded shrink-0 object-contain"
+            />
+          )}
+          <h3 className="font-bold text-foreground text-sm truncate">
+            {listing.name}
+          </h3>
+        </div>
         {listing.distance != null && (
           <span className="bg-primary text-white text-[10px] font-bold px-2.5 py-0.5 rounded-full whitespace-nowrap">
             {formatDistance(listing.distance)}
