@@ -27,7 +27,9 @@ jobs:
       - run: npm run build
         env:
           NEXT_PUBLIC_GOOGLE_MAPS_API_KEY: ${{ secrets.NEXT_PUBLIC_GOOGLE_MAPS_API_KEY }}
+          CUSTOM_DOMAIN: "true"
       - run: touch out/.nojekyll
+      - run: echo "www.gacubes.com" > out/CNAME
       - uses: actions/upload-pages-artifact@v3
         with:
           path: out
