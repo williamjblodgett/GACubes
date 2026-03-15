@@ -134,58 +134,52 @@ export default function HomePage() {
             <Link
               key={l.id}
               href={`/listing/${l.id}`}
-              className="bg-surface rounded-2xl border border-border overflow-hidden hover:shadow-lg transition-all group"
+              className="bg-surface rounded-2xl border border-border overflow-hidden hover:shadow-lg transition-all group p-4"
             >
-              {/* Category color header bar with brand logo */}
-              <div className={`h-32 ${CATEGORY_COLORS[l.category_primary]} relative flex items-center justify-center`}>
+              <div className="flex items-center gap-2.5">
                 {getBrandLogo(l.name) ? (
                   <Image
                     src={getBrandLogo(l.name)!}
                     alt={getBrandFromName(l.name)}
-                    width={80}
-                    height={80}
-                    className="object-contain drop-shadow-lg"
+                    width={32}
+                    height={32}
+                    className="rounded-lg shrink-0 object-contain"
                   />
                 ) : (
-                  <div className="text-white/30">
-                    {l.category_primary === "ice-vending" && <Snowflake size={48} />}
-                    {l.category_primary === "water-refill" && <Droplets size={48} />}
-                    {l.category_primary === "dry-ice" && <Snowflake size={48} />}
-                    {(l.category_primary === "propane-refill" || l.category_primary === "propane-exchange") && <Flame size={48} />}
-                    {l.category_primary === "convenience-store" && <Store size={48} />}
-                    {(l.category_primary === "beer-drinks" || l.category_primary === "package-store") && <Beer size={48} />}
+                  <div className={`w-8 h-8 ${CATEGORY_COLORS[l.category_primary]} rounded-lg flex items-center justify-center shrink-0`}>
+                    {l.category_primary === "ice-vending" && <Snowflake size={16} className="text-white" />}
+                    {l.category_primary === "water-refill" && <Droplets size={16} className="text-white" />}
+                    {l.category_primary === "dry-ice" && <Snowflake size={16} className="text-white" />}
+                    {(l.category_primary === "propane-refill" || l.category_primary === "propane-exchange") && <Flame size={16} className="text-white" />}
+                    {l.category_primary === "convenience-store" && <Store size={16} className="text-white" />}
+                    {(l.category_primary === "beer-drinks" || l.category_primary === "package-store") && <Beer size={16} className="text-white" />}
                   </div>
                 )}
-                {l.open_24h && (
-                  <span className="absolute top-3 left-3 bg-green-500 text-white text-[10px] font-bold px-2 py-0.5 rounded-full">
-                    24/7
-                  </span>
-                )}
+                <h3 className="font-bold text-foreground text-sm leading-tight group-hover:text-primary transition-colors line-clamp-2">
+                  {l.name}
+                </h3>
               </div>
-
-              <div className="p-4">
-                <div className="flex items-start justify-between gap-2">
-                  <h3 className="font-bold text-foreground text-sm leading-tight group-hover:text-primary transition-colors line-clamp-2">
-                    {l.name}
-                  </h3>
+              <div className="flex items-center gap-1 text-xs text-muted mt-2">
+                <MapPin size={12} className="shrink-0" />
+                <span className="truncate">{l.address}, {l.city}</span>
+              </div>
+              <div className="flex items-center justify-between mt-3">
+                <div className="flex items-center gap-1.5">
+                  {l.rating && (
+                    <span className="inline-flex items-center gap-0.5">
+                      <Star size={12} className="text-yellow-500 fill-yellow-500" />
+                      <span className="text-xs font-semibold text-foreground">{l.rating}</span>
+                    </span>
+                  )}
+                  {l.open_24h && (
+                    <span className="px-2 py-0.5 rounded-full text-[10px] font-semibold bg-green-100 text-green-700 dark:bg-green-900 dark:text-green-300">
+                      24/7
+                    </span>
+                  )}
                 </div>
-                <div className="flex items-center gap-1 text-xs text-muted mt-1.5">
-                  <MapPin size={12} className="shrink-0" />
-                  <span className="truncate">{l.address}, {l.city}</span>
-                </div>
-                <div className="flex items-center justify-between mt-3">
-                  <div className="flex items-center gap-1">
-                    {l.rating && (
-                      <>
-                        <Star size={12} className="text-yellow-500 fill-yellow-500" />
-                        <span className="text-xs font-semibold text-foreground">{l.rating}</span>
-                      </>
-                    )}
-                  </div>
-                  <span className={`text-[10px] font-bold px-2 py-0.5 rounded-full text-white ${CATEGORY_COLORS[l.category_primary]}`}>
-                    {CATEGORY_LABELS[l.category_primary]}
-                  </span>
-                </div>
+                <span className={`text-[10px] font-bold px-2 py-0.5 rounded-full text-white ${CATEGORY_COLORS[l.category_primary]}`}>
+                  {CATEGORY_LABELS[l.category_primary]}
+                </span>
               </div>
             </Link>
           ))}
