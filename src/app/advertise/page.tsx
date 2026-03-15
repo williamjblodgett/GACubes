@@ -66,10 +66,10 @@ export default function AdvertisePage() {
             We offer flexible plans for businesses of all sizes.
           </p>
           <a
-            href="mailto:advertise@gacubes.com"
+            href="mailto:hello@gacubes.com"
             className="inline-flex items-center gap-2 px-6 py-3 bg-primary text-white rounded-xl text-sm font-semibold hover:bg-primary-hover transition-colors"
           >
-            Contact Us: advertise@gacubes.com
+            Contact Us: hello@gacubes.com
           </a>
         </div>
       </main>
