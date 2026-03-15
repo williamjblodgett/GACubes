@@ -52,7 +52,7 @@ export default function MobileFilters() {
 
       {open && (
         <div
-          className="fixed inset-0 z-50 lg:hidden"
+          className="fixed inset-0 z-[60] lg:hidden"
           onTouchMove={(e) => {
             // Allow scrolling inside the content area but prevent backdrop touch-through
             const target = e.target as HTMLElement;
@@ -70,8 +70,8 @@ export default function MobileFilters() {
             }}
           />
           <div
-            className="absolute bottom-0 left-0 right-0 bg-surface rounded-t-3xl flex flex-col"
-            style={{ maxHeight: "70vh" }}
+            className="absolute left-0 right-0 bg-surface rounded-t-3xl flex flex-col"
+            style={{ bottom: "env(safe-area-inset-bottom, 0px)", maxHeight: "75dvh" }}
           >
             <div className="flex items-center justify-between p-4 border-b border-border shrink-0">
               <h2 className="font-bold text-foreground">Filters</h2>
@@ -146,8 +146,7 @@ export default function MobileFilters() {
             </div>
 
             <div
-              className="p-4 border-t border-border flex gap-3 shrink-0"
-              style={{ paddingBottom: "max(1rem, env(safe-area-inset-bottom))" }}
+              className="p-4 pb-6 border-t border-border flex gap-3 shrink-0"
             >
               <button
                 onClick={() => { resetFilters(); setOpen(false); }}
