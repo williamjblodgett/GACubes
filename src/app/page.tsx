@@ -49,7 +49,7 @@ export default function HomePage() {
         <div className="max-w-7xl mx-auto px-4 pt-8 pb-12 md:pt-12 md:pb-16">
           <div className="flex items-center gap-3 mb-6">
             <Image
-              src="/39C1E6E2-AF08-4656-BAE7-AC123CC3B5BC.png"
+              src="/logos/39C1E6E2-AF08-4656-BAE7-AC123CC3B5BC.png"
               alt="GACubes"
               width={80}
               height={80}

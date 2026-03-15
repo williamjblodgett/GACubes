@@ -23,7 +23,7 @@ export default function Header() {
         {/* Logo */}
         <Link href="/" className="flex items-center gap-1.5">
           <Image
-            src="/39C1E6E2-AF08-4656-BAE7-AC123CC3B5BC.png"
+            src="/logos/39C1E6E2-AF08-4656-BAE7-AC123CC3B5BC.png"
             alt="GACubes"
             width={44}
             height={44}
