@@ -1,0 +1,19 @@
+{
+  "name": "GACubes - Georgia Ice, Water & Essentials",
+  "short_name": "GACubes",
+  "description": "Find ice vending machines, water refill stations, dry ice, propane, and nearby stores fast in Georgia.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#1a2332",
+  "theme_color": "#4A9FD9",
+  "orientation": "portrait-primary",
+  "categories": ["utilities", "navigation"],
+  "icons": [
+    {
+      "src": "/logos/39C1E6E2-AF08-4656-BAE7-AC123CC3B5BC.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}

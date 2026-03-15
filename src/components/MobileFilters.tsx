@@ -38,15 +38,15 @@ export default function MobileFilters() {
       {open && (
         <div className="fixed inset-0 z-50 lg:hidden">
           <div className="absolute inset-0 bg-black/50" onClick={() => setOpen(false)} />
-          <div className="absolute bottom-0 left-0 right-0 bg-surface rounded-t-3xl max-h-[80vh] overflow-y-auto">
-            <div className="flex items-center justify-between p-4 border-b border-border">
+          <div className="absolute bottom-0 left-0 right-0 bg-surface rounded-t-3xl flex flex-col" style={{ maxHeight: "85vh" }}>
+            <div className="flex items-center justify-between p-4 border-b border-border shrink-0">
               <h2 className="font-bold text-foreground">Filters</h2>
               <button onClick={() => setOpen(false)}>
                 <X size={24} className="text-muted" />
               </button>
             </div>
 
-            <div className="p-4 space-y-5">
+            <div className="p-4 space-y-5 overflow-y-auto flex-1 min-h-0">
               <div>
                 <h3 className="text-sm font-bold text-foreground mb-3">Categories</h3>
                 <div className="flex flex-wrap gap-2">
@@ -107,7 +107,7 @@ export default function MobileFilters() {
               </div>
             </div>
 
-            <div className="p-4 border-t border-border flex gap-3">
+            <div className="p-4 pb-6 border-t border-border flex gap-3 shrink-0">
               <button
                 onClick={() => { resetFilters(); setOpen(false); }}
                 className="flex-1 py-3 border border-border rounded-xl text-sm font-semibold text-foreground"

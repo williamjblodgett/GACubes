@@ -7,6 +7,7 @@ import {
   RADIUS_OPTIONS,
   SearchFilters,
 } from "@/lib/types";
+import Image from "next/image";
 import Link from "next/link";
 import {
   Search,
@@ -47,9 +48,7 @@ export default function Sidebar() {
     <aside className="w-full lg:w-80 bg-header-bg text-white flex flex-col h-full overflow-y-auto">
       <div className="p-4 border-b border-white/10">
         <Link href="/" className="flex items-center gap-2">
-          <div className="w-8 h-8 bg-primary rounded-xl flex items-center justify-center">
-            <Snowflake size={20} className="text-white" />
-          </div>
+          <Image src="/logos/39C1E6E2-AF08-4656-BAE7-AC123CC3B5BC.png" alt="GACubes" width={32} height={32} className="object-contain" />
           <span className="text-xl font-bold text-white">GACubes</span>
         </Link>
         <p className="text-xs text-white/40 mt-1">Georgia Ice + Water + Essentials</p>

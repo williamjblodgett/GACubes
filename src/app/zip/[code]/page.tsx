@@ -4,6 +4,7 @@ import { SEED_LISTINGS } from "@/lib/seed-data";
 import { CATEGORY_LABELS, CATEGORY_COLORS } from "@/lib/types";
 import { MapPin, ArrowRight, Star } from "lucide-react";
 import Header from "@/components/Header";
+import BackButton from "@/components/BackButton";
 
 interface Props { params: Promise<{ code: string }> }
 
@@ -27,10 +28,13 @@ export default async function ZipPage({ params }: Props) {
       {/* Hero banner */}
       <div className="bg-header-bg text-white py-8">
         <div className="max-w-5xl mx-auto px-4">
-          <div className="flex items-center gap-2 text-sm text-white/50 mb-3">
-            <Link href="/" className="hover:text-white">Home</Link>
-            <span>/</span>
-            <span className="text-white">ZIP {code}</span>
+          <div className="flex items-center gap-4 text-sm text-white/50 mb-3">
+            <BackButton className="text-white/70" />
+            <div className="flex items-center gap-2">
+              <Link href="/" className="hover:text-white">Home</Link>
+              <span>/</span>
+              <span className="text-white">ZIP {code}</span>
+            </div>
           </div>
           <h1 className="text-3xl font-bold">Ice &amp; Essentials Near {code}</h1>
           <p className="text-white/60 mt-2">Find ice vending, water refill, dry ice, propane near ZIP code {code} in Georgia.</p>

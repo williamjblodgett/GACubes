@@ -87,7 +87,7 @@ export default function HomePage() {
           </div>
 
           {/* Special offers banner */}
-          <div className="mt-8 bg-gradient-to-r from-primary to-yellow-500 rounded-2xl p-6 max-w-lg relative overflow-hidden">
+          <div className="mt-8 bg-gradient-to-r from-primary to-blue-400 rounded-2xl p-6 max-w-lg relative overflow-hidden">
             <div className="relative z-10">
               <p className="text-white font-bold text-lg">Free Listings for Local Businesses</p>
               <p className="text-white/80 text-sm mt-1">Add your ice, propane, or convenience store</p>
@@ -301,9 +301,7 @@ export default function HomePage() {
             </div>
             <div>
               <div className="flex items-center gap-2 mb-3">
-                <div className="w-8 h-8 bg-primary rounded-xl flex items-center justify-center">
-                  <Snowflake size={18} className="text-white" />
-                </div>
+                <Image src="/logos/39C1E6E2-AF08-4656-BAE7-AC123CC3B5BC.png" alt="GACubes" width={32} height={32} className="object-contain" />
                 <span className="font-bold text-white">GACubes</span>
               </div>
               <p className="text-sm text-white/50">Find ice, water refill, propane, and nearby stores fast in Georgia.</p>
