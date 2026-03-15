@@ -8,9 +8,19 @@ import {
   MapPin,
   Search,
   ArrowRight,
+  Waves,
 } from "lucide-react";
 import { GA_CITIES, GA_CATEGORIES, SEED_LISTINGS } from "@/lib/seed-data";
 import Header from "@/components/Header";
+
+const LAKE_AREAS = [
+  { name: "Lake Lanier", slug: "lake-lanier", lat: 34.24, lng: -83.96, description: "North Georgia's most popular lake" },
+  { name: "Lake Allatoona", slug: "lake-allatoona", lat: 34.17, lng: -84.72, description: "Northwest of Atlanta" },
+  { name: "Lake Oconee", slug: "lake-oconee", lat: 33.55, lng: -83.40, description: "Putnam & Greene Counties" },
+  { name: "Lake Hartwell", slug: "lake-hartwell", lat: 34.44, lng: -82.88, description: "GA-SC border lake" },
+  { name: "Lake Sinclair", slug: "lake-sinclair", lat: 33.10, lng: -83.25, description: "Near Milledgeville" },
+  { name: "Lake Blue Ridge", slug: "lake-blue-ridge", lat: 34.88, lng: -84.27, description: "Blue Ridge Mountains" },
+];
 
 const HERO_CATEGORIES = [
   { icon: <Snowflake size={24} />, label: "Ice Vending", href: "/georgia/ice-vending-machines", color: "bg-blue-500" },
@@ -84,8 +94,30 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* Categories list */}
+      {/* Lake Areas */}
       <section className="max-w-7xl mx-auto px-4 py-12">
+        <h2 className="text-2xl font-bold text-foreground text-center mb-2">Lake Areas</h2>
+        <p className="text-muted text-center text-sm mb-8">Find ice, water &amp; essentials near Georgia&apos;s top lakes</p>
+        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4">
+          {LAKE_AREAS.map((lake) => (
+            <Link
+              key={lake.slug}
+              href={`/search?lat=${lake.lat}&lng=${lake.lng}&label=${encodeURIComponent(lake.name)}`}
+              className="flex flex-col items-center gap-2 p-5 rounded-xl border border-border bg-surface hover:border-blue-400 hover:shadow-md transition-all group"
+            >
+              <div className="w-10 h-10 bg-blue-100 dark:bg-blue-900/30 rounded-full flex items-center justify-center">
+                <Waves size={20} className="text-blue-500" />
+              </div>
+              <span className="text-sm font-medium text-foreground text-center group-hover:text-blue-600">{lake.name}</span>
+              <span className="text-xs text-muted text-center">{lake.description}</span>
+            </Link>
+          ))}
+        </div>
+      </section>
+
+      {/* Categories list */}
+      <section className="bg-surface-secondary py-12">
+        <div className="max-w-7xl mx-auto px-4">
         <h2 className="text-2xl font-bold text-foreground text-center mb-8">Browse by Category</h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
           {GA_CATEGORIES.map((cat) => (
@@ -94,6 +126,7 @@ export default function HomePage() {
               <ArrowRight size={16} className="text-muted group-hover:text-primary" />
             </Link>
           ))}
+        </div>
         </div>
       </section>
 

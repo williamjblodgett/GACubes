@@ -1,6 +1,7 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useEffect, useRef, Suspense } from "react";
+import { useSearchParams } from "next/navigation";
 import { SearchProvider, useSearch } from "@/lib/search-context";
 import Sidebar from "./Sidebar";
 import ResultsPanel from "./ResultsPanel";
@@ -12,6 +13,26 @@ import { Search, MapPin, Snowflake } from "lucide-react";
 function SearchLayoutInner() {
   const [mobileTab, setMobileTab] = useState<"search" | "map" | "saved" | "submit">("search");
   const { filters, updateFilters, locateMe, loading } = useSearch();
+  const searchParams = useSearchParams();
+  const appliedParams = useRef(false);
+
+  // Apply URL params on mount (for lake area quick links, etc.)
+  useEffect(() => {
+    if (appliedParams.current) return;
+    const lat = searchParams.get("lat");
+    const lng = searchParams.get("lng");
+    const label = searchParams.get("label");
+    if (lat && lng) {
+      appliedParams.current = true;
+      updateFilters({
+        lat: parseFloat(lat),
+        lng: parseFloat(lng),
+      });
+    }
+    if (label) {
+      // Label is handled by location display
+    }
+  }, [searchParams, updateFilters]);
 
   return (
     <div className="h-screen flex flex-col">
@@ -79,10 +100,18 @@ function SearchLayoutInner() {
   );
 }
 
-export default function SearchLayout() {
+function SearchLayoutWrapper() {
   return (
     <SearchProvider>
       <SearchLayoutInner />
     </SearchProvider>
+  );
+}
+
+export default function SearchLayout() {
+  return (
+    <Suspense>
+      <SearchLayoutWrapper />
+    </Suspense>
   );
 }
