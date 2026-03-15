@@ -85,38 +85,36 @@ export default async function ListingPage({ params }: Props) {
 
   return (
     <div className="min-h-screen bg-background">
-      {/* Hero header with category color */}
+      {/* Compact header bar */}
       <div className={`${CATEGORY_COLORS[listing.category_primary]} relative`}>
         <div className="absolute inset-0 bg-black/20" />
-        <div className="relative max-w-4xl mx-auto px-4 pt-4 pb-24">
-          <BackButton className="text-white/80 mb-4" />
-          <div className="flex items-center justify-center py-6">
+        <div className="relative max-w-4xl mx-auto px-4 py-4">
+          <BackButton className="text-white/80 mb-3" />
+          <div className="flex items-center gap-3">
             {getBrandLogo(listing.name) ? (
               <Image
                 src={getBrandLogo(listing.name)!}
                 alt={getBrandFromName(listing.name)}
-                width={120}
-                height={120}
-                className="object-contain drop-shadow-lg"
+                width={40}
+                height={40}
+                className="rounded-lg object-contain shrink-0"
               />
             ) : (
-              <CategoryIcon category={listing.category_primary} size={80} />
+              <CategoryIcon category={listing.category_primary} size={28} />
             )}
+            <h1 className="text-xl font-bold text-white truncate">{listing.name}</h1>
           </div>
         </div>
       </div>
 
-      {/* Main card - overlaps hero */}
-      <main className="max-w-4xl mx-auto px-4 -mt-16 relative z-10 pb-8 space-y-4">
-        {/* Title card */}
+      {/* Main content */}
+      <main className="max-w-4xl mx-auto px-4 py-6 space-y-4">
+        {/* Info card */}
         <div className="bg-surface rounded-2xl shadow-lg p-6">
           <div className="flex items-start justify-between gap-4">
-            <div>
-              <h1 className="text-2xl font-bold text-foreground">{listing.name}</h1>
-              <div className="flex items-center gap-1.5 text-sm text-muted mt-1">
-                <MapPin size={14} className="shrink-0" />
-                <span>{listing.address}, {listing.city}, GA {listing.zip}</span>
-              </div>
+            <div className="flex items-center gap-1.5 text-sm text-muted">
+              <MapPin size={14} className="shrink-0" />
+              <span>{listing.address}, {listing.city}, GA {listing.zip}</span>
             </div>
             {listing.rating && (
               <div className="flex items-center gap-1 bg-primary-light px-3 py-1.5 rounded-xl shrink-0">
