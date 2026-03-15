@@ -47,15 +47,27 @@ export default function HomePage() {
       {/* Hero - dark section with search */}
       <section className="bg-header-bg text-white">
         <div className="max-w-7xl mx-auto px-4 pt-8 pb-12 md:pt-12 md:pb-16">
-          <div className="flex items-center gap-2 text-primary text-sm font-medium mb-4">
-            <MapPin size={16} />
-            <span>Georgia, USA</span>
+          <div className="flex items-center gap-3 mb-6">
+            <Image
+              src="/gacubes-logo.png"
+              alt="GACubes"
+              width={80}
+              height={80}
+              className="object-contain"
+              priority
+            />
+            <div>
+              <div className="flex items-center gap-2 text-primary text-sm font-medium mb-1">
+                <MapPin size={16} />
+                <span>Georgia, USA</span>
+              </div>
+              <h1 className="text-3xl md:text-5xl font-bold tracking-tight leading-tight">
+                Find Ice, Water &amp;
+                <br />
+                <span className="text-primary">Essentials Near You</span>
+              </h1>
+            </div>
           </div>
-          <h1 className="text-3xl md:text-5xl font-bold tracking-tight leading-tight">
-            Find Ice, Water &amp;
-            <br />
-            <span className="text-primary">Essentials Near You</span>
-          </h1>
           <p className="mt-3 text-white/60 max-w-lg">
             {SEED_LISTINGS.length}+ locations across Georgia. Ice vending, water refill, dry ice, propane, and nearby stores.
           </p>

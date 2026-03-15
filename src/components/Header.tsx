@@ -1,16 +1,15 @@
 "use client";
 
+import Image from "next/image";
 import Link from "next/link";
 import { useTheme } from "@/lib/theme-context";
 import {
-  Snowflake,
   Search,
   MapPin,
   Sun,
   Moon,
   Menu,
   X,
-  Bell,
 } from "lucide-react";
 import { useState } from "react";
 
@@ -22,10 +21,15 @@ export default function Header() {
     <header className="bg-header-bg text-header-fg sticky top-0 z-40">
       <div className="max-w-7xl mx-auto px-4 py-3 flex items-center justify-between">
         {/* Logo */}
-        <Link href="/" className="flex items-center gap-2.5">
-          <div className="w-9 h-9 bg-primary rounded-xl flex items-center justify-center">
-            <Snowflake size={20} className="text-white" />
-          </div>
+        <Link href="/" className="flex items-center gap-1.5">
+          <Image
+            src="/gacubes-logo.png"
+            alt="GACubes"
+            width={44}
+            height={44}
+            className="object-contain"
+            priority
+          />
           <span className="text-xl font-bold text-white">GACubes</span>
         </Link>
 
