@@ -17,7 +17,6 @@ import { GA_CITIES, GA_CATEGORIES, SEED_LISTINGS } from "@/lib/seed-data";
 import { CATEGORY_LABELS, CATEGORY_COLORS } from "@/lib/types";
 import { getBrandLogo, getBrandFromName } from "@/lib/brand-logos";
 import Header from "@/components/Header";
-import AdBanner from "@/components/AdBanner";
 
 const LAKE_AREAS = [
   { name: "Lake Lanier", slug: "lake-lanier", lat: 34.24, lng: -83.96, description: "North Georgia's most popular lake" },
@@ -87,10 +86,6 @@ export default function HomePage() {
             </Link>
           </div>
 
-          {/* Ad unit in hero area */}
-          <div className="mt-8 max-w-lg">
-            <AdBanner slot="HOME_HERO" format="horizontal" className="rounded-2xl overflow-hidden" />
-          </div>
         </div>
       </section>
 
@@ -179,11 +174,6 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* Ad between sections */}
-      <div className="max-w-7xl mx-auto px-4 py-4">
-        <AdBanner slot="HOME_TOP" format="horizontal" />
-      </div>
-
       {/* Browse by City */}
       <section className="bg-surface py-10">
         <div className="max-w-7xl mx-auto px-4">
@@ -230,11 +220,6 @@ export default function HomePage() {
           ))}
         </div>
       </section>
-
-      {/* Ad between sections */}
-      <div className="max-w-7xl mx-auto px-4 py-4">
-        <AdBanner slot="HOME_MID" format="horizontal" />
-      </div>
 
       {/* Browse by Category */}
       <section className="bg-surface py-10">

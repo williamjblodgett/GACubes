@@ -26,7 +26,6 @@ import {
 } from "lucide-react";
 import CopyAddressButton from "@/components/CopyAddressButton";
 import BackButton from "@/components/BackButton";
-import AdBanner from "@/components/AdBanner";
 
 interface Props {
   params: Promise<{ id: string }>;
@@ -319,9 +318,6 @@ export default async function ListingPage({ params }: Props) {
             <AlertTriangle size={12} /> Report
           </button>
         </div>
-
-        {/* Ad unit */}
-        <AdBanner slot="LISTING_MID" format="rectangle" className="rounded-2xl overflow-hidden" />
 
         {/* Nearby listings */}
         {nearby.length > 0 && (
