@@ -1,4 +1,5 @@
 import type { Metadata, Viewport } from "next";
+import Script from "next/script";
 import "./globals.css";
 import { ThemeProvider } from "@/lib/theme-context";
 import { ServiceWorkerRegistrar } from "@/components/ServiceWorker";
@@ -35,6 +36,12 @@ export default function RootLayout({
     <html lang="en" suppressHydrationWarning>
       <head>
         <link rel="apple-touch-icon" href="/logos/39C1E6E2-AF08-4656-BAE7-AC123CC3B5BC.png" />
+        <Script
+          async
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2048351819045611"
+          crossOrigin="anonymous"
+          strategy="afterInteractive"
+        />
       </head>
       <body className="antialiased bg-background text-foreground">
         <ThemeProvider>{children}</ThemeProvider>

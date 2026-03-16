@@ -26,6 +26,7 @@ import {
 } from "lucide-react";
 import CopyAddressButton from "@/components/CopyAddressButton";
 import BackButton from "@/components/BackButton";
+import AdBanner from "@/components/AdBanner";
 
 interface Props {
   params: Promise<{ id: string }>;
@@ -319,14 +320,8 @@ export default async function ListingPage({ params }: Props) {
           </button>
         </div>
 
-        {/* Sponsor */}
-        <div className="bg-primary-light rounded-2xl p-6 text-center">
-          <p className="text-[10px] text-muted uppercase tracking-widest mb-1">Sponsored</p>
-          <p className="text-sm text-muted">
-            Want to feature your business here?{" "}
-            <Link href="/advertise" className="text-primary font-semibold hover:underline">Advertise with GACubes</Link>
-          </p>
-        </div>
+        {/* Ad unit */}
+        <AdBanner slot="LISTING_MID" format="rectangle" className="rounded-2xl overflow-hidden" />
 
         {/* Nearby listings */}
         {nearby.length > 0 && (
