@@ -12,6 +12,8 @@ import {
   Waves,
   Star,
   Clock,
+  IceCreamCone,
+  Bath,
 } from "lucide-react";
 import { GA_CITIES, GA_CATEGORIES, SEED_LISTINGS } from "@/lib/seed-data";
 import { CATEGORY_LABELS, CATEGORY_COLORS } from "@/lib/types";
@@ -34,6 +36,8 @@ const HERO_CATEGORIES = [
   { icon: <Flame size={28} />, label: "Propane", href: "/georgia/propane-refill", color: "bg-orange-500" },
   { icon: <Beer size={28} />, label: "Beer & Ice", href: "/georgia/beer-near-ice", color: "bg-yellow-600" },
   { icon: <Store size={28} />, label: "Convenience", href: "/georgia/convenience-stores", color: "bg-green-500" },
+  { icon: <IceCreamCone size={28} />, label: "Ice Cream", href: "/georgia/ice-cream-shops", color: "bg-pink-500" },
+  { icon: <Bath size={28} />, label: "Bathrooms", href: "/georgia/public-bathrooms", color: "bg-teal-500" },
 ];
 
 // Get featured listings (pick some with good data)
@@ -95,7 +99,7 @@ export default function HomePage() {
           <h2 className="text-xl font-bold text-foreground">Categories</h2>
           <Link href="/search" className="text-primary text-sm font-medium hover:underline">View All</Link>
         </div>
-        <div className="grid grid-cols-3 md:grid-cols-6 gap-4">
+        <div className="grid grid-cols-4 md:grid-cols-8 gap-4">
           {HERO_CATEGORIES.map(({ icon, label, href, color }) => (
             <Link
               key={label}
@@ -141,6 +145,8 @@ export default function HomePage() {
                     {(l.category_primary === "propane-refill" || l.category_primary === "propane-exchange") && <Flame size={16} className="text-white" />}
                     {l.category_primary === "convenience-store" && <Store size={16} className="text-white" />}
                     {(l.category_primary === "beer-drinks" || l.category_primary === "package-store") && <Beer size={16} className="text-white" />}
+                    {l.category_primary === "ice-cream" && <IceCreamCone size={16} className="text-white" />}
+                    {l.category_primary === "public-bathroom" && <Bath size={16} className="text-white" />}
                   </div>
                 )}
                 <h3 className="font-bold text-foreground text-sm leading-tight group-hover:text-primary transition-colors line-clamp-2">
