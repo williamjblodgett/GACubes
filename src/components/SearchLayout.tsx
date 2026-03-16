@@ -10,7 +10,9 @@ import MobileNav from "./MobileNav";
 import MobileFilters from "./MobileFilters";
 import Image from "next/image";
 import Link from "next/link";
-import { Search, MapPin, ArrowLeft } from "lucide-react";
+import { MapPin } from "lucide-react";
+import SavedListings from "./SavedListings";
+import SearchAutocomplete from "./SearchAutocomplete";
 
 function SearchLayoutInner() {
   const [mobileTab, setMobileTab] = useState<"search" | "map" | "saved" | "submit">("search");
@@ -42,13 +44,12 @@ function SearchLayoutInner() {
         <Link href="/" className="flex items-center gap-1.5 mr-2">
           <Image src="/logos/39C1E6E2-AF08-4656-BAE7-AC123CC3B5BC.png" alt="GACubes" width={28} height={28} className="object-contain" />
         </Link>
-        <div className="flex-1 relative">
-          <Search size={16} className="absolute left-3 top-1/2 -translate-y-1/2 text-white/40" />
-          <input
-            type="text"
-            placeholder="Town, ZIP, or business..."
+        <div className="flex-1">
+          <SearchAutocomplete
             value={filters.query}
-            onChange={(e) => updateFilters({ query: e.target.value })}
+            onChange={(val) => updateFilters({ query: val })}
+            variant="dark"
+            iconClassName="text-white/40"
             className="w-full pl-9 pr-3 py-2 border border-white/10 rounded-xl text-sm bg-white/5 text-white placeholder:text-white/40 outline-none focus:ring-2 focus:ring-primary"
           />
         </div>
@@ -73,11 +74,8 @@ function SearchLayoutInner() {
         </div>
 
         {mobileTab === "saved" && (
-          <div className="flex-1 lg:hidden flex items-center justify-center bg-surface">
-            <div className="text-center">
-              <p className="text-muted text-sm">No saved locations yet.</p>
-              <p className="text-muted text-xs mt-1">Tap the bookmark icon on a listing to save it.</p>
-            </div>
+          <div className="flex-1 lg:hidden flex flex-col bg-background">
+            <SavedListings />
           </div>
         )}
 

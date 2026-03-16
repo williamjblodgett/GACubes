@@ -2,6 +2,8 @@ import type { Metadata, Viewport } from "next";
 import Script from "next/script";
 import "./globals.css";
 import { ThemeProvider } from "@/lib/theme-context";
+import { ToastProvider } from "@/components/Toast";
+import { FavoritesProvider } from "@/lib/favorites-context";
 import { ServiceWorkerRegistrar } from "@/components/ServiceWorker";
 
 export const metadata: Metadata = {
@@ -45,7 +47,11 @@ export default function RootLayout({
         />
       </head>
       <body className="antialiased bg-background text-foreground">
-        <ThemeProvider>{children}</ThemeProvider>
+        <ThemeProvider>
+          <ToastProvider>
+            <FavoritesProvider>{children}</FavoritesProvider>
+          </ToastProvider>
+        </ThemeProvider>
         <ServiceWorkerRegistrar />
       </body>
     </html>

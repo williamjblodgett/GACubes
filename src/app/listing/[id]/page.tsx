@@ -28,6 +28,8 @@ import {
 } from "lucide-react";
 import CopyAddressButton from "@/components/CopyAddressButton";
 import BackButton from "@/components/BackButton";
+import FavoriteButton from "@/components/FavoriteButton";
+import ShareButton from "@/components/ShareButton";
 
 interface Props {
   params: Promise<{ id: string }>;
@@ -107,6 +109,10 @@ export default async function ListingPage({ params }: Props) {
               <CategoryIcon category={listing.category_primary} size={28} />
             )}
             <h1 className="text-xl font-bold text-white truncate">{listing.name}</h1>
+            <div className="flex items-center gap-2 ml-auto shrink-0">
+              <FavoriteButton listingId={listing.id} size={20} className="text-white/70" />
+              <ShareButton listing={listing} size={20} className="text-white/70" />
+            </div>
           </div>
         </div>
       </div>
