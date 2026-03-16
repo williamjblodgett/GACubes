@@ -34,7 +34,8 @@ export default function MobileFilters() {
   const activeCount =
     filters.categories.length +
     [filters.openNow, filters.open24h, filters.cardAccepted, filters.hasWaterRefill,
-     filters.hasDryIce, filters.hasPropane, filters.nearBeer, filters.highDensity].filter(Boolean).length;
+     filters.hasDryIce, filters.hasPropane, filters.hasIceCream, filters.hasPublicBathroom,
+     filters.nearBeer, filters.highDensity].filter(Boolean).length;
 
   return (
     <>
@@ -129,6 +130,8 @@ export default function MobileFilters() {
                   { key: "hasWaterRefill" as const, label: "Water Refill" },
                   { key: "hasDryIce" as const, label: "Dry Ice" },
                   { key: "hasPropane" as const, label: "Propane" },
+                  { key: "hasIceCream" as const, label: "Ice Cream" },
+                  { key: "hasPublicBathroom" as const, label: "Public Bathroom" },
                   { key: "nearBeer" as const, label: "Near Beer / Drinks" },
                   { key: "highDensity" as const, label: "High Density Area" },
                 ].map(({ key, label }) => (

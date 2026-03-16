@@ -21,6 +21,8 @@ import {
   CreditCard,
   BarChart3,
   RotateCcw,
+  IceCreamCone,
+  Bath,
 } from "lucide-react";
 
 const CATEGORY_ICONS: Record<CategoryType, React.ReactNode> = {
@@ -32,6 +34,8 @@ const CATEGORY_ICONS: Record<CategoryType, React.ReactNode> = {
   "convenience-store": <Store size={16} />,
   "beer-drinks": <Beer size={16} />,
   "package-store": <Beer size={16} />,
+  "ice-cream": <IceCreamCone size={16} />,
+  "public-bathroom": <Bath size={16} />,
 };
 
 export default function Sidebar() {
@@ -124,6 +128,8 @@ export default function Sidebar() {
             { key: "hasWaterRefill" as const, label: "Water Refill", icon: <Droplets size={14} /> },
             { key: "hasDryIce" as const, label: "Dry Ice", icon: <Snowflake size={14} /> },
             { key: "hasPropane" as const, label: "Propane", icon: <Flame size={14} /> },
+            { key: "hasIceCream" as const, label: "Ice Cream", icon: <IceCreamCone size={14} /> },
+            { key: "hasPublicBathroom" as const, label: "Public Bathroom", icon: <Bath size={14} /> },
             { key: "nearBeer" as const, label: "Near Beer / Drinks", icon: <Beer size={14} /> },
             { key: "highDensity" as const, label: "High Density Area", icon: <BarChart3 size={14} /> },
           ].map(({ key, label, icon }) => (

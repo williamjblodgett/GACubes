@@ -18,6 +18,8 @@ export interface Listing {
   has_dry_ice: boolean;
   has_propane_refill: boolean;
   has_propane_exchange: boolean;
+  has_ice_cream: boolean;
+  has_public_bathroom: boolean;
   alcohol_license_nearby: boolean;
   convenience_store_nearby: boolean;
   source_name: string;
@@ -39,7 +41,9 @@ export type CategoryType =
   | "propane-exchange"
   | "convenience-store"
   | "beer-drinks"
-  | "package-store";
+  | "package-store"
+  | "ice-cream"
+  | "public-bathroom";
 
 export type PaymentType = "cash" | "card" | "mobile";
 
@@ -55,6 +59,8 @@ export interface SearchFilters {
   hasWaterRefill: boolean;
   hasDryIce: boolean;
   hasPropane: boolean;
+  hasIceCream: boolean;
+  hasPublicBathroom: boolean;
   nearBeer: boolean;
   highDensity: boolean;
   sortBy: "distance" | "rating" | "density";
@@ -77,6 +83,8 @@ export const CATEGORY_LABELS: Record<CategoryType, string> = {
   "convenience-store": "Convenience Store",
   "beer-drinks": "Beer & Drinks",
   "package-store": "Package Store",
+  "ice-cream": "Ice Cream",
+  "public-bathroom": "Public Bathroom",
 };
 
 export const CATEGORY_COLORS: Record<CategoryType, string> = {
@@ -88,6 +96,8 @@ export const CATEGORY_COLORS: Record<CategoryType, string> = {
   "convenience-store": "bg-green-500",
   "beer-drinks": "bg-yellow-600",
   "package-store": "bg-purple-500",
+  "ice-cream": "bg-pink-500",
+  "public-bathroom": "bg-teal-500",
 };
 
 export const DEFAULT_FILTERS: SearchFilters = {
@@ -100,6 +110,8 @@ export const DEFAULT_FILTERS: SearchFilters = {
   hasWaterRefill: false,
   hasDryIce: false,
   hasPropane: false,
+  hasIceCream: false,
+  hasPublicBathroom: false,
   nearBeer: false,
   highDensity: false,
   sortBy: "distance",

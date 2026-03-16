@@ -23,6 +23,8 @@ import {
   AlertTriangle,
   Map,
   Store,
+  IceCreamCone,
+  Bath,
 } from "lucide-react";
 import CopyAddressButton from "@/components/CopyAddressButton";
 import BackButton from "@/components/BackButton";
@@ -61,6 +63,8 @@ function CategoryIcon({ category, size = 64 }: { category: string; size?: number
     case "propane-refill": case "propane-exchange": return <Flame size={size} className={cls} />;
     case "convenience-store": return <Store size={size} className={cls} />;
     case "beer-drinks": case "package-store": return <Beer size={size} className={cls} />;
+    case "ice-cream": return <IceCreamCone size={size} className={cls} />;
+    case "public-bathroom": return <Bath size={size} className={cls} />;
     default: return <Store size={size} className={cls} />;
   }
 }
@@ -245,6 +249,22 @@ export default async function ListingPage({ params }: Props) {
                     {listing.has_propane_refill && listing.has_propane_exchange && " & "}
                     {listing.has_propane_exchange && "Propane Exchange"}
                   </span>
+                </div>
+              )}
+              {listing.has_ice_cream && (
+                <div className="flex items-center gap-3">
+                  <div className="w-9 h-9 bg-pink-100 dark:bg-pink-900/30 rounded-xl flex items-center justify-center shrink-0">
+                    <IceCreamCone size={16} className="text-pink-500" />
+                  </div>
+                  <span className="text-sm font-medium text-foreground">Ice Cream Available</span>
+                </div>
+              )}
+              {listing.has_public_bathroom && (
+                <div className="flex items-center gap-3">
+                  <div className="w-9 h-9 bg-teal-100 dark:bg-teal-900/30 rounded-xl flex items-center justify-center shrink-0">
+                    <Bath size={16} className="text-teal-500" />
+                  </div>
+                  <span className="text-sm font-medium text-foreground">Public Bathroom</span>
                 </div>
               )}
               {listing.alcohol_license_nearby && (

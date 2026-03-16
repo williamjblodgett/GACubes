@@ -45,6 +45,10 @@ export function searchListings(filters: SearchFilters): Listing[] {
     results = results.filter(
       (l) => l.has_propane_refill || l.has_propane_exchange
     );
+  if (filters.hasIceCream)
+    results = results.filter((l) => l.has_ice_cream);
+  if (filters.hasPublicBathroom)
+    results = results.filter((l) => l.has_public_bathroom);
   if (filters.nearBeer)
     results = results.filter((l) => l.alcohol_license_nearby);
   if (filters.highDensity)
