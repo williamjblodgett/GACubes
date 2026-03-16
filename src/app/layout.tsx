@@ -35,6 +35,7 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <head>
+        <meta name="google-adsense-account" content="ca-pub-2048351819045611" />
         <link rel="apple-touch-icon" href="/logos/39C1E6E2-AF08-4656-BAE7-AC123CC3B5BC.png" />
         <Script
           async
