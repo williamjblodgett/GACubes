@@ -10,7 +10,6 @@ import {
 import Image from "next/image";
 import Link from "next/link";
 import {
-  Search,
   MapPin,
   Snowflake,
   Droplets,
@@ -24,6 +23,8 @@ import {
   IceCreamCone,
   Bath,
 } from "lucide-react";
+import SearchAutocomplete from "./SearchAutocomplete";
+import RecentSearches from "./RecentSearches";
 
 const CATEGORY_ICONS: Record<CategoryType, React.ReactNode> = {
   "ice-vending": <Snowflake size={16} />,
@@ -59,16 +60,13 @@ export default function Sidebar() {
       </div>
 
       <div className="p-4 border-b border-white/10 space-y-3">
-        <div className="relative">
-          <Search size={18} className="absolute left-3 top-1/2 -translate-y-1/2 text-white/40" />
-          <input
-            type="text"
-            placeholder="Town, ZIP, or business..."
-            value={filters.query}
-            onChange={(e) => updateFilters({ query: e.target.value })}
-            className="w-full pl-10 pr-3 py-2.5 border border-white/10 rounded-xl text-sm bg-white/5 text-white placeholder:text-white/40 focus:ring-2 focus:ring-primary focus:border-primary outline-none"
-          />
-        </div>
+        <SearchAutocomplete
+          value={filters.query}
+          onChange={(val) => updateFilters({ query: val })}
+          variant="dark"
+          iconClassName="text-white/40"
+          className="w-full pl-10 pr-3 py-2.5 border border-white/10 rounded-xl text-sm bg-white/5 text-white placeholder:text-white/40 focus:ring-2 focus:ring-primary focus:border-primary outline-none"
+        />
         <button
           onClick={locateMe}
           disabled={loading}
@@ -77,6 +75,7 @@ export default function Sidebar() {
           <MapPin size={16} />
           {loading ? "Locating..." : "Use My Location"}
         </button>
+        <RecentSearches />
       </div>
 
       <div className="p-4 border-b border-white/10">

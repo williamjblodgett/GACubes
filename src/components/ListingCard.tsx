@@ -5,7 +5,10 @@ import Link from "next/link";
 import { Listing, CATEGORY_LABELS, CATEGORY_COLORS } from "@/lib/types";
 import { formatDistance } from "@/lib/geo";
 import { getBrandLogo, getBrandFromName } from "@/lib/brand-logos";
-import { MapPin, Phone, Navigation, Beer, Star } from "lucide-react";
+import { MapPin, Phone, Navigation, Beer, Star, Share2 } from "lucide-react";
+import FavoriteButton from "./FavoriteButton";
+import ShareButton from "./ShareButton";
+import { isOpenNow } from "@/lib/hours-parser";
 
 interface ListingCardProps {
   listing: Listing;
@@ -15,6 +18,7 @@ interface ListingCardProps {
 
 export default function ListingCard({ listing, selected, onClick }: ListingCardProps) {
   const logoPath = getBrandLogo(listing.name);
+  const openStatus = !listing.open_24h ? isOpenNow(listing.hours, listing.open_24h) : null;
   const dirUrl = `https://www.google.com/maps/dir/?api=1&destination=${encodeURIComponent(
     listing.address + ", " + listing.city + ", GA " + listing.zip
   )}`;
@@ -93,6 +97,16 @@ export default function ListingCard({ listing, selected, onClick }: ListingCardP
             Drinks
           </span>
         )}
+        {openStatus === true && (
+          <span className="px-2 py-0.5 rounded-full text-[10px] font-semibold bg-green-100 text-green-700 dark:bg-green-900 dark:text-green-300">
+            Open
+          </span>
+        )}
+        {openStatus === false && (
+          <span className="px-2 py-0.5 rounded-full text-[10px] font-semibold bg-red-100 text-red-700 dark:bg-red-900 dark:text-red-300">
+            Closed
+          </span>
+        )}
       </div>
 
       {/* Row 4: Actions */}
@@ -117,6 +131,8 @@ export default function ListingCard({ listing, selected, onClick }: ListingCardP
             Call
           </a>
         )}
+        <FavoriteButton listingId={listing.id} size={13} />
+        <ShareButton listing={listing} />
         <Link
           href={`/listing/${listing.id}`}
           className="ml-auto text-primary font-semibold hover:underline"

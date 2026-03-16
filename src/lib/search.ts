@@ -1,5 +1,6 @@
 import { Listing, SearchFilters } from "./types";
 import { SEED_LISTINGS } from "./seed-data";
+import { isOpenNow } from "./hours-parser";
 
 function haversineDistance(
   lat1: number,
@@ -32,8 +33,10 @@ export function searchListings(filters: SearchFilters): Listing[] {
 
   // Boolean filters
   if (filters.openNow) {
-    // Simplified: just check 24h for now since we don't parse hours strings
-    results = results.filter((l) => l.open_24h);
+    results = results.filter((l) => {
+      const status = isOpenNow(l.hours, l.open_24h);
+      return status === true; // exclude null (unknown) and false (closed)
+    });
   }
   if (filters.open24h) results = results.filter((l) => l.open_24h);
   if (filters.cardAccepted)

@@ -5,6 +5,8 @@ import {
   useContext,
   useState,
   useCallback,
+  useRef,
+  useEffect,
   ReactNode,
 } from "react";
 import { SearchState, SearchFilters, DEFAULT_FILTERS, Listing } from "./types";
@@ -30,6 +32,14 @@ export function SearchProvider({ children }: { children: ReactNode }) {
     locationLabel: "Georgia",
   });
 
+  const debounceRef = useRef<ReturnType<typeof setTimeout> | null>(null);
+
+  useEffect(() => {
+    return () => {
+      if (debounceRef.current) clearTimeout(debounceRef.current);
+    };
+  }, []);
+
   const runSearch = useCallback(() => {
     setState((prev) => {
       const results = searchListings(prev.filters);
@@ -39,11 +49,27 @@ export function SearchProvider({ children }: { children: ReactNode }) {
 
   const updateFilters = useCallback(
     (partial: Partial<SearchFilters>) => {
-      setState((prev) => {
-        const filters = { ...prev.filters, ...partial };
-        const results = searchListings(filters);
-        return { ...prev, filters, results };
-      });
+      if ("query" in partial && Object.keys(partial).length === 1) {
+        // Debounce query-only changes
+        setState((prev) => ({
+          ...prev,
+          filters: { ...prev.filters, ...partial },
+          loading: true,
+        }));
+        if (debounceRef.current) clearTimeout(debounceRef.current);
+        debounceRef.current = setTimeout(() => {
+          setState((prev) => {
+            const results = searchListings(prev.filters);
+            return { ...prev, results, loading: false };
+          });
+        }, 300);
+      } else {
+        setState((prev) => {
+          const filters = { ...prev.filters, ...partial };
+          const results = searchListings(filters);
+          return { ...prev, filters, results };
+        });
+      }
     },
     []
   );
