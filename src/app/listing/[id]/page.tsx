@@ -319,15 +319,6 @@ export default async function ListingPage({ params }: Props) {
           </button>
         </div>
 
-        {/* Sponsor */}
-        <div className="bg-primary-light rounded-2xl p-6 text-center">
-          <p className="text-[10px] text-muted uppercase tracking-widest mb-1">Sponsored</p>
-          <p className="text-sm text-muted">
-            Want to feature your business here?{" "}
-            <Link href="/advertise" className="text-primary font-semibold hover:underline">Advertise with GACubes</Link>
-          </p>
-        </div>
-
         {/* Nearby listings */}
         {nearby.length > 0 && (
           <div>

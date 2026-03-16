@@ -86,18 +86,6 @@ export default function HomePage() {
             </Link>
           </div>
 
-          {/* Special offers banner */}
-          <div className="mt-8 bg-gradient-to-r from-primary to-blue-400 rounded-2xl p-6 max-w-lg relative overflow-hidden">
-            <div className="relative z-10">
-              <p className="text-white font-bold text-lg">Free Listings for Local Businesses</p>
-              <p className="text-white/80 text-sm mt-1">Add your ice, propane, or convenience store</p>
-              <Link href="/submit" className="inline-flex items-center gap-1 mt-3 text-white text-sm font-semibold underline underline-offset-2">
-                Submit Now <ArrowRight size={14} />
-              </Link>
-            </div>
-            <div className="absolute right-4 top-1/2 -translate-y-1/2 w-20 h-20 bg-white/10 rounded-full" />
-            <div className="absolute right-8 top-1/2 -translate-y-1/2 w-12 h-12 bg-white/10 rounded-full" />
-          </div>
         </div>
       </section>
 
