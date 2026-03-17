@@ -46,7 +46,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 }
 
 export function generateStaticParams() {
-  return SEED_LISTINGS.map((l) => ({ id: l.id }));
+  return SEED_LISTINGS.map((l) => ({ id: String(l.id) }));
 }
 
 function haversineDistance(lat1: number, lng1: number, lat2: number, lng2: number): number {
