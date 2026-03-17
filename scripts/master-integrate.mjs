@@ -103,6 +103,10 @@ const datasets = [
   { file: 'kroger_locations.json', category: 'convenience-store', source: 'Kroger', extra: { has_dry_ice: true } },
   { file: 'publix_locations.json', category: 'convenience-store', source: 'Publix', extra: {} },
   { file: 'bucees_locations.json', category: 'convenience-store', source: "Buc-ee's", extra: { open_24h: true, hours: 'Open 24 Hours' } },
+  { file: 'murphy_usa_verified.json', category: 'convenience-store', source: 'Murphy USA', extra: {} },
+  { file: 'georgia_retail_ice_locations.json', category: 'convenience-store', source: 'Various', extra: { has_propane_exchange: true } },
+  { file: 'georgia_gas_stations.json', category: 'convenience-store', source: 'Various', extra: {} },
+  { file: 'more_stores.json', category: 'convenience-store', source: 'Various', extra: {} },
 ];
 
 for (const ds of datasets) {
@@ -124,6 +128,38 @@ for (const af of agentFiles) {
     addLocations(data, 'propane-refill', 'Various', {});
   } catch (e) {
     // Skip if not found
+  }
+}
+
+// Files with per-entry categories (dry-ice, water-refill, ice-vending, etc.)
+const categoryAwareFiles = [
+  'new_dry_ice_and_water_refill_locations.json',
+  'new_ice_water_dryice_locations.json',
+  'georgia_locations.json',
+  'agent_qt2.json',
+  'wave2_stores.json',
+];
+const validCategories = new Set(['ice-vending','water-refill','dry-ice','propane-refill','propane-exchange','beer-drinks','convenience-store','package-store','ice-cream','public-bathroom']);
+for (const caf of categoryAwareFiles) {
+  try {
+    const data = JSON.parse(fs.readFileSync(caf, 'utf8'));
+    // Group by category
+    const byCategory = {};
+    for (const loc of data) {
+      const cat = (loc.category && validCategories.has(loc.category)) ? loc.category : 'convenience-store';
+      if (!byCategory[cat]) byCategory[cat] = [];
+      byCategory[cat].push(loc);
+    }
+    for (const [cat, locs] of Object.entries(byCategory)) {
+      const extra = {};
+      if (cat === 'dry-ice') extra.has_dry_ice = true;
+      if (cat === 'water-refill') extra.has_water_refill = true;
+      if (cat === 'propane-refill') extra.has_propane_refill = true;
+      if (cat === 'propane-exchange') extra.has_propane_exchange = true;
+      addLocations(locs, cat, `${caf}`, extra);
+    }
+  } catch (e) {
+    console.log(`  Skipping ${caf}: ${e.message}`);
   }
 }
 
