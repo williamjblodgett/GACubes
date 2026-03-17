@@ -1,7 +1,7 @@
 [
   {"name":"Enmarket","address":"210 Johnny Mercer Blvd","city":"Savannah","state":"GA","zip":"31410","lat":32.0218,"lng":-81.0167,"source_name":"Enmarket"},
   {"name":"Enmarket","address":"7406 Waters Ave","city":"Savannah","state":"GA","zip":"31406","lat":31.9918,"lng":-81.0867,"source_name":"Enmarket"},
-  {"name":"Enmarket","address":"14000 Abercorn Expy","city":"Savannah","state":"GA","zip":"31419","lat":31.9518,"lng":-81.1067,"source_name":"Enmarket"},
+  {"name":"Enmarket","address":"14000 Abercorn Expy","city":"Savannah","state":"GA","zip":"31419","lat":31.9518,"lng":-81.144404,"source_name":"Enmarket"},
   {"name":"Enmarket","address":"1316 E Derenne Ave","city":"Savannah","state":"GA","zip":"31406","lat":32.0118,"lng":-81.0767,"source_name":"Enmarket"},
   {"name":"Enmarket","address":"4318 Ogeechee Rd","city":"Savannah","state":"GA","zip":"31405","lat":32.0018,"lng":-81.1367,"source_name":"Enmarket"},
   {"name":"Enmarket","address":"4202 Montgomery St","city":"Savannah","state":"GA","zip":"31405","lat":32.0318,"lng":-81.1167,"source_name":"Enmarket"},
@@ -18,6 +18,6 @@
   {"name":"Home Depot","address":"499 Bobby Jones Expy","city":"Augusta","state":"GA","zip":"30907","lat":33.5118,"lng":-82.0567,"source_name":"Home Depot","category":"propane-exchange"},
   {"name":"Home Depot","address":"4635 Presidential Pkwy","city":"Macon","state":"GA","zip":"31206","lat":32.8018,"lng":-83.7167,"source_name":"Home Depot","category":"propane-exchange"},
   {"name":"Home Depot","address":"2891 Sowega Dr","city":"Columbus","state":"GA","zip":"31909","lat":32.5218,"lng":-84.9367,"source_name":"Home Depot","category":"propane-exchange"},
-  {"name":"Home Depot","address":"11180 Abercorn St","city":"Savannah","state":"GA","zip":"31419","lat":31.9718,"lng":-81.1067,"source_name":"Home Depot","category":"propane-exchange"},
+  {"name":"Home Depot","address":"11180 Abercorn St","city":"Savannah","state":"GA","zip":"31419","lat":31.98311,"lng":-81.1067,"source_name":"Home Depot","category":"propane-exchange"},
   {"name":"Home Depot","address":"1901 E Victory Dr","city":"Savannah","state":"GA","zip":"31404","lat":32.0318,"lng":-81.0567,"source_name":"Home Depot","category":"propane-exchange"}
 ]
