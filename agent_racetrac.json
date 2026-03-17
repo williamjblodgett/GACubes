@@ -1,0 +1,1109 @@
+[
+  {
+    "name": "RaceTrac #2312 - Acworth (Cobb Pkwy)",
+    "address": "4337 Cobb Pkwy NW",
+    "city": "Acworth",
+    "state": "GA",
+    "zip": "30101",
+    "lat": 34.0489,
+    "lng": -84.6541
+  },
+  {
+    "name": "RaceTrac #538 - Acworth (Hwy 92)",
+    "address": "1135 Hwy 92",
+    "city": "Acworth",
+    "state": "GA",
+    "zip": "30102",
+    "lat": 34.0735,
+    "lng": -84.6767
+  },
+  {
+    "name": "RaceTrac #618 - Acworth (Cherokee St)",
+    "address": "5001 Cherokee St",
+    "city": "Acworth",
+    "state": "GA",
+    "zip": "30101",
+    "lat": 34.0561,
+    "lng": -84.6684
+  },
+  {
+    "name": "RaceTrac #2537 - Alpharetta (McFarland)",
+    "address": "1385 McFarland Pkwy",
+    "city": "Alpharetta",
+    "state": "GA",
+    "zip": "30004",
+    "lat": 34.1048,
+    "lng": -84.2643
+  },
+  {
+    "name": "RaceTrac #2566 - Alpharetta (Atlanta Hwy)",
+    "address": "4855 Atlanta Hwy",
+    "city": "Alpharetta",
+    "state": "GA",
+    "zip": "30004",
+    "lat": 34.1321,
+    "lng": -84.2352
+  },
+  {
+    "name": "RaceTrac #461 - Alpharetta (Mansell)",
+    "address": "1545 Mansell Road",
+    "city": "Alpharetta",
+    "state": "GA",
+    "zip": "30004",
+    "lat": 34.0648,
+    "lng": -84.2907
+  },
+  {
+    "name": "RaceTrac #648 - Alpharetta (Old Milton)",
+    "address": "2645 Old Milton Pkwy",
+    "city": "Alpharetta",
+    "state": "GA",
+    "zip": "30004",
+    "lat": 34.0622,
+    "lng": -84.3022
+  },
+  {
+    "name": "RaceTrac #660 - Austell",
+    "address": "4414 Austell Road",
+    "city": "Austell",
+    "state": "GA",
+    "zip": "30106",
+    "lat": 33.8206,
+    "lng": -84.6086
+  },
+  {
+    "name": "RaceTrac #6837 - Bainbridge",
+    "address": "1418 Tallahassee Hwy",
+    "city": "Bainbridge",
+    "state": "GA",
+    "zip": "39819",
+    "lat": 30.8901,
+    "lng": -84.5612
+  },
+  {
+    "name": "RaceTrac #2544 - Bethlehem",
+    "address": "839 Loganville Hwy",
+    "city": "Bethlehem",
+    "state": "GA",
+    "zip": "30620",
+    "lat": 33.9318,
+    "lng": -83.7285
+  },
+  {
+    "name": "RaceTrac #6871 - Blue Ridge",
+    "address": "4581 Appalachian Hwy",
+    "city": "Blue Ridge",
+    "state": "GA",
+    "zip": "30513",
+    "lat": 34.844,
+    "lng": -84.3116
+  },
+  {
+    "name": "RaceTrac #285 - Bogart (Atlanta Hwy)",
+    "address": "3790 Atlanta Hwy",
+    "city": "Bogart",
+    "state": "GA",
+    "zip": "30622",
+    "lat": 33.9363,
+    "lng": -83.5157
+  },
+  {
+    "name": "RaceTrac #588 - Bogart (Monroe Hwy)",
+    "address": "2403 Monroe Hwy",
+    "city": "Bogart",
+    "state": "GA",
+    "zip": "30622",
+    "lat": 33.9264,
+    "lng": -83.5355
+  },
+  {
+    "name": "RaceTrac #2448 - Brookhaven",
+    "address": "3630 Clairmont Rd",
+    "city": "Brookhaven",
+    "state": "GA",
+    "zip": "30341",
+    "lat": 33.8696,
+    "lng": -84.3185
+  },
+  {
+    "name": "RaceTrac #675 - Brunswick (Canal Rd)",
+    "address": "450 Canal Rd",
+    "city": "Brunswick",
+    "state": "GA",
+    "zip": "31525",
+    "lat": 31.1736,
+    "lng": -81.527
+  },
+  {
+    "name": "RaceTrac #2470 - Brunswick (New Jesup Hwy)",
+    "address": "5052 New Jesup Hwy",
+    "city": "Brunswick",
+    "state": "GA",
+    "zip": "31520",
+    "lat": 31.2267,
+    "lng": -81.5417
+  },
+  {
+    "name": "RaceTrac #917 - Byron",
+    "address": "237 Hwy 49",
+    "city": "Byron",
+    "state": "GA",
+    "zip": "31008",
+    "lat": 32.6449,
+    "lng": -83.7585
+  },
+  {
+    "name": "RaceTrac #2374 - Calhoun",
+    "address": "665 Hwy 53 E",
+    "city": "Calhoun",
+    "state": "GA",
+    "zip": "30701",
+    "lat": 34.4898,
+    "lng": -84.923
+  },
+  {
+    "name": "RaceTrac #543 - Canton (Riverstone)",
+    "address": "1465 Riverstone Pkwy",
+    "city": "Canton",
+    "state": "GA",
+    "zip": "30114",
+    "lat": 34.2154,
+    "lng": -84.4815
+  },
+  {
+    "name": "RaceTrac #75 - Canton (Knox Bridge)",
+    "address": "9665 Knox Bridge Hwy",
+    "city": "Canton",
+    "state": "GA",
+    "zip": "30114",
+    "lat": 34.2797,
+    "lng": -84.4344
+  },
+  {
+    "name": "RaceTrac #2582 - Canton (Macedonia)",
+    "address": "7984 Cumming Hwy",
+    "city": "Canton",
+    "state": "GA",
+    "zip": "30115",
+    "lat": 34.228,
+    "lng": -84.351
+  },
+  {
+    "name": "RaceTrac #2331 - Canton (Old Doss)",
+    "address": "2017 Cumming Hwy",
+    "city": "Canton",
+    "state": "GA",
+    "zip": "30114",
+    "lat": 34.2351,
+    "lng": -84.4472
+  },
+  {
+    "name": "RaceTrac #6906 - Carrollton",
+    "address": "795 Old Airport Rd",
+    "city": "Carrollton",
+    "state": "GA",
+    "zip": "30117",
+    "lat": 33.5619,
+    "lng": -85.0579
+  },
+  {
+    "name": "RaceTrac #2512 - Cartersville (E Main St)",
+    "address": "1328 E Main St",
+    "city": "Cartersville",
+    "state": "GA",
+    "zip": "30121",
+    "lat": 34.1728,
+    "lng": -84.7816
+  },
+  {
+    "name": "RaceTrac #652 - Cartersville (Baker Rd)",
+    "address": "11 Baker Rd SE",
+    "city": "Cartersville",
+    "state": "GA",
+    "zip": "30121",
+    "lat": 34.1535,
+    "lng": -84.8032
+  },
+  {
+    "name": "RaceTrac #2674 - Clayton",
+    "address": "1456 Highway 441 S",
+    "city": "Clayton",
+    "state": "GA",
+    "zip": "30525",
+    "lat": 34.8543,
+    "lng": -83.3877
+  },
+  {
+    "name": "RaceTrac #7016 - Clayton (Hwy 441)",
+    "address": "401 Highway 441 E",
+    "city": "Clayton",
+    "state": "GA",
+    "zip": "30525",
+    "lat": 34.878,
+    "lng": -83.3972
+  },
+  {
+    "name": "RaceTrac #2324 - College Park",
+    "address": "2250 Camp Creek Pkwy",
+    "city": "College Park",
+    "state": "GA",
+    "zip": "30337",
+    "lat": 33.6349,
+    "lng": -84.4851
+  },
+  {
+    "name": "RaceTrac #284 - Commerce",
+    "address": "30580 US Highway 441",
+    "city": "Commerce",
+    "state": "GA",
+    "zip": "30529",
+    "lat": 34.1934,
+    "lng": -83.4615
+  },
+  {
+    "name": "RaceTrac #625 - Cornelia",
+    "address": "505 Historic Hwy 441",
+    "city": "Cornelia",
+    "state": "GA",
+    "zip": "30531",
+    "lat": 34.5097,
+    "lng": -83.5299
+  },
+  {
+    "name": "RaceTrac #6827 - Covington",
+    "address": "5148 US Hwy 278",
+    "city": "Covington",
+    "state": "GA",
+    "zip": "30014",
+    "lat": 33.5952,
+    "lng": -83.8887
+  },
+  {
+    "name": "RaceTrac #396 - Cumming (Buford Rd)",
+    "address": "888 Buford Road",
+    "city": "Cumming",
+    "state": "GA",
+    "zip": "30041",
+    "lat": 34.158,
+    "lng": -84.1066
+  },
+  {
+    "name": "RaceTrac #2570 - Cumming (Canton Hwy)",
+    "address": "3615 Canton Hwy",
+    "city": "Cumming",
+    "state": "GA",
+    "zip": "30040",
+    "lat": 34.2268,
+    "lng": -84.182
+  },
+  {
+    "name": "RaceTrac #2523 - Cumming (Browns Bridge)",
+    "address": "4265 Browns Bridge Rd",
+    "city": "Cumming",
+    "state": "GA",
+    "zip": "30041",
+    "lat": 34.2072,
+    "lng": -84.0522
+  },
+  {
+    "name": "RaceTrac #2355 - Cumming (Peachtree Pkwy)",
+    "address": "510 Peachtree Pkwy",
+    "city": "Cumming",
+    "state": "GA",
+    "zip": "30041",
+    "lat": 34.1495,
+    "lng": -84.1285
+  },
+  {
+    "name": "RaceTrac #2602 - Cumming (Peachtree Pkwy 2)",
+    "address": "2610 Peachtree Pkwy",
+    "city": "Cumming",
+    "state": "GA",
+    "zip": "30041",
+    "lat": 34.1837,
+    "lng": -84.1052
+  },
+  {
+    "name": "RaceTrac #289 - Dalton (W Walnut)",
+    "address": "1415 W Walnut Ave",
+    "city": "Dalton",
+    "state": "GA",
+    "zip": "30720",
+    "lat": 34.7726,
+    "lng": -84.9856
+  },
+  {
+    "name": "RaceTrac #213 - Dalton (Chattanooga Rd)",
+    "address": "1907 Chattanooga Rd",
+    "city": "Dalton",
+    "state": "GA",
+    "zip": "30720",
+    "lat": 34.7988,
+    "lng": -84.9926
+  },
+  {
+    "name": "RaceTrac #204 - Dawsonville",
+    "address": "1554 Hwy 400 S",
+    "city": "Dawsonville",
+    "state": "GA",
+    "zip": "30534",
+    "lat": 34.3947,
+    "lng": -84.1159
+  },
+  {
+    "name": "RaceTrac #6920 - Doraville",
+    "address": "7140 Buford Hwy",
+    "city": "Doraville",
+    "state": "GA",
+    "zip": "30340",
+    "lat": 33.9023,
+    "lng": -84.2768
+  },
+  {
+    "name": "RaceTrac #619 - Douglasville (Fairburn Rd)",
+    "address": "5669 Fairburn Rd",
+    "city": "Douglasville",
+    "state": "GA",
+    "zip": "30134",
+    "lat": 33.6895,
+    "lng": -84.743
+  },
+  {
+    "name": "RaceTrac #2454 - Douglasville (Lee Rd)",
+    "address": "2703 Fairburn Rd",
+    "city": "Douglasville",
+    "state": "GA",
+    "zip": "30135",
+    "lat": 33.7141,
+    "lng": -84.7245
+  },
+  {
+    "name": "RaceTrac - Douglasville (Hwy 5)",
+    "address": "9294 Highway 5",
+    "city": "Douglasville",
+    "state": "GA",
+    "zip": "30134",
+    "lat": 33.7413,
+    "lng": -84.7916
+  },
+  {
+    "name": "RaceTrac #587 - East Point",
+    "address": "3503 Camp Creek Pkwy",
+    "city": "East Point",
+    "state": "GA",
+    "zip": "30344",
+    "lat": 33.6458,
+    "lng": -84.5007
+  },
+  {
+    "name": "RaceTrac #2612 - Ellenwood",
+    "address": "4443 Dunn Court",
+    "city": "Ellenwood",
+    "state": "GA",
+    "zip": "30294",
+    "lat": 33.6249,
+    "lng": -84.2919
+  },
+  {
+    "name": "RaceTrac #2631 - Emerson",
+    "address": "135 Red Top Mountain Rd",
+    "city": "Emerson",
+    "state": "GA",
+    "zip": "30137",
+    "lat": 34.1332,
+    "lng": -84.7496
+  },
+  {
+    "name": "RaceTrac #415 - Fairburn",
+    "address": "7845 Senoia Rd",
+    "city": "Fairburn",
+    "state": "GA",
+    "zip": "30213",
+    "lat": 33.5245,
+    "lng": -84.586
+  },
+  {
+    "name": "RaceTrac #2575 - Fayetteville (Banks Crossing)",
+    "address": "1075 GA Hwy 85 N",
+    "city": "Fayetteville",
+    "state": "GA",
+    "zip": "30214",
+    "lat": 33.4788,
+    "lng": -84.4567
+  },
+  {
+    "name": "RaceTrac #192 - Fayetteville (Ramah Rd)",
+    "address": "897 Hwy 85 South",
+    "city": "Fayetteville",
+    "state": "GA",
+    "zip": "30214",
+    "lat": 33.4337,
+    "lng": -84.4617
+  },
+  {
+    "name": "RaceTrac #7000 - Folkston",
+    "address": "5042 Second St N",
+    "city": "Folkston",
+    "state": "GA",
+    "zip": "31537",
+    "lat": 30.8424,
+    "lng": -82.0077
+  },
+  {
+    "name": "RaceTrac #2351 - Gainesville (E E Butler)",
+    "address": "1020 E E Butler Pkwy",
+    "city": "Gainesville",
+    "state": "GA",
+    "zip": "30501",
+    "lat": 34.2925,
+    "lng": -83.8156
+  },
+  {
+    "name": "RaceTrac #597 - Gainesville (Cornelia Hwy)",
+    "address": "2410 Cornelia Hwy",
+    "city": "Gainesville",
+    "state": "GA",
+    "zip": "30507",
+    "lat": 34.3365,
+    "lng": -83.7855
+  },
+  {
+    "name": "RaceTrac #627 - Gainesville (W Ridge Rd)",
+    "address": "1294 W Ridge Rd",
+    "city": "Gainesville",
+    "state": "GA",
+    "zip": "30501",
+    "lat": 34.2907,
+    "lng": -83.8594
+  },
+  {
+    "name": "RaceTrac #232 - Gainesville (McEver Rd)",
+    "address": "1450 McEver Rd",
+    "city": "Gainesville",
+    "state": "GA",
+    "zip": "30504",
+    "lat": 34.2654,
+    "lng": -83.8834
+  },
+  {
+    "name": "RaceTrac #2630 - Garden City",
+    "address": "1780 Dean Forest Rd",
+    "city": "Garden City",
+    "state": "GA",
+    "zip": "31408",
+    "lat": 32.0985,
+    "lng": -81.1672
+  },
+  {
+    "name": "RaceTrac #2654 - Greensboro",
+    "address": "2670 Lake Oconee Pkwy",
+    "city": "Greensboro",
+    "state": "GA",
+    "zip": "30642",
+    "lat": 33.548,
+    "lng": -83.423
+  },
+  {
+    "name": "RaceTrac #2495 - Griffin",
+    "address": "1638 US Hwy 41",
+    "city": "Griffin",
+    "state": "GA",
+    "zip": "30224",
+    "lat": 33.2712,
+    "lng": -84.2821
+  },
+  {
+    "name": "RaceTrac #182 - Hampton",
+    "address": "4200 N Expressway",
+    "city": "Hampton",
+    "state": "GA",
+    "zip": "30228",
+    "lat": 33.412,
+    "lng": -84.3071
+  },
+  {
+    "name": "RaceTrac #76 - Hiram (Bagwell Pkwy)",
+    "address": "5882 Wendy Bagwell Pkwy",
+    "city": "Hiram",
+    "state": "GA",
+    "zip": "30141",
+    "lat": 33.8693,
+    "lng": -84.7642
+  },
+  {
+    "name": "RaceTrac #610 - Hiram (Jimmy Lee Smith)",
+    "address": "4597 Jimmy Lee Smith Pkwy",
+    "city": "Hiram",
+    "state": "GA",
+    "zip": "30141",
+    "lat": 33.8773,
+    "lng": -84.766
+  },
+  {
+    "name": "RaceTrac #2485 - Hiram (Bill Carruth)",
+    "address": "2850 Jimmy Lee Smith Pkwy",
+    "city": "Hiram",
+    "state": "GA",
+    "zip": "30141",
+    "lat": 33.8614,
+    "lng": -84.7537
+  },
+  {
+    "name": "RaceTrac #2502 - Holly Springs",
+    "address": "901 Sixes Rd",
+    "city": "Holly Springs",
+    "state": "GA",
+    "zip": "30115",
+    "lat": 34.1676,
+    "lng": -84.4846
+  },
+  {
+    "name": "RaceTrac #2307 - Hoschton",
+    "address": "1944 Hwy 211 NW",
+    "city": "Hoschton",
+    "state": "GA",
+    "zip": "30548",
+    "lat": 34.0914,
+    "lng": -83.762
+  },
+  {
+    "name": "RaceTrac #118 - Jasper",
+    "address": "303 Interstate South Dr",
+    "city": "Jasper",
+    "state": "GA",
+    "zip": "30143",
+    "lat": 34.4526,
+    "lng": -84.4319
+  },
+  {
+    "name": "RaceTrac #74 - Jefferson",
+    "address": "4752 Hwy 129 N",
+    "city": "Jefferson",
+    "state": "GA",
+    "zip": "30549",
+    "lat": 34.1521,
+    "lng": -83.6031
+  },
+  {
+    "name": "RaceTrac #6967 - Jonesboro",
+    "address": "7721 Tara Blvd",
+    "city": "Jonesboro",
+    "state": "GA",
+    "zip": "30236",
+    "lat": 33.4869,
+    "lng": -84.3541
+  },
+  {
+    "name": "RaceTrac #52 - Kennesaw (Barrett Pkwy)",
+    "address": "1625 Barrett Pkwy",
+    "city": "Kennesaw",
+    "state": "GA",
+    "zip": "30152",
+    "lat": 34.0182,
+    "lng": -84.6143
+  },
+  {
+    "name": "RaceTrac #434 - Kennesaw (Wade Green)",
+    "address": "4350 Wade Green Rd",
+    "city": "Kennesaw",
+    "state": "GA",
+    "zip": "30144",
+    "lat": 34.0453,
+    "lng": -84.5979
+  },
+  {
+    "name": "RaceTrac #2359 - Kennesaw (Bells Ferry)",
+    "address": "4331 Bells Ferry Rd",
+    "city": "Kennesaw",
+    "state": "GA",
+    "zip": "30144",
+    "lat": 34.0496,
+    "lng": -84.5786
+  },
+  {
+    "name": "RaceTrac #2534 - Kingsland (Kings Bay)",
+    "address": "168 Kings Bay Rd",
+    "city": "Kingsland",
+    "state": "GA",
+    "zip": "31548",
+    "lat": 30.8116,
+    "lng": -81.6852
+  },
+  {
+    "name": "RaceTrac #983 - Kingsland",
+    "address": "1155 E King Ave",
+    "city": "Kingsland",
+    "state": "GA",
+    "zip": "31548",
+    "lat": 30.7985,
+    "lng": -81.6757
+  },
+  {
+    "name": "RaceTrac #500 - LaGrange",
+    "address": "1519 Lafayette Pkwy",
+    "city": "LaGrange",
+    "state": "GA",
+    "zip": "30241",
+    "lat": 33.0192,
+    "lng": -85.0104
+  },
+  {
+    "name": "RaceTrac #6727 - Lake Park",
+    "address": "1177 Lakes Blvd",
+    "city": "Lake Park",
+    "state": "GA",
+    "zip": "31636",
+    "lat": 30.6887,
+    "lng": -83.1814
+  },
+  {
+    "name": "RaceTrac #6949 - Lavonia",
+    "address": "13722 Jones St",
+    "city": "Lavonia",
+    "state": "GA",
+    "zip": "30553",
+    "lat": 34.4313,
+    "lng": -83.1066
+  },
+  {
+    "name": "RaceTrac #6971 - Leesburg",
+    "address": "1385 US Hwy 82",
+    "city": "Leesburg",
+    "state": "GA",
+    "zip": "31763",
+    "lat": 31.7294,
+    "lng": -84.1066
+  },
+  {
+    "name": "RaceTrac #124 - Lithonia",
+    "address": "2294 Rock Chapel Rd",
+    "city": "Lithonia",
+    "state": "GA",
+    "zip": "30058",
+    "lat": 33.7131,
+    "lng": -84.1112
+  },
+  {
+    "name": "RaceTrac #234 - Loganville",
+    "address": "3940 Atlanta Hwy",
+    "city": "Loganville",
+    "state": "GA",
+    "zip": "30052",
+    "lat": 33.8314,
+    "lng": -83.9067
+  },
+  {
+    "name": "RaceTrac #53 - Mableton (Floyd Rd)",
+    "address": "5350 Floyd Rd",
+    "city": "Mableton",
+    "state": "GA",
+    "zip": "30126",
+    "lat": 33.8117,
+    "lng": -84.562
+  },
+  {
+    "name": "RaceTrac #140 - Mableton (Veterans Memorial)",
+    "address": "1461 Veterans Memorial Hwy SE",
+    "city": "Mableton",
+    "state": "GA",
+    "zip": "30126",
+    "lat": 33.8134,
+    "lng": -84.5505
+  },
+  {
+    "name": "RaceTrac #2510 - Mableton (Mableton Pkwy)",
+    "address": "7039 Mableton Pkwy SE",
+    "city": "Mableton",
+    "state": "GA",
+    "zip": "30126",
+    "lat": 33.7983,
+    "lng": -84.5662
+  },
+  {
+    "name": "RaceTrac #6905 - Madison",
+    "address": "1981 Eatonton Hwy",
+    "city": "Madison",
+    "state": "GA",
+    "zip": "30650",
+    "lat": 33.5695,
+    "lng": -83.462
+  },
+  {
+    "name": "RaceTrac #2650 - Metter",
+    "address": "1302 S Lewis St",
+    "city": "Metter",
+    "state": "GA",
+    "zip": "30439",
+    "lat": 32.3855,
+    "lng": -82.0629
+  },
+  {
+    "name": "RaceTrac #7014 - Milledgeville",
+    "address": "2920 N Columbia St",
+    "city": "Milledgeville",
+    "state": "GA",
+    "zip": "31061",
+    "lat": 33.1075,
+    "lng": -83.2352
+  },
+  {
+    "name": "RaceTrac #6853 - Moultrie",
+    "address": "1301 N Veterans Memorial Pkwy",
+    "city": "Moultrie",
+    "state": "GA",
+    "zip": "31768",
+    "lat": 31.1958,
+    "lng": -83.7823
+  },
+  {
+    "name": "RaceTrac #2573 - Newnan",
+    "address": "2901 Newnan Crossing Blvd E",
+    "city": "Newnan",
+    "state": "GA",
+    "zip": "30265",
+    "lat": 33.3666,
+    "lng": -84.7395
+  },
+  {
+    "name": "RaceTrac #2329 - Norcross (Jimmy Carter)",
+    "address": "6875 Jimmy Carter Blvd",
+    "city": "Norcross",
+    "state": "GA",
+    "zip": "30071",
+    "lat": 33.9182,
+    "lng": -84.1985
+  },
+  {
+    "name": "RaceTrac #490 - Norcross (Peachtree Ind)",
+    "address": "5700 Peachtree Ind Blvd",
+    "city": "Norcross",
+    "state": "GA",
+    "zip": "30071",
+    "lat": 33.9258,
+    "lng": -84.2152
+  },
+  {
+    "name": "RaceTrac #2468 - Norcross (Beaver Ruin)",
+    "address": "1800 Beaver Ruin Rd",
+    "city": "Norcross",
+    "state": "GA",
+    "zip": "30093",
+    "lat": 33.9097,
+    "lng": -84.151
+  },
+  {
+    "name": "RaceTrac #621 - Oakwood",
+    "address": "3980 Mundy Mill Rd",
+    "city": "Oakwood",
+    "state": "GA",
+    "zip": "30566",
+    "lat": 34.2221,
+    "lng": -83.8764
+  },
+  {
+    "name": "RaceTrac #2524 - Peachtree Corners",
+    "address": "5780 Peachtree Pkwy",
+    "city": "Peachtree Corners",
+    "state": "GA",
+    "zip": "30092",
+    "lat": 33.9589,
+    "lng": -84.2284
+  },
+  {
+    "name": "RaceTrac #2498 - Powder Springs",
+    "address": "5410 Dallas Hwy SW",
+    "city": "Powder Springs",
+    "state": "GA",
+    "zip": "30127",
+    "lat": 33.871,
+    "lng": -84.6837
+  },
+  {
+    "name": "RaceTrac #6705 - Richmond Hill",
+    "address": "4014 Highway 17 S",
+    "city": "Richmond Hill",
+    "state": "GA",
+    "zip": "31324",
+    "lat": 31.9279,
+    "lng": -81.3041
+  },
+  {
+    "name": "RaceTrac #354 - Ringgold",
+    "address": "6622 Battlefield Pkwy",
+    "city": "Ringgold",
+    "state": "GA",
+    "zip": "30736",
+    "lat": 34.8819,
+    "lng": -85.1178
+  },
+  {
+    "name": "RaceTrac #6917 - Riverdale",
+    "address": "5905 Hwy 85",
+    "city": "Riverdale",
+    "state": "GA",
+    "zip": "30274",
+    "lat": 33.563,
+    "lng": -84.393
+  },
+  {
+    "name": "RaceTrac #6854 - Rockmart",
+    "address": "1951 Nathan Dean Pkwy",
+    "city": "Rockmart",
+    "state": "GA",
+    "zip": "30153",
+    "lat": 33.9949,
+    "lng": -85.0409
+  },
+  {
+    "name": "RaceTrac #2482 - Rome (Martha Berry)",
+    "address": "3006 Martha Berry Hwy",
+    "city": "Rome",
+    "state": "GA",
+    "zip": "30165",
+    "lat": 34.2944,
+    "lng": -85.2163
+  },
+  {
+    "name": "RaceTrac #6970 - Rome (Shorter Ave)",
+    "address": "2459 Shorter Ave SW",
+    "city": "Rome",
+    "state": "GA",
+    "zip": "30165",
+    "lat": 34.2417,
+    "lng": -85.209
+  },
+  {
+    "name": "RaceTrac - Shenandoah",
+    "address": "1 Amlajack Blvd",
+    "city": "Shenandoah",
+    "state": "GA",
+    "zip": "30265",
+    "lat": 33.3919,
+    "lng": -84.7275
+  },
+  {
+    "name": "RaceTrac #256 - Smyrna (S Cobb Dr)",
+    "address": "5191 South Cobb Dr",
+    "city": "Smyrna",
+    "state": "GA",
+    "zip": "30080",
+    "lat": 33.838,
+    "lng": -84.5245
+  },
+  {
+    "name": "RaceTrac #579 - Smyrna (EW Connector)",
+    "address": "4290 East West Connector",
+    "city": "Smyrna",
+    "state": "GA",
+    "zip": "30082",
+    "lat": 33.8528,
+    "lng": -84.535
+  },
+  {
+    "name": "RaceTrac #633 - Smyrna (Spring Rd)",
+    "address": "2550 Spring Rd",
+    "city": "Smyrna",
+    "state": "GA",
+    "zip": "30080",
+    "lat": 33.86,
+    "lng": -84.5032
+  },
+  {
+    "name": "RaceTrac #2354 - Snellville (Scenic Hwy)",
+    "address": "2211 Scenic Hwy",
+    "city": "Snellville",
+    "state": "GA",
+    "zip": "30078",
+    "lat": 33.8642,
+    "lng": -84.0173
+  },
+  {
+    "name": "RaceTrac #55 - Snellville (Stone Mtn Hwy)",
+    "address": "3840 Stone Mountain Hwy",
+    "city": "Snellville",
+    "state": "GA",
+    "zip": "30039",
+    "lat": 33.8403,
+    "lng": -84.0388
+  },
+  {
+    "name": "RaceTrac #2424 - Sugar Hill",
+    "address": "4930 Nelson Brogdon Blvd",
+    "city": "Sugar Hill",
+    "state": "GA",
+    "zip": "30518",
+    "lat": 34.1064,
+    "lng": -84.0552
+  },
+  {
+    "name": "RaceTrac #6908 - Suwanee",
+    "address": "3195 Lawrenceville Suwanee Rd",
+    "city": "Suwanee",
+    "state": "GA",
+    "zip": "30024",
+    "lat": 34.0421,
+    "lng": -84.0678
+  },
+  {
+    "name": "RaceTrac #6903 - Thomaston",
+    "address": "1088 Hwy 19 N",
+    "city": "Thomaston",
+    "state": "GA",
+    "zip": "30286",
+    "lat": 32.9148,
+    "lng": -84.3177
+  },
+  {
+    "name": "RaceTrac #6868 - Thomasville (Hwy 19)",
+    "address": "13883 Hwy 19 S",
+    "city": "Thomasville",
+    "state": "GA",
+    "zip": "31792",
+    "lat": 30.8365,
+    "lng": -83.9715
+  },
+  {
+    "name": "RaceTrac #6999 - Thomasville (Hwy 84)",
+    "address": "2500 Highway 84 Bypass",
+    "city": "Thomasville",
+    "state": "GA",
+    "zip": "31792",
+    "lat": 30.8322,
+    "lng": -83.9825
+  },
+  {
+    "name": "RaceTrac #6726 - Thomson",
+    "address": "1920 Washington Rd",
+    "city": "Thomson",
+    "state": "GA",
+    "zip": "30824",
+    "lat": 33.4599,
+    "lng": -82.5068
+  },
+  {
+    "name": "RaceTrac #947 - Toccoa",
+    "address": "1586 S Big A Rd",
+    "city": "Toccoa",
+    "state": "GA",
+    "zip": "30577",
+    "lat": 34.5528,
+    "lng": -83.3234
+  },
+  {
+    "name": "RaceTrac #2311 - Tucker",
+    "address": "3356 Lawrenceville Hwy",
+    "city": "Tucker",
+    "state": "GA",
+    "zip": "30084",
+    "lat": 33.851,
+    "lng": -84.2182
+  },
+  {
+    "name": "RaceTrac #110 - Union City",
+    "address": "4255 Jonesboro Rd",
+    "city": "Union City",
+    "state": "GA",
+    "zip": "30291",
+    "lat": 33.5672,
+    "lng": -84.5416
+  },
+  {
+    "name": "RaceTrac #2622 - Valdosta (W Hill)",
+    "address": "2102 W Hill Ave",
+    "city": "Valdosta",
+    "state": "GA",
+    "zip": "31601",
+    "lat": 30.828,
+    "lng": -83.305
+  },
+  {
+    "name": "RaceTrac #6722 - Valdosta (St Augustine)",
+    "address": "1406 N St Augustine Rd",
+    "city": "Valdosta",
+    "state": "GA",
+    "zip": "31602",
+    "lat": 30.8571,
+    "lng": -83.2748
+  },
+  {
+    "name": "RaceTrac #2666 - Valdosta (N Valdosta Rd)",
+    "address": "4541 N Valdosta Rd",
+    "city": "Valdosta",
+    "state": "GA",
+    "zip": "31602",
+    "lat": 30.8859,
+    "lng": -83.3073
+  },
+  {
+    "name": "RaceTrac - Villa Rica",
+    "address": "123 Commerce Dr",
+    "city": "Villa Rica",
+    "state": "GA",
+    "zip": "30180",
+    "lat": 33.7292,
+    "lng": -84.9161
+  },
+  {
+    "name": "RaceTrac #51 - Watkinsville",
+    "address": "7921 Macon Hwy",
+    "city": "Watkinsville",
+    "state": "GA",
+    "zip": "30677",
+    "lat": 33.8454,
+    "lng": -83.4024
+  },
+  {
+    "name": "RaceTrac #80 - Woodstock (Hwy 92)",
+    "address": "7944 Hwy 92",
+    "city": "Woodstock",
+    "state": "GA",
+    "zip": "30189",
+    "lat": 34.0888,
+    "lng": -84.5406
+  },
+  {
+    "name": "RaceTrac #2388 - Woodstock (Rope Mill)",
+    "address": "443 Rope Mill Rd",
+    "city": "Woodstock",
+    "state": "GA",
+    "zip": "30188",
+    "lat": 34.1103,
+    "lng": -84.504
+  },
+  {
+    "name": "RaceTrac #147 - Woodstock (Hames Rd)",
+    "address": "155 Hames Rd",
+    "city": "Woodstock",
+    "state": "GA",
+    "zip": "30188",
+    "lat": 34.11,
+    "lng": -84.5197
+  },
+  {
+    "name": "RaceTrac #2594 - Dublin",
+    "address": "2262 S Hwy 441",
+    "city": "Dublin",
+    "state": "GA",
+    "zip": "31021",
+    "lat": 32.5107,
+    "lng": -82.914
+  },
+  {
+    "name": "RaceTrac - Tifton",
+    "address": "1407 US Hwy 82 W",
+    "city": "Tifton",
+    "state": "GA",
+    "zip": "31793",
+    "lat": 31.4569,
+    "lng": -83.5302
+  },
+  {
+    "name": "RaceTrac #6968 - Warner Robins",
+    "address": "1880 Russell Pkwy",
+    "city": "Warner Robins",
+    "state": "GA",
+    "zip": "31088",
+    "lat": 32.5928,
+    "lng": -83.6543
+  }
+]

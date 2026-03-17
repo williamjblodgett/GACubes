@@ -1,0 +1,532 @@
+[
+  {
+    "name": "Peachtree Package Store",
+    "address": "300 Peachtree St NE",
+    "city": "Atlanta",
+    "state": "GA",
+    "zip": "30308",
+    "lat": 33.766,
+    "lng": -84.385,
+    "source_name": "Yelp / peachtreepackage.com"
+  },
+  {
+    "name": "Benny's Package Store",
+    "address": "3500 Jonesboro Rd SE",
+    "city": "Atlanta",
+    "state": "GA",
+    "zip": "30354",
+    "lat": 33.663,
+    "lng": -84.381,
+    "source_name": "bennyspackagestore.com"
+  },
+  {
+    "name": "Toco Giant Package Store",
+    "address": "2941 N Druid Hills Rd NE",
+    "city": "Atlanta",
+    "state": "GA",
+    "zip": "30329",
+    "lat": 33.816,
+    "lng": -84.321,
+    "source_name": "Yelp / Facebook"
+  },
+  {
+    "name": "Little Five Points Package Store",
+    "address": "448 Moreland Ave NE",
+    "city": "Atlanta",
+    "state": "GA",
+    "zip": "30307",
+    "lat": 33.764,
+    "lng": -84.348,
+    "source_name": "little5pointsliquor.com"
+  },
+  {
+    "name": "Southeast Package Store",
+    "address": "1139 Moreland Ave SE",
+    "city": "Atlanta",
+    "state": "GA",
+    "zip": "30316",
+    "lat": 33.731,
+    "lng": -84.348,
+    "source_name": "Yelp"
+  },
+  {
+    "name": "Uptown Package Store",
+    "address": "3800 Pleasantdale Rd Ste B",
+    "city": "Atlanta",
+    "state": "GA",
+    "zip": "30340",
+    "lat": 33.87,
+    "lng": -84.277,
+    "source_name": "uptownpackagestore.com"
+  },
+  {
+    "name": "Bims Liquor Store",
+    "address": "1015 W Marietta St NW",
+    "city": "Atlanta",
+    "state": "GA",
+    "zip": "30318",
+    "lat": 33.774,
+    "lng": -84.414,
+    "source_name": "bimsliquor.com"
+  },
+  {
+    "name": "Tipsy World of Beverage",
+    "address": "3215 Main St",
+    "city": "East Point",
+    "state": "GA",
+    "zip": "30344",
+    "lat": 33.677,
+    "lng": -84.441,
+    "source_name": "tipsybeverages.com"
+  },
+  {
+    "name": "Decatur Package Store",
+    "address": "1220A Clairmont Rd",
+    "city": "Decatur",
+    "state": "GA",
+    "zip": "30030",
+    "lat": 33.789,
+    "lng": -84.314,
+    "source_name": "decaturpackagestore.com"
+  },
+  {
+    "name": "ABC Package Store - Decatur",
+    "address": "4278 Covington Hwy",
+    "city": "Decatur",
+    "state": "GA",
+    "zip": "30035",
+    "lat": 33.751,
+    "lng": -84.237,
+    "source_name": "Yelp"
+  },
+  {
+    "name": "Perimeter Bottle Shop",
+    "address": "4719 Ashford Dunwoody Rd Ste 103",
+    "city": "Dunwoody",
+    "state": "GA",
+    "zip": "30338",
+    "lat": 33.924,
+    "lng": -84.338,
+    "source_name": "perimeterbottleshop.com"
+  },
+  {
+    "name": "Dunwoody Beverage",
+    "address": "1418 Dunwoody Village Pkwy",
+    "city": "Dunwoody",
+    "state": "GA",
+    "zip": "30338",
+    "lat": 33.946,
+    "lng": -84.335,
+    "source_name": "dunwoodybeverage.com"
+  },
+  {
+    "name": "Cambridge Bottle Shop",
+    "address": "2036 Johnson Ferry Rd NE",
+    "city": "Atlanta",
+    "state": "GA",
+    "zip": "30319",
+    "lat": 33.878,
+    "lng": -84.334,
+    "source_name": "Yelp"
+  },
+  {
+    "name": "Corks & Caps",
+    "address": "4600 Roswell Rd Ste D-110",
+    "city": "Sandy Springs",
+    "state": "GA",
+    "zip": "30342",
+    "lat": 33.871,
+    "lng": -84.371,
+    "source_name": "corkscaps.com"
+  },
+  {
+    "name": "Dan's Package Store",
+    "address": "8529 Roswell Rd",
+    "city": "Sandy Springs",
+    "state": "GA",
+    "zip": "30350",
+    "lat": 33.96,
+    "lng": -84.353,
+    "source_name": "Yelp / DoorDash"
+  },
+  {
+    "name": "Oscar's Package Store",
+    "address": "1475 Terrell Mill Rd Ste 117",
+    "city": "Marietta",
+    "state": "GA",
+    "zip": "30067",
+    "lat": 33.908,
+    "lng": -84.467,
+    "source_name": "Yelp / Yellow Pages"
+  },
+  {
+    "name": "Whitlock Package",
+    "address": "940 Whitlock Ave NW",
+    "city": "Marietta",
+    "state": "GA",
+    "zip": "30064",
+    "lat": 33.955,
+    "lng": -84.567,
+    "source_name": "Yelp / Yellow Pages"
+  },
+  {
+    "name": "Spring Package Store",
+    "address": "2667 Powder Springs Rd SW Ste 103",
+    "city": "Marietta",
+    "state": "GA",
+    "zip": "30064",
+    "lat": 33.933,
+    "lng": -84.607,
+    "source_name": "Yelp / Yellow Pages"
+  },
+  {
+    "name": "Top Shelf Liquors",
+    "address": "12872 Hwy 9 N Ste 150",
+    "city": "Alpharetta",
+    "state": "GA",
+    "zip": "30004",
+    "lat": 34.117,
+    "lng": -84.31,
+    "source_name": "Yelp / topshelfmilton.com"
+  },
+  {
+    "name": "Red's Package Store",
+    "address": "270 S Main St",
+    "city": "Alpharetta",
+    "state": "GA",
+    "zip": "30009",
+    "lat": 34.07,
+    "lng": -84.294,
+    "source_name": "Yelp / Nextdoor"
+  },
+  {
+    "name": "Roswell Beverage",
+    "address": "10498 Alpharetta Hwy",
+    "city": "Roswell",
+    "state": "GA",
+    "zip": "30076",
+    "lat": 34.04,
+    "lng": -84.314,
+    "source_name": "Yellow Pages / BBB"
+  },
+  {
+    "name": "Captain's Liquor and Wine",
+    "address": "10971 Crabapple Rd",
+    "city": "Roswell",
+    "state": "GA",
+    "zip": "30075",
+    "lat": 34.067,
+    "lng": -84.358,
+    "source_name": "Yelp"
+  },
+  {
+    "name": "Pop's Wine & Spirits",
+    "address": "3121 Peachtree Pkwy",
+    "city": "Suwanee",
+    "state": "GA",
+    "zip": "30024",
+    "lat": 34.06,
+    "lng": -84.098,
+    "source_name": "popswineandspirits-suwanee.com"
+  },
+  {
+    "name": "Loganville Package Store",
+    "address": "3967 Atlanta Hwy",
+    "city": "Loganville",
+    "state": "GA",
+    "zip": "30052",
+    "lat": 33.838,
+    "lng": -83.9,
+    "source_name": "loganvillepackagestore.com"
+  },
+  {
+    "name": "Johnnie Ganem's Wine & Package Shop",
+    "address": "501 Habersham St",
+    "city": "Savannah",
+    "state": "GA",
+    "zip": "31401",
+    "lat": 32.072,
+    "lng": -81.089,
+    "source_name": "johnnieganem.com"
+  },
+  {
+    "name": "Broughton Street Liquor & Cigars",
+    "address": "14 E Broughton St",
+    "city": "Savannah",
+    "state": "GA",
+    "zip": "31401",
+    "lat": 32.079,
+    "lng": -81.092,
+    "source_name": "broughtonliquor.com"
+  },
+  {
+    "name": "Habersham Beverage Warehouse",
+    "address": "7927 Abercorn St",
+    "city": "Savannah",
+    "state": "GA",
+    "zip": "31406",
+    "lat": 31.993,
+    "lng": -81.088,
+    "source_name": "Yelp"
+  },
+  {
+    "name": "Newton's Package Shop - Sandfly Fine Wines",
+    "address": "7359 Skidaway Rd",
+    "city": "Savannah",
+    "state": "GA",
+    "zip": "31406",
+    "lat": 31.993,
+    "lng": -81.058,
+    "source_name": "sandflyfinewines.com"
+  },
+  {
+    "name": "Savannah World of Beverages",
+    "address": "1900 Benton Blvd Ste 101",
+    "city": "Savannah",
+    "state": "GA",
+    "zip": "31407",
+    "lat": 32.104,
+    "lng": -81.143,
+    "source_name": "worldofbeverage.com"
+  },
+  {
+    "name": "Cork & Bottle - Athens",
+    "address": "40 Gaines School Rd",
+    "city": "Athens",
+    "state": "GA",
+    "zip": "30605",
+    "lat": 33.932,
+    "lng": -83.362,
+    "source_name": "corkandbottlepackage.com"
+  },
+  {
+    "name": "ABC Package Store - Dalton",
+    "address": "530 N Glenwood Ave",
+    "city": "Dalton",
+    "state": "GA",
+    "zip": "30721",
+    "lat": 34.775,
+    "lng": -84.965,
+    "source_name": "Yelp / Facebook"
+  },
+  {
+    "name": "Rabun ABC Package Store",
+    "address": "76 N Main St",
+    "city": "Clayton",
+    "state": "GA",
+    "zip": "30525",
+    "lat": 34.878,
+    "lng": -83.401,
+    "source_name": "rabunabc.com"
+  },
+  {
+    "name": "Bass Spirits & Cigars",
+    "address": "5451 Bowman Rd Ste 260",
+    "city": "Macon",
+    "state": "GA",
+    "zip": "31210",
+    "lat": 32.877,
+    "lng": -83.725,
+    "source_name": "Yelp"
+  },
+  {
+    "name": "Pinebrook Bottle Shop",
+    "address": "4448 Forsyth Rd",
+    "city": "Macon",
+    "state": "GA",
+    "zip": "31210",
+    "lat": 32.876,
+    "lng": -83.7,
+    "source_name": "Yelp / Facebook"
+  },
+  {
+    "name": "Forest Hill Wine & Spirits",
+    "address": "1582 Forest Hill Rd",
+    "city": "Macon",
+    "state": "GA",
+    "zip": "31210",
+    "lat": 32.862,
+    "lng": -83.668,
+    "source_name": "foresthillwineandspirits.com"
+  },
+  {
+    "name": "Rooster's Package - Macon Rd",
+    "address": "3814 Macon Rd",
+    "city": "Columbus",
+    "state": "GA",
+    "zip": "31907",
+    "lat": 32.434,
+    "lng": -84.916,
+    "source_name": "roosterspackage.com"
+  },
+  {
+    "name": "Warehouse Package - Albany",
+    "address": "1005 Pine Ave",
+    "city": "Albany",
+    "state": "GA",
+    "zip": "31701",
+    "lat": 31.579,
+    "lng": -84.163,
+    "source_name": "warehousepackage.com"
+  },
+  {
+    "name": "Cork N Bottle - Albany",
+    "address": "2401 Dawson Rd Ste D",
+    "city": "Albany",
+    "state": "GA",
+    "zip": "31707",
+    "lat": 31.555,
+    "lng": -84.197,
+    "source_name": "GotoLiquorStore"
+  },
+  {
+    "name": "Warehouse Package Store - Valdosta",
+    "address": "1606 N Ashley St",
+    "city": "Valdosta",
+    "state": "GA",
+    "zip": "31602",
+    "lat": 30.856,
+    "lng": -83.279,
+    "source_name": "GotoLiquorStore"
+  },
+  {
+    "name": "Liquor Barn - Valdosta",
+    "address": "3990 N Valdosta Rd",
+    "city": "Valdosta",
+    "state": "GA",
+    "zip": "31602",
+    "lat": 30.87,
+    "lng": -83.303,
+    "source_name": "Yelp"
+  },
+  {
+    "name": "Whiskey Business",
+    "address": "1410 Northside Dr E",
+    "city": "Statesboro",
+    "state": "GA",
+    "zip": "30461",
+    "lat": 32.467,
+    "lng": -81.771,
+    "source_name": "whiskeybusinessstatesboro.com"
+  },
+  {
+    "name": "Boot Liquors",
+    "address": "2825 Northside Dr",
+    "city": "Statesboro",
+    "state": "GA",
+    "zip": "30458",
+    "lat": 32.468,
+    "lng": -81.781,
+    "source_name": "Chamber of Commerce"
+  },
+  {
+    "name": "S'Boro Liquors",
+    "address": "860 Buckhead Dr Ste A-5",
+    "city": "Statesboro",
+    "state": "GA",
+    "zip": "30458",
+    "lat": 32.446,
+    "lng": -81.784,
+    "source_name": "Yelp"
+  },
+  {
+    "name": "Carrollton Beverage",
+    "address": "1128 N Park St",
+    "city": "Carrollton",
+    "state": "GA",
+    "zip": "30117",
+    "lat": 33.588,
+    "lng": -85.076,
+    "source_name": "Yelp / Yellow Pages"
+  },
+  {
+    "name": "Bankhead Beverage",
+    "address": "1595 Bankhead Hwy",
+    "city": "Carrollton",
+    "state": "GA",
+    "zip": "30117",
+    "lat": 33.581,
+    "lng": -85.1,
+    "source_name": "Facebook / Yellow Pages"
+  },
+  {
+    "name": "West Georgia Liquor",
+    "address": "171 Brumbelow Rd",
+    "city": "Carrollton",
+    "state": "GA",
+    "zip": "30117",
+    "lat": 33.567,
+    "lng": -85.079,
+    "source_name": "Blue Chair Bay Rum"
+  },
+  {
+    "name": "Sammy's Package Store",
+    "address": "2150 Thompson Bridge Rd",
+    "city": "Gainesville",
+    "state": "GA",
+    "zip": "30501",
+    "lat": 34.313,
+    "lng": -83.83,
+    "source_name": "liquorstoregainesville.com"
+  },
+  {
+    "name": "Barrels & Bottles",
+    "address": "1971 Jesse Jewell Pkwy NE",
+    "city": "Gainesville",
+    "state": "GA",
+    "zip": "30501",
+    "lat": 34.317,
+    "lng": -83.815,
+    "source_name": "barrelsnbottles.com"
+  },
+  {
+    "name": "Cox's Liquor",
+    "address": "1501 W Walnut Ave",
+    "city": "Dalton",
+    "state": "GA",
+    "zip": "30720",
+    "lat": 34.768,
+    "lng": -84.988,
+    "source_name": "coxsliquor.us"
+  },
+  {
+    "name": "Rome Liquor & Tobacco",
+    "address": "600 E 2nd Ave",
+    "city": "Rome",
+    "state": "GA",
+    "zip": "30161",
+    "lat": 34.258,
+    "lng": -85.156,
+    "source_name": "romeliquor.com"
+  },
+  {
+    "name": "R Liquor Store",
+    "address": "2763 GA-54",
+    "city": "Peachtree City",
+    "state": "GA",
+    "zip": "30269",
+    "lat": 33.383,
+    "lng": -84.57,
+    "source_name": "rliquor.com"
+  },
+  {
+    "name": "Top Gun Beer Wine & Spirits",
+    "address": "628 S Houston Lake Rd",
+    "city": "Warner Robins",
+    "state": "GA",
+    "zip": "31088",
+    "lat": 32.594,
+    "lng": -83.666,
+    "source_name": "Facebook / Yelp"
+  },
+  {
+    "name": "Sherlock's - Barrett Pkwy",
+    "address": "35 Ernest W Barrett Pkwy NW",
+    "city": "Marietta",
+    "state": "GA",
+    "zip": "30064",
+    "lat": 34.001,
+    "lng": -84.579,
+    "source_name": "sherlocks.com"
+  }
+]

@@ -1,0 +1,1652 @@
+[
+  {
+    "name": "Parker's #13",
+    "address": "2004 Beech St",
+    "city": "Savannah",
+    "state": "GA",
+    "zip": "31404",
+    "lat": 32.0597,
+    "lng": -81.0878,
+    "source_name": "Parker's Kitchen"
+  },
+  {
+    "name": "Parker's #19",
+    "address": "222 Drayton St",
+    "city": "Savannah",
+    "state": "GA",
+    "zip": "31401",
+    "lat": 32.0752,
+    "lng": -81.0948,
+    "source_name": "Parker's Kitchen"
+  },
+  {
+    "name": "Parker's #20",
+    "address": "141 Lanier Dr",
+    "city": "Statesboro",
+    "state": "GA",
+    "zip": "30458",
+    "lat": 32.4488,
+    "lng": -81.7687,
+    "source_name": "Parker's Kitchen"
+  },
+  {
+    "name": "Parker's #34",
+    "address": "1435 Hwy 21 South",
+    "city": "Springfield",
+    "state": "GA",
+    "zip": "31329",
+    "lat": 32.3592,
+    "lng": -81.3097,
+    "source_name": "Parker's Kitchen"
+  },
+  {
+    "name": "Parker's #37",
+    "address": "10 Godley Station Blvd",
+    "city": "Pooler",
+    "state": "GA",
+    "zip": "31322",
+    "lat": 32.1157,
+    "lng": -81.2468,
+    "source_name": "Parker's Kitchen"
+  },
+  {
+    "name": "Parker's #40",
+    "address": "6159 Hwy 21 South",
+    "city": "Rincon",
+    "state": "GA",
+    "zip": "31326",
+    "lat": 32.296,
+    "lng": -81.2353,
+    "source_name": "Parker's Kitchen"
+  },
+  {
+    "name": "Parker's #41",
+    "address": "24151 Hwy 80",
+    "city": "Statesboro",
+    "state": "GA",
+    "zip": "30458",
+    "lat": 32.435,
+    "lng": -81.764,
+    "source_name": "Parker's Kitchen"
+  },
+  {
+    "name": "Parker's #45",
+    "address": "11012 Highway 301 S",
+    "city": "Statesboro",
+    "state": "GA",
+    "zip": "30458",
+    "lat": 32.39,
+    "lng": -81.758,
+    "source_name": "Parker's Kitchen"
+  },
+  {
+    "name": "Parker's #46",
+    "address": "113 Oxley Drive",
+    "city": "Lyons",
+    "state": "GA",
+    "zip": "30436",
+    "lat": 32.2038,
+    "lng": -82.3212,
+    "source_name": "Parker's Kitchen"
+  },
+  {
+    "name": "Parker's #47",
+    "address": "1588 Brampton Ave",
+    "city": "Statesboro",
+    "state": "GA",
+    "zip": "30458",
+    "lat": 32.4225,
+    "lng": -81.755,
+    "source_name": "Parker's Kitchen"
+  },
+  {
+    "name": "Parker's #57",
+    "address": "12399 US 301",
+    "city": "Statesboro",
+    "state": "GA",
+    "zip": "30458",
+    "lat": 32.46,
+    "lng": -81.77,
+    "source_name": "Parker's Kitchen"
+  },
+  {
+    "name": "Parker's #62",
+    "address": "2175 Benton Blvd",
+    "city": "Savannah",
+    "state": "GA",
+    "zip": "31407",
+    "lat": 32.129,
+    "lng": -81.153,
+    "source_name": "Parker's Kitchen"
+  },
+  {
+    "name": "Parker's #64",
+    "address": "1601 Dean Forest Rd",
+    "city": "Pooler",
+    "state": "GA",
+    "zip": "31322",
+    "lat": 32.105,
+    "lng": -81.24,
+    "source_name": "Parker's Kitchen"
+  },
+  {
+    "name": "Parker's #68",
+    "address": "2111 Pooler Pkwy",
+    "city": "Pooler",
+    "state": "GA",
+    "zip": "31322",
+    "lat": 32.104,
+    "lng": -81.253,
+    "source_name": "Parker's Kitchen"
+  },
+  {
+    "name": "Parker's #69",
+    "address": "1275 Highway 80 East",
+    "city": "Pooler",
+    "state": "GA",
+    "zip": "31322",
+    "lat": 32.116,
+    "lng": -81.229,
+    "source_name": "Parker's Kitchen"
+  },
+  {
+    "name": "Parker's #78",
+    "address": "5906 Ogeechee Rd",
+    "city": "Savannah",
+    "state": "GA",
+    "zip": "31419",
+    "lat": 32.008,
+    "lng": -81.152,
+    "source_name": "Parker's Kitchen"
+  },
+  {
+    "name": "Parker's Kitchen",
+    "address": "10525 Abercorn St",
+    "city": "Savannah",
+    "state": "GA",
+    "zip": "31419",
+    "lat": 31.989,
+    "lng": -81.099,
+    "source_name": "Parker's Kitchen"
+  },
+  {
+    "name": "Parker's #88",
+    "address": "21 E Derenne Ave",
+    "city": "Savannah",
+    "state": "GA",
+    "zip": "31405",
+    "lat": 32.031,
+    "lng": -81.095,
+    "source_name": "Parker's Kitchen"
+  },
+  {
+    "name": "Parker's #98",
+    "address": "107 N Columbia Ave",
+    "city": "Rincon",
+    "state": "GA",
+    "zip": "31326",
+    "lat": 32.296,
+    "lng": -81.236,
+    "source_name": "Parker's Kitchen"
+  },
+  {
+    "name": "Parker's #100",
+    "address": "1750 Grove Point Rd",
+    "city": "Savannah",
+    "state": "GA",
+    "zip": "31419",
+    "lat": 31.986,
+    "lng": -81.123,
+    "source_name": "Parker's Kitchen"
+  },
+  {
+    "name": "Parker's #102",
+    "address": "2991 Old Augusta Rd South",
+    "city": "Rincon",
+    "state": "GA",
+    "zip": "31326",
+    "lat": 32.29,
+    "lng": -81.24,
+    "source_name": "Parker's Kitchen"
+  },
+  {
+    "name": "Parker's #104",
+    "address": "5095 Washington Rd",
+    "city": "Evans",
+    "state": "GA",
+    "zip": "30809",
+    "lat": 33.534,
+    "lng": -82.13,
+    "source_name": "Parker's Kitchen"
+  },
+  {
+    "name": "Parker's Kitchen - Port Wentworth",
+    "address": "171 Crossroads Pkwy",
+    "city": "Port Wentworth",
+    "state": "GA",
+    "zip": "31407",
+    "lat": 32.149,
+    "lng": -81.163,
+    "source_name": "Parker's Kitchen"
+  },
+  {
+    "name": "Parker's #17",
+    "address": "2475 Hwy 196 West",
+    "city": "Hinesville",
+    "state": "GA",
+    "zip": "31313",
+    "lat": 31.8468,
+    "lng": -81.632,
+    "source_name": "Parker's Kitchen"
+  },
+  {
+    "name": "Parker's #111",
+    "address": "2216 Northside Dr E",
+    "city": "Statesboro",
+    "state": "GA",
+    "zip": "30458",
+    "lat": 32.46,
+    "lng": -81.75,
+    "source_name": "Parker's Kitchen"
+  },
+  {
+    "name": "Parker's #112",
+    "address": "17259 Highway 67",
+    "city": "Statesboro",
+    "state": "GA",
+    "zip": "30458",
+    "lat": 32.42,
+    "lng": -81.81,
+    "source_name": "Parker's Kitchen"
+  },
+  {
+    "name": "Pilot Travel Center - Atlanta",
+    "address": "2605 Bouldercrest Rd",
+    "city": "Atlanta",
+    "state": "GA",
+    "zip": "30316",
+    "lat": 33.6944,
+    "lng": -84.3308,
+    "source_name": "Pilot Flying J"
+  },
+  {
+    "name": "Pilot Travel Center - Jackson",
+    "address": "1125 Bucksnort Rd",
+    "city": "Jackson",
+    "state": "GA",
+    "zip": "30233",
+    "lat": 33.283,
+    "lng": -83.966,
+    "source_name": "Pilot Flying J"
+  },
+  {
+    "name": "Pilot Travel Center - Carnesville",
+    "address": "10226 Old Federal Rd",
+    "city": "Carnesville",
+    "state": "GA",
+    "zip": "30521",
+    "lat": 34.369,
+    "lng": -83.237,
+    "source_name": "Pilot Flying J"
+  },
+  {
+    "name": "Pilot Travel Center - Lake Park",
+    "address": "7001 Lake Park Bellville Rd",
+    "city": "Lake Park",
+    "state": "GA",
+    "zip": "31636",
+    "lat": 30.687,
+    "lng": -83.182,
+    "source_name": "Pilot Flying J"
+  },
+  {
+    "name": "Pilot Travel Center - Resaca",
+    "address": "288 Resaca Beach Blvd",
+    "city": "Resaca",
+    "state": "GA",
+    "zip": "30735",
+    "lat": 34.579,
+    "lng": -84.939,
+    "source_name": "Pilot Flying J"
+  },
+  {
+    "name": "Pilot Travel Center - Villa Rica",
+    "address": "15 Villa Rosa Rd",
+    "city": "Villa Rica",
+    "state": "GA",
+    "zip": "30180",
+    "lat": 33.735,
+    "lng": -84.922,
+    "source_name": "Pilot Flying J"
+  },
+  {
+    "name": "Pilot Travel Center - Greensboro",
+    "address": "3600 Highway 77 South",
+    "city": "Greensboro",
+    "state": "GA",
+    "zip": "30642",
+    "lat": 33.54,
+    "lng": -83.176,
+    "source_name": "Pilot Flying J"
+  },
+  {
+    "name": "Pilot Travel Center - Brunswick",
+    "address": "2990 US Hwy 17 South",
+    "city": "Brunswick",
+    "state": "GA",
+    "zip": "31525",
+    "lat": 31.127,
+    "lng": -81.491,
+    "source_name": "Pilot Flying J"
+  },
+  {
+    "name": "Pilot Travel Center - Cordele",
+    "address": "2201 16th Ave E",
+    "city": "Cordele",
+    "state": "GA",
+    "zip": "31015",
+    "lat": 31.955,
+    "lng": -83.74,
+    "source_name": "Pilot Flying J"
+  },
+  {
+    "name": "Pilot Travel Center - Tifton",
+    "address": "4431 Union Rd",
+    "city": "Tifton",
+    "state": "GA",
+    "zip": "31794",
+    "lat": 31.485,
+    "lng": -83.535,
+    "source_name": "Pilot Flying J"
+  },
+  {
+    "name": "Pilot Travel Center - Valdosta",
+    "address": "3495 Madison Hwy",
+    "city": "Valdosta",
+    "state": "GA",
+    "zip": "31601",
+    "lat": 30.873,
+    "lng": -83.324,
+    "source_name": "Pilot Flying J"
+  },
+  {
+    "name": "Pilot Travel Center - Byron",
+    "address": "2965 Highway 247C",
+    "city": "Byron",
+    "state": "GA",
+    "zip": "31008",
+    "lat": 32.641,
+    "lng": -83.754,
+    "source_name": "Pilot Flying J"
+  },
+  {
+    "name": "Pilot Travel Center - Calhoun",
+    "address": "2111 US Highway 41 NE",
+    "city": "Calhoun",
+    "state": "GA",
+    "zip": "30701",
+    "lat": 34.523,
+    "lng": -84.926,
+    "source_name": "Pilot Flying J"
+  },
+  {
+    "name": "Pilot Travel Center - Dalton",
+    "address": "142 Carbondale Rd SW",
+    "city": "Dalton",
+    "state": "GA",
+    "zip": "30720",
+    "lat": 34.735,
+    "lng": -84.985,
+    "source_name": "Pilot Flying J"
+  },
+  {
+    "name": "Pilot Travel Center - Port Wentworth",
+    "address": "7001 GA-21",
+    "city": "Port Wentworth",
+    "state": "GA",
+    "zip": "31407",
+    "lat": 32.153,
+    "lng": -81.195,
+    "source_name": "Pilot Flying J"
+  },
+  {
+    "name": "Pilot Travel Center - Albany",
+    "address": "310 Cordele Rd",
+    "city": "Albany",
+    "state": "GA",
+    "zip": "31705",
+    "lat": 31.601,
+    "lng": -84.135,
+    "source_name": "Pilot Flying J"
+  },
+  {
+    "name": "Pilot Travel Center - Augusta",
+    "address": "2975 Gun Club Rd",
+    "city": "Augusta",
+    "state": "GA",
+    "zip": "30907",
+    "lat": 33.52,
+    "lng": -82.083,
+    "source_name": "Pilot Flying J"
+  },
+  {
+    "name": "Pilot Travel Center - Ellabell",
+    "address": "130 Interstate Exchange Way",
+    "city": "Ellabell",
+    "state": "GA",
+    "zip": "31308",
+    "lat": 32.135,
+    "lng": -81.472,
+    "source_name": "Pilot Flying J"
+  },
+  {
+    "name": "Love's Travel Stop - Calhoun",
+    "address": "871 Union Grove Rd SE",
+    "city": "Calhoun",
+    "state": "GA",
+    "zip": "30701",
+    "lat": 34.47,
+    "lng": -84.914,
+    "source_name": "Love's Travel Stops"
+  },
+  {
+    "name": "Love's Travel Stop - Cordele",
+    "address": "1737 Clark Ave",
+    "city": "Cordele",
+    "state": "GA",
+    "zip": "31015",
+    "lat": 31.95,
+    "lng": -83.76,
+    "source_name": "Love's Travel Stops"
+  },
+  {
+    "name": "Love's Travel Stop - Brunswick",
+    "address": "2766 US Highway 17 South",
+    "city": "Brunswick",
+    "state": "GA",
+    "zip": "31525",
+    "lat": 31.129,
+    "lng": -81.49,
+    "source_name": "Love's Travel Stops"
+  },
+  {
+    "name": "Love's Travel Stop - Commerce",
+    "address": "4855 Maysville Rd",
+    "city": "Commerce",
+    "state": "GA",
+    "zip": "30529",
+    "lat": 34.237,
+    "lng": -83.43,
+    "source_name": "Love's Travel Stops"
+  },
+  {
+    "name": "Love's Travel Stop - Emerson",
+    "address": "150 Old Allatoona Rd SE",
+    "city": "Emerson",
+    "state": "GA",
+    "zip": "30121",
+    "lat": 34.124,
+    "lng": -84.75,
+    "source_name": "Love's Travel Stops"
+  },
+  {
+    "name": "Love's Travel Stop - Hogansville",
+    "address": "1621 Bass Cross Rd",
+    "city": "Hogansville",
+    "state": "GA",
+    "zip": "30230",
+    "lat": 33.16,
+    "lng": -84.91,
+    "source_name": "Love's Travel Stops"
+  },
+  {
+    "name": "Love's Travel Stop - Jackson",
+    "address": "115 Truck Stop Way",
+    "city": "Jackson",
+    "state": "GA",
+    "zip": "30233",
+    "lat": 33.28,
+    "lng": -83.97,
+    "source_name": "Love's Travel Stops"
+  },
+  {
+    "name": "Love's Travel Stop - Thomson",
+    "address": "2129 Washington Rd NW",
+    "city": "Thomson",
+    "state": "GA",
+    "zip": "30824",
+    "lat": 33.49,
+    "lng": -82.52,
+    "source_name": "Love's Travel Stops"
+  },
+  {
+    "name": "Love's Travel Stop - Garden City",
+    "address": "2 Sonny Perdue Dr",
+    "city": "Garden City",
+    "state": "GA",
+    "zip": "31408",
+    "lat": 32.096,
+    "lng": -81.177,
+    "source_name": "Love's Travel Stops"
+  },
+  {
+    "name": "Love's Travel Stop - Dublin",
+    "address": "3009 Highway 257",
+    "city": "Dublin",
+    "state": "GA",
+    "zip": "31021",
+    "lat": 32.54,
+    "lng": -82.89,
+    "source_name": "Love's Travel Stops"
+  },
+  {
+    "name": "Love's Travel Stop - Metter",
+    "address": "11151 US 280",
+    "city": "Metter",
+    "state": "GA",
+    "zip": "30439",
+    "lat": 32.39,
+    "lng": -82.07,
+    "source_name": "Love's Travel Stops"
+  },
+  {
+    "name": "Love's Travel Stop - Macon",
+    "address": "1190 Frank Amerson Pkwy",
+    "city": "Macon",
+    "state": "GA",
+    "zip": "31201",
+    "lat": 32.82,
+    "lng": -83.63,
+    "source_name": "Love's Travel Stops"
+  },
+  {
+    "name": "Love's Travel Stop - Bremen",
+    "address": "523 Atlantic Ave",
+    "city": "Bremen",
+    "state": "GA",
+    "zip": "30110",
+    "lat": 33.72,
+    "lng": -85.15,
+    "source_name": "Love's Travel Stops"
+  },
+  {
+    "name": "Murphy USA - Warner Robins",
+    "address": "501 Booth Rd",
+    "city": "Warner Robins",
+    "state": "GA",
+    "zip": "31088",
+    "lat": 32.593,
+    "lng": -83.665,
+    "source_name": "Murphy USA"
+  },
+  {
+    "name": "Murphy USA - Statesboro",
+    "address": "689 Brannen St",
+    "city": "Statesboro",
+    "state": "GA",
+    "zip": "30458",
+    "lat": 32.437,
+    "lng": -81.783,
+    "source_name": "Murphy USA"
+  },
+  {
+    "name": "Murphy USA - Trion",
+    "address": "13425 Hwy 27",
+    "city": "Trion",
+    "state": "GA",
+    "zip": "30753",
+    "lat": 34.55,
+    "lng": -85.31,
+    "source_name": "Murphy USA"
+  },
+  {
+    "name": "Murphy USA - Fort Oglethorpe",
+    "address": "24 Battlefield Station Dr",
+    "city": "Fort Oglethorpe",
+    "state": "GA",
+    "zip": "30742",
+    "lat": 34.929,
+    "lng": -85.253,
+    "source_name": "Murphy USA"
+  },
+  {
+    "name": "Murphy USA - Columbus",
+    "address": "6469 Gateway Rd",
+    "city": "Columbus",
+    "state": "GA",
+    "zip": "31909",
+    "lat": 32.522,
+    "lng": -84.94,
+    "source_name": "Murphy USA"
+  },
+  {
+    "name": "Murphy USA - Albany",
+    "address": "2829 Ledo Rd",
+    "city": "Albany",
+    "state": "GA",
+    "zip": "31707",
+    "lat": 31.56,
+    "lng": -84.17,
+    "source_name": "Murphy USA"
+  },
+  {
+    "name": "Murphy USA - Macon",
+    "address": "6040 Harrison Rd",
+    "city": "Macon",
+    "state": "GA",
+    "zip": "31206",
+    "lat": 32.806,
+    "lng": -83.71,
+    "source_name": "Murphy USA"
+  },
+  {
+    "name": "Murphy USA - Waycross",
+    "address": "2405 Memorial Dr",
+    "city": "Waycross",
+    "state": "GA",
+    "zip": "31503",
+    "lat": 31.213,
+    "lng": -82.36,
+    "source_name": "Murphy USA"
+  },
+  {
+    "name": "Murphy USA - Blairsville",
+    "address": "2257 B GA Hwy 515",
+    "city": "Blairsville",
+    "state": "GA",
+    "zip": "30512",
+    "lat": 34.86,
+    "lng": -83.94,
+    "source_name": "Murphy USA"
+  },
+  {
+    "name": "Murphy USA - Jesup",
+    "address": "1120 N First St",
+    "city": "Jesup",
+    "state": "GA",
+    "zip": "31545",
+    "lat": 31.61,
+    "lng": -81.89,
+    "source_name": "Murphy USA"
+  },
+  {
+    "name": "Murphy USA - Pooler",
+    "address": "120 Pooler Pkwy",
+    "city": "Pooler",
+    "state": "GA",
+    "zip": "31322",
+    "lat": 32.105,
+    "lng": -81.25,
+    "source_name": "Murphy USA"
+  },
+  {
+    "name": "Murphy USA - College Park",
+    "address": "6135 Old National Hwy",
+    "city": "College Park",
+    "state": "GA",
+    "zip": "30349",
+    "lat": 33.588,
+    "lng": -84.453,
+    "source_name": "Murphy USA"
+  },
+  {
+    "name": "Speedway - Cumming",
+    "address": "3310 Buford Hwy",
+    "city": "Cumming",
+    "state": "GA",
+    "zip": "30041",
+    "lat": 34.153,
+    "lng": -84.07,
+    "source_name": "Speedway"
+  },
+  {
+    "name": "Speedway - Cartersville",
+    "address": "1395 Highway 411",
+    "city": "Cartersville",
+    "state": "GA",
+    "zip": "30121",
+    "lat": 34.195,
+    "lng": -84.78,
+    "source_name": "Speedway"
+  },
+  {
+    "name": "Speedway - Lawrenceville",
+    "address": "3120 Sugarloaf Pkwy",
+    "city": "Lawrenceville",
+    "state": "GA",
+    "zip": "30045",
+    "lat": 33.948,
+    "lng": -84.046,
+    "source_name": "Speedway"
+  },
+  {
+    "name": "Speedway - Tucker",
+    "address": "5448 E Ponce De Leon Ave",
+    "city": "Tucker",
+    "state": "GA",
+    "zip": "30083",
+    "lat": 33.796,
+    "lng": -84.227,
+    "source_name": "Speedway"
+  },
+  {
+    "name": "Speedway - Alpharetta",
+    "address": "910 McFarland Pkwy",
+    "city": "Alpharetta",
+    "state": "GA",
+    "zip": "30004",
+    "lat": 34.108,
+    "lng": -84.275,
+    "source_name": "Speedway"
+  },
+  {
+    "name": "Speedway - Lilburn",
+    "address": "5604 Lawrenceville Hwy NW",
+    "city": "Lilburn",
+    "state": "GA",
+    "zip": "30047",
+    "lat": 33.883,
+    "lng": -84.125,
+    "source_name": "Speedway"
+  },
+  {
+    "name": "MAPCO - Trenton",
+    "address": "5090 Highway 136",
+    "city": "Trenton",
+    "state": "GA",
+    "zip": "30752",
+    "lat": 34.875,
+    "lng": -85.51,
+    "source_name": "MAPCO"
+  },
+  {
+    "name": "MAPCO - LaFayette (US-27)",
+    "address": "2452 N US-27",
+    "city": "LaFayette",
+    "state": "GA",
+    "zip": "30728",
+    "lat": 34.725,
+    "lng": -85.283,
+    "source_name": "MAPCO"
+  },
+  {
+    "name": "MAPCO - Adairsville",
+    "address": "6434 Joe Frank Harris Pkwy NW",
+    "city": "Adairsville",
+    "state": "GA",
+    "zip": "30103",
+    "lat": 34.373,
+    "lng": -84.934,
+    "source_name": "MAPCO"
+  },
+  {
+    "name": "MAPCO - Calhoun",
+    "address": "973 Highway 53 Spur SW",
+    "city": "Calhoun",
+    "state": "GA",
+    "zip": "30701",
+    "lat": 34.487,
+    "lng": -84.951,
+    "source_name": "MAPCO"
+  },
+  {
+    "name": "MAPCO - LaFayette (Stansell)",
+    "address": "59 Stansell Cir",
+    "city": "LaFayette",
+    "state": "GA",
+    "zip": "30728",
+    "lat": 34.71,
+    "lng": -85.28,
+    "source_name": "MAPCO"
+  },
+  {
+    "name": "MAPCO - Ringgold (Alabama Hwy)",
+    "address": "6672 Alabama Hwy",
+    "city": "Ringgold",
+    "state": "GA",
+    "zip": "30736",
+    "lat": 34.913,
+    "lng": -85.12,
+    "source_name": "MAPCO"
+  },
+  {
+    "name": "MAPCO - Ringgold (Nashville St)",
+    "address": "6966 Nashville St",
+    "city": "Ringgold",
+    "state": "GA",
+    "zip": "30736",
+    "lat": 34.916,
+    "lng": -85.109,
+    "source_name": "MAPCO"
+  },
+  {
+    "name": "MAPCO - Ringgold (Battlefield Pkwy)",
+    "address": "3668 Battlefield Pkwy",
+    "city": "Ringgold",
+    "state": "GA",
+    "zip": "30736",
+    "lat": 34.92,
+    "lng": -85.1,
+    "source_name": "MAPCO"
+  },
+  {
+    "name": "MAPCO - Chatsworth (S 3rd Ave 318)",
+    "address": "318 S 3rd Ave",
+    "city": "Chatsworth",
+    "state": "GA",
+    "zip": "30705",
+    "lat": 34.76,
+    "lng": -84.77,
+    "source_name": "MAPCO"
+  },
+  {
+    "name": "MAPCO - Chatsworth (S 3rd Ave 630)",
+    "address": "630 S 3rd Ave",
+    "city": "Chatsworth",
+    "state": "GA",
+    "zip": "30705",
+    "lat": 34.755,
+    "lng": -84.77,
+    "source_name": "MAPCO"
+  },
+  {
+    "name": "MAPCO - Chatsworth (N 3rd Ave 1217)",
+    "address": "1217 N 3rd Ave",
+    "city": "Chatsworth",
+    "state": "GA",
+    "zip": "30705",
+    "lat": 34.778,
+    "lng": -84.77,
+    "source_name": "MAPCO"
+  },
+  {
+    "name": "MAPCO - Chatsworth (N 3rd Ave 1010)",
+    "address": "1010 N 3rd Ave",
+    "city": "Chatsworth",
+    "state": "GA",
+    "zip": "30705",
+    "lat": 34.775,
+    "lng": -84.77,
+    "source_name": "MAPCO"
+  },
+  {
+    "name": "MAPCO - Chatsworth (Hwy 411)",
+    "address": "3405 Highway 411 N",
+    "city": "Chatsworth",
+    "state": "GA",
+    "zip": "30705",
+    "lat": 34.8,
+    "lng": -84.75,
+    "source_name": "MAPCO"
+  },
+  {
+    "name": "MAPCO - Chatsworth (Hwy 76)",
+    "address": "1194 Highway 76",
+    "city": "Chatsworth",
+    "state": "GA",
+    "zip": "30705",
+    "lat": 34.77,
+    "lng": -84.76,
+    "source_name": "MAPCO"
+  },
+  {
+    "name": "MAPCO - Resaca",
+    "address": "4053 Chatsworth Hwy 225 NE",
+    "city": "Resaca",
+    "state": "GA",
+    "zip": "30735",
+    "lat": 34.59,
+    "lng": -84.92,
+    "source_name": "MAPCO"
+  },
+  {
+    "name": "Flash Foods - Waycross (Reynolds)",
+    "address": "505 Reynolds St",
+    "city": "Waycross",
+    "state": "GA",
+    "zip": "31501",
+    "lat": 31.214,
+    "lng": -82.354,
+    "source_name": "Flash Foods"
+  },
+  {
+    "name": "Flash Foods - Jekyll Island",
+    "address": "50 Ben Fortson Pkwy",
+    "city": "Jekyll Island",
+    "state": "GA",
+    "zip": "31527",
+    "lat": 31.072,
+    "lng": -81.421,
+    "source_name": "Flash Foods"
+  },
+  {
+    "name": "Flash Foods - Hinesville (Oglethorpe)",
+    "address": "1025 W Oglethorpe Hwy",
+    "city": "Hinesville",
+    "state": "GA",
+    "zip": "31313",
+    "lat": 31.84,
+    "lng": -81.63,
+    "source_name": "Flash Foods"
+  },
+  {
+    "name": "Flash Foods - Nahunta",
+    "address": "113 North Main St",
+    "city": "Nahunta",
+    "state": "GA",
+    "zip": "31553",
+    "lat": 31.205,
+    "lng": -81.98,
+    "source_name": "Flash Foods"
+  },
+  {
+    "name": "Flash Foods - Hinesville (E Oglethorpe)",
+    "address": "725 E Oglethorpe Hwy",
+    "city": "Hinesville",
+    "state": "GA",
+    "zip": "31313",
+    "lat": 31.847,
+    "lng": -81.59,
+    "source_name": "Flash Foods"
+  },
+  {
+    "name": "Flash Foods - Louisville",
+    "address": "201 Jefferson Davis Memorial Hwy",
+    "city": "Louisville",
+    "state": "GA",
+    "zip": "30434",
+    "lat": 32.998,
+    "lng": -82.41,
+    "source_name": "Flash Foods"
+  },
+  {
+    "name": "Flash Foods - Wrightsville",
+    "address": "213 N Marcus St",
+    "city": "Wrightsville",
+    "state": "GA",
+    "zip": "31096",
+    "lat": 32.731,
+    "lng": -82.72,
+    "source_name": "Flash Foods"
+  },
+  {
+    "name": "Flash Foods - Valdosta (Gornto)",
+    "address": "1720 Gornto Rd",
+    "city": "Valdosta",
+    "state": "GA",
+    "zip": "31602",
+    "lat": 30.848,
+    "lng": -83.29,
+    "source_name": "Flash Foods"
+  },
+  {
+    "name": "Flash Foods - Valdosta (Bemiss)",
+    "address": "3480 Bemiss Rd",
+    "city": "Valdosta",
+    "state": "GA",
+    "zip": "31602",
+    "lat": 30.87,
+    "lng": -83.26,
+    "source_name": "Flash Foods"
+  },
+  {
+    "name": "Flash Foods - Valdosta (St Augustine)",
+    "address": "511 St Augustine Rd",
+    "city": "Valdosta",
+    "state": "GA",
+    "zip": "31601",
+    "lat": 30.82,
+    "lng": -83.28,
+    "source_name": "Flash Foods"
+  },
+  {
+    "name": "Flash Foods - Valdosta (Northside)",
+    "address": "425 Northside Dr",
+    "city": "Valdosta",
+    "state": "GA",
+    "zip": "31601",
+    "lat": 30.85,
+    "lng": -83.28,
+    "source_name": "Flash Foods"
+  },
+  {
+    "name": "Flash Foods - Valdosta (N Valdosta Rd)",
+    "address": "4205 N Valdosta Rd",
+    "city": "Valdosta",
+    "state": "GA",
+    "zip": "31602",
+    "lat": 30.89,
+    "lng": -83.29,
+    "source_name": "Flash Foods"
+  },
+  {
+    "name": "Flash Foods - Waycross (State St)",
+    "address": "1913 State St",
+    "city": "Waycross",
+    "state": "GA",
+    "zip": "31501",
+    "lat": 31.22,
+    "lng": -82.35,
+    "source_name": "Flash Foods"
+  },
+  {
+    "name": "Flash Foods - Waycross (S Georgia Pkwy)",
+    "address": "1736 S Georgia Pkwy W",
+    "city": "Waycross",
+    "state": "GA",
+    "zip": "31503",
+    "lat": 31.19,
+    "lng": -82.37,
+    "source_name": "Flash Foods"
+  },
+  {
+    "name": "Flash Foods - Waycross (Plant Ave)",
+    "address": "2307 Plant Ave",
+    "city": "Waycross",
+    "state": "GA",
+    "zip": "31501",
+    "lat": 31.21,
+    "lng": -82.34,
+    "source_name": "Flash Foods"
+  },
+  {
+    "name": "Flash Foods - Dublin",
+    "address": "2180 US Hwy 441 S",
+    "city": "Dublin",
+    "state": "GA",
+    "zip": "31021",
+    "lat": 32.52,
+    "lng": -82.9,
+    "source_name": "Flash Foods"
+  },
+  {
+    "name": "Flash Foods - Covington",
+    "address": "4175 Salem Rd",
+    "city": "Covington",
+    "state": "GA",
+    "zip": "30016",
+    "lat": 33.57,
+    "lng": -83.81,
+    "source_name": "Flash Foods"
+  },
+  {
+    "name": "Enmarket - Savannah (Abercorn)",
+    "address": "14000 Abercorn Expy",
+    "city": "Savannah",
+    "state": "GA",
+    "zip": "31419",
+    "lat": 31.98,
+    "lng": -81.09,
+    "source_name": "Enmarket"
+  },
+  {
+    "name": "Enmarket - Savannah (Waters Ave)",
+    "address": "7406 Waters Ave",
+    "city": "Savannah",
+    "state": "GA",
+    "zip": "31406",
+    "lat": 32.01,
+    "lng": -81.07,
+    "source_name": "Enmarket"
+  },
+  {
+    "name": "Enmarket - Savannah (Johnny Mercer)",
+    "address": "175 Johnny Mercer Blvd",
+    "city": "Savannah",
+    "state": "GA",
+    "zip": "31410",
+    "lat": 32.02,
+    "lng": -81.02,
+    "source_name": "Enmarket"
+  },
+  {
+    "name": "Enmarket - Garden City",
+    "address": "4230 Augusta Rd",
+    "city": "Garden City",
+    "state": "GA",
+    "zip": "31408",
+    "lat": 32.09,
+    "lng": -81.16,
+    "source_name": "Enmarket"
+  },
+  {
+    "name": "Enmarket - Statesboro",
+    "address": "1609 Fair Rd",
+    "city": "Statesboro",
+    "state": "GA",
+    "zip": "30458",
+    "lat": 32.42,
+    "lng": -81.77,
+    "source_name": "Enmarket"
+  },
+  {
+    "name": "Enmarket - Albany",
+    "address": "2424 Clark Ave",
+    "city": "Albany",
+    "state": "GA",
+    "zip": "31705",
+    "lat": 31.57,
+    "lng": -84.12,
+    "source_name": "Enmarket"
+  },
+  {
+    "name": "Enmarket - Pooler (E Hwy 80)",
+    "address": "907 E Hwy 80",
+    "city": "Pooler",
+    "state": "GA",
+    "zip": "31322",
+    "lat": 32.12,
+    "lng": -81.24,
+    "source_name": "Enmarket"
+  },
+  {
+    "name": "Enmarket - Pooler (W Hwy 80)",
+    "address": "830 Hwy 80 W",
+    "city": "Pooler",
+    "state": "GA",
+    "zip": "31322",
+    "lat": 32.11,
+    "lng": -81.25,
+    "source_name": "Enmarket"
+  },
+  {
+    "name": "Enmarket - Rincon",
+    "address": "6188 Highway 21 South",
+    "city": "Rincon",
+    "state": "GA",
+    "zip": "31326",
+    "lat": 32.29,
+    "lng": -81.24,
+    "source_name": "Enmarket"
+  },
+  {
+    "name": "Enmarket - Vidalia",
+    "address": "1401 E First St",
+    "city": "Vidalia",
+    "state": "GA",
+    "zip": "30474",
+    "lat": 32.22,
+    "lng": -82.39,
+    "source_name": "Enmarket"
+  },
+  {
+    "name": "Murphy Express - Alpharetta",
+    "address": "5415 Atlanta Hwy",
+    "city": "Alpharetta",
+    "state": "GA",
+    "zip": "30004",
+    "lat": 34.1354,
+    "lng": -84.2241,
+    "source_name": "Yelp"
+  },
+  {
+    "name": "Murphy Express - Rincon",
+    "address": "102 Lisa St",
+    "city": "Rincon",
+    "state": "GA",
+    "zip": "31326",
+    "lat": 32.296,
+    "lng": -81.2354,
+    "source_name": "Yelp"
+  },
+  {
+    "name": "Murphy Express - Pooler",
+    "address": "1555 Pooler Pkwy",
+    "city": "Pooler",
+    "state": "GA",
+    "zip": "31322",
+    "lat": 32.1046,
+    "lng": -81.2468,
+    "source_name": "GasBuddy"
+  },
+  {
+    "name": "Murphy Express - Savannah",
+    "address": "14080 Abercorn St",
+    "city": "Savannah",
+    "state": "GA",
+    "zip": "31419",
+    "lat": 31.9907,
+    "lng": -81.0948,
+    "source_name": "Yelp"
+  },
+  {
+    "name": "Murphy USA - Athens",
+    "address": "1031 Jordan Dr",
+    "city": "Athens",
+    "state": "GA",
+    "zip": "30606",
+    "lat": 33.9378,
+    "lng": -83.4128,
+    "source_name": "MyStore411"
+  },
+  {
+    "name": "Murphy USA - Buford",
+    "address": "3853 Buford Dr",
+    "city": "Buford",
+    "state": "GA",
+    "zip": "30519",
+    "lat": 34.0868,
+    "lng": -83.9893,
+    "source_name": "MyStore411"
+  },
+  {
+    "name": "Murphy USA - Fitzgerald",
+    "address": "124 Benjamin H Hill Dr W",
+    "city": "Fitzgerald",
+    "state": "GA",
+    "zip": "31750",
+    "lat": 31.7149,
+    "lng": -83.2627,
+    "source_name": "FindStoreNearMe"
+  },
+  {
+    "name": "Murphy USA - Eastman",
+    "address": "1545 Indian Dr",
+    "city": "Eastman",
+    "state": "GA",
+    "zip": "31023",
+    "lat": 32.1974,
+    "lng": -83.1827,
+    "source_name": "MyStore411"
+  },
+  {
+    "name": "Murphy USA - Port Wentworth",
+    "address": "100 Magellan Blvd",
+    "city": "Port Wentworth",
+    "state": "GA",
+    "zip": "31407",
+    "lat": 32.1499,
+    "lng": -81.1632,
+    "source_name": "MyStore411"
+  },
+  {
+    "name": "Shell - Atlanta (Northside Dr)",
+    "address": "1695 Northside Dr NW",
+    "city": "Atlanta",
+    "state": "GA",
+    "zip": "30318",
+    "lat": 33.7945,
+    "lng": -84.4237,
+    "source_name": "Yelp"
+  },
+  {
+    "name": "Shell - Atlanta (Buford Hwy)",
+    "address": "2800 Buford Hwy",
+    "city": "Atlanta",
+    "state": "GA",
+    "zip": "30324",
+    "lat": 33.818,
+    "lng": -84.3571,
+    "source_name": "Yelp"
+  },
+  {
+    "name": "Shell - Atlanta (Hill St)",
+    "address": "387 Hill St SE",
+    "city": "Atlanta",
+    "state": "GA",
+    "zip": "30312",
+    "lat": 33.7397,
+    "lng": -84.3793,
+    "source_name": "Yelp"
+  },
+  {
+    "name": "Shell - College Park",
+    "address": "5690 Old National Hwy",
+    "city": "College Park",
+    "state": "GA",
+    "zip": "30349",
+    "lat": 33.5907,
+    "lng": -84.4718,
+    "source_name": "Yelp"
+  },
+  {
+    "name": "Shell - Acworth",
+    "address": "2557 Baker Rd NW",
+    "city": "Acworth",
+    "state": "GA",
+    "zip": "30101",
+    "lat": 34.0537,
+    "lng": -84.6493,
+    "source_name": "HoursGuide"
+  },
+  {
+    "name": "Shell - Griffin",
+    "address": "1566 N Expressway",
+    "city": "Griffin",
+    "state": "GA",
+    "zip": "30223",
+    "lat": 33.271,
+    "lng": -84.269,
+    "source_name": "HoursGuide"
+  },
+  {
+    "name": "Shell - Macon (Gray Hwy)",
+    "address": "1105 Gray Hwy",
+    "city": "Macon",
+    "state": "GA",
+    "zip": "31211",
+    "lat": 32.853,
+    "lng": -83.585,
+    "source_name": "HoursGuide"
+  },
+  {
+    "name": "Shell - Norcross",
+    "address": "5535 Jimmy Carter Blvd",
+    "city": "Norcross",
+    "state": "GA",
+    "zip": "30093",
+    "lat": 33.9235,
+    "lng": -84.187,
+    "source_name": "HoursGuide"
+  },
+  {
+    "name": "Shell - Macon (Houston Rd)",
+    "address": "6440 Houston Rd",
+    "city": "Macon",
+    "state": "GA",
+    "zip": "31216",
+    "lat": 32.791,
+    "lng": -83.707,
+    "source_name": "Yelp"
+  },
+  {
+    "name": "Shell - Savannah (White Bluff)",
+    "address": "12424 White Bluff Rd",
+    "city": "Savannah",
+    "state": "GA",
+    "zip": "31419",
+    "lat": 31.991,
+    "lng": -81.118,
+    "source_name": "Shell"
+  },
+  {
+    "name": "Shell - Savannah (Abercorn)",
+    "address": "14025 Abercorn St",
+    "city": "Savannah",
+    "state": "GA",
+    "zip": "31419",
+    "lat": 31.993,
+    "lng": -81.095,
+    "source_name": "GasBuddy"
+  },
+  {
+    "name": "Shell - Savannah (Chatham Pkwy)",
+    "address": "16 Chatham Pkwy",
+    "city": "Savannah",
+    "state": "GA",
+    "zip": "31405",
+    "lat": 32.054,
+    "lng": -81.124,
+    "source_name": "Yelp"
+  },
+  {
+    "name": "BP - Atlanta (Memorial Dr)",
+    "address": "245 Memorial Dr SE",
+    "city": "Atlanta",
+    "state": "GA",
+    "zip": "30312",
+    "lat": 33.749,
+    "lng": -84.375,
+    "source_name": "AtlantaDowntown.com"
+  },
+  {
+    "name": "BP - Atlanta (Spring St)",
+    "address": "610 Spring St NW",
+    "city": "Atlanta",
+    "state": "GA",
+    "zip": "30308",
+    "lat": 33.7723,
+    "lng": -84.3889,
+    "source_name": "Yelp"
+  },
+  {
+    "name": "BP - Atlanta (Peachtree Rd)",
+    "address": "3639 Peachtree Rd NE",
+    "city": "Atlanta",
+    "state": "GA",
+    "zip": "30326",
+    "lat": 33.8508,
+    "lng": -84.3621,
+    "source_name": "BP Map"
+  },
+  {
+    "name": "BP - Atlanta (Lakewood Way)",
+    "address": "100 Lakewood Way SW",
+    "city": "Atlanta",
+    "state": "GA",
+    "zip": "30315",
+    "lat": 33.707,
+    "lng": -84.392,
+    "source_name": "Yelp"
+  },
+  {
+    "name": "BP - Auburn",
+    "address": "1132 Atlanta Hwy",
+    "city": "Auburn",
+    "state": "GA",
+    "zip": "30011",
+    "lat": 34.0134,
+    "lng": -83.8279,
+    "source_name": "Yelp"
+  },
+  {
+    "name": "BP - Smyrna (Atlanta Rd)",
+    "address": "3002 Atlanta Rd SE",
+    "city": "Smyrna",
+    "state": "GA",
+    "zip": "30080",
+    "lat": 33.863,
+    "lng": -84.499,
+    "source_name": "Yelp"
+  },
+  {
+    "name": "BP - Smyrna (Cobb Pkwy)",
+    "address": "2535 Cobb Pkwy SE",
+    "city": "Smyrna",
+    "state": "GA",
+    "zip": "30080",
+    "lat": 33.869,
+    "lng": -84.469,
+    "source_name": "GasBuddy"
+  },
+  {
+    "name": "Chevron - Atlanta (Blvd SE)",
+    "address": "371 Blvd SE",
+    "city": "Atlanta",
+    "state": "GA",
+    "zip": "30312",
+    "lat": 33.742,
+    "lng": -84.371,
+    "source_name": "Yelp"
+  },
+  {
+    "name": "Chevron - Atlanta (North Ave)",
+    "address": "1079 North Ave NE",
+    "city": "Atlanta",
+    "state": "GA",
+    "zip": "30307",
+    "lat": 33.771,
+    "lng": -84.356,
+    "source_name": "Yelp"
+  },
+  {
+    "name": "Chevron - Atlanta (Memorial Dr)",
+    "address": "1860 Memorial Dr SE",
+    "city": "Atlanta",
+    "state": "GA",
+    "zip": "30317",
+    "lat": 33.749,
+    "lng": -84.326,
+    "source_name": "Yelp"
+  },
+  {
+    "name": "Chevron - Atlanta (Pryor Rd)",
+    "address": "1192 Pryor Rd SW",
+    "city": "Atlanta",
+    "state": "GA",
+    "zip": "30315",
+    "lat": 33.719,
+    "lng": -84.389,
+    "source_name": "Yelp"
+  },
+  {
+    "name": "Chevron - Atlanta (Northside Pkwy)",
+    "address": "3465 Northside Pkwy NW",
+    "city": "Atlanta",
+    "state": "GA",
+    "zip": "30327",
+    "lat": 33.839,
+    "lng": -84.414,
+    "source_name": "Yelp"
+  },
+  {
+    "name": "Chevron - Atlanta (McDonough Blvd)",
+    "address": "580 McDonough Blvd SE",
+    "city": "Atlanta",
+    "state": "GA",
+    "zip": "30315",
+    "lat": 33.718,
+    "lng": -84.37,
+    "source_name": "Yelp"
+  },
+  {
+    "name": "Chevron - Atlanta (Peachtree Rd)",
+    "address": "4234 Peachtree Rd NE",
+    "city": "Atlanta",
+    "state": "GA",
+    "zip": "30319",
+    "lat": 33.867,
+    "lng": -84.337,
+    "source_name": "Yelp"
+  },
+  {
+    "name": "Chevron - Atlanta (Roswell Rd)",
+    "address": "7320 Roswell Rd NE",
+    "city": "Atlanta",
+    "state": "GA",
+    "zip": "30328",
+    "lat": 33.932,
+    "lng": -84.359,
+    "source_name": "Yelp"
+  },
+  {
+    "name": "Chevron - Dahlonega (Morrison Moore)",
+    "address": "1724 Morrison Moore Pkwy W",
+    "city": "Dahlonega",
+    "state": "GA",
+    "zip": "30533",
+    "lat": 34.5218,
+    "lng": -83.9949,
+    "source_name": "GasBuddy"
+  },
+  {
+    "name": "Chevron - Dahlonega (Chestatee)",
+    "address": "5461 S Chestatee St",
+    "city": "Dahlonega",
+    "state": "GA",
+    "zip": "30533",
+    "lat": 34.505,
+    "lng": -83.985,
+    "source_name": "Yelp"
+  },
+  {
+    "name": "Chevron - Dahlonega (Cavender Creek)",
+    "address": "30 Cavender Creek Rd",
+    "city": "Dahlonega",
+    "state": "GA",
+    "zip": "30533",
+    "lat": 34.531,
+    "lng": -84.004,
+    "source_name": "Yelp"
+  },
+  {
+    "name": "Chevron - Marietta (Powder Springs)",
+    "address": "1175 Powder Springs St",
+    "city": "Marietta",
+    "state": "GA",
+    "zip": "30064",
+    "lat": 33.943,
+    "lng": -84.571,
+    "source_name": "YellowPages"
+  },
+  {
+    "name": "Chevron - Marietta (Cobb Pkwy)",
+    "address": "2041 Cobb Pkwy S",
+    "city": "Marietta",
+    "state": "GA",
+    "zip": "30060",
+    "lat": 33.92,
+    "lng": -84.471,
+    "source_name": "Yelp"
+  },
+  {
+    "name": "Marathon - Twin City",
+    "address": "3129 US Hwy 1 S",
+    "city": "Twin City",
+    "state": "GA",
+    "zip": "30471",
+    "lat": 32.5648,
+    "lng": -82.1525,
+    "source_name": "Yelp"
+  },
+  {
+    "name": "Marathon - Atlanta (Cobb Pkwy)",
+    "address": "2756 Cobb Pkwy SE",
+    "city": "Atlanta",
+    "state": "GA",
+    "zip": "30339",
+    "lat": 33.871,
+    "lng": -84.468,
+    "source_name": "Yelp"
+  },
+  {
+    "name": "Marathon - Griffin",
+    "address": "301 Wilson Rd",
+    "city": "Griffin",
+    "state": "GA",
+    "zip": "30224",
+    "lat": 33.236,
+    "lng": -84.254,
+    "source_name": "Yelp"
+  },
+  {
+    "name": "Marathon - Alpharetta",
+    "address": "4870 Atlanta Hwy",
+    "city": "Alpharetta",
+    "state": "GA",
+    "zip": "30004",
+    "lat": 34.129,
+    "lng": -84.225,
+    "source_name": "Yelp"
+  },
+  {
+    "name": "Marathon - Athens",
+    "address": "1590 Lexington Rd",
+    "city": "Athens",
+    "state": "GA",
+    "zip": "30605",
+    "lat": 33.944,
+    "lng": -83.351,
+    "source_name": "GasBuddy"
+  },
+  {
+    "name": "Marathon - Atlanta (Gresham Rd)",
+    "address": "2588 Gresham Rd SE",
+    "city": "Atlanta",
+    "state": "GA",
+    "zip": "30316",
+    "lat": 33.72,
+    "lng": -84.329,
+    "source_name": "Yelp"
+  },
+  {
+    "name": "Marathon - Dry Branch",
+    "address": "3621 Sgoda Rd",
+    "city": "Dry Branch",
+    "state": "GA",
+    "zip": "31020",
+    "lat": 32.724,
+    "lng": -83.556,
+    "source_name": "Georgia Pages"
+  }
+]

@@ -1,0 +1,102 @@
+[
+  {
+    "name": "Twice the Ice - Carrollton",
+    "address": "932 Maple St",
+    "city": "Carrollton",
+    "state": "GA",
+    "zip": "30117",
+    "lat": 33.577,
+    "lng": -85.083,
+    "source_name": "Twice the Ice"
+  },
+  {
+    "name": "Twice the Ice - Snellville (Stone Mountain Ice)",
+    "address": "2420 Wisteria Dr SW",
+    "city": "Snellville",
+    "state": "GA",
+    "zip": "30078",
+    "lat": 33.857,
+    "lng": -84.016,
+    "source_name": "Twice the Ice"
+  },
+  {
+    "name": "Twice the Ice - Rockmart",
+    "address": "900 Cedartown Hwy",
+    "city": "Rockmart",
+    "state": "GA",
+    "zip": "30153",
+    "lat": 34.002,
+    "lng": -85.056,
+    "source_name": "Twice the Ice"
+  },
+  {
+    "name": "Twice the Ice - Statham",
+    "address": "1919 Atlanta Hwy SE",
+    "city": "Statham",
+    "state": "GA",
+    "zip": "30666",
+    "lat": 33.963,
+    "lng": -83.601,
+    "source_name": "Twice the Ice"
+  },
+  {
+    "name": "Twice the Ice - Eastman Griffin Ave",
+    "address": "200 Griffin Ave",
+    "city": "Eastman",
+    "state": "GA",
+    "zip": "31023",
+    "lat": 32.198,
+    "lng": -83.177,
+    "source_name": "Twice the Ice"
+  },
+  {
+    "name": "Twice the Ice - Cartersville Spring Place",
+    "address": "85 Spring Place Rd NW",
+    "city": "Cartersville",
+    "state": "GA",
+    "zip": "30121",
+    "lat": 34.188,
+    "lng": -84.81,
+    "source_name": "Twice the Ice"
+  },
+  {
+    "name": "Twice the Ice - Cartersville Cassville",
+    "address": "130 Cassville Rd",
+    "city": "Cartersville",
+    "state": "GA",
+    "zip": "30120",
+    "lat": 34.174,
+    "lng": -84.805,
+    "source_name": "Twice the Ice"
+  },
+  {
+    "name": "Twice the Ice - Augusta Wheeler Rd",
+    "address": "3744 Wheeler Rd",
+    "city": "Augusta",
+    "state": "GA",
+    "zip": "30909",
+    "lat": 33.487,
+    "lng": -82.072,
+    "source_name": "Twice the Ice"
+  },
+  {
+    "name": "Kooler Ice - Rossville",
+    "address": "1114 Lafayette Rd",
+    "city": "Rossville",
+    "state": "GA",
+    "zip": "30741",
+    "lat": 34.983,
+    "lng": -85.286,
+    "source_name": "Kooler Ice"
+  },
+  {
+    "name": "Ice House America - Moultrie HQ",
+    "address": "278 US Hwy 319 S",
+    "city": "Moultrie",
+    "state": "GA",
+    "zip": "31768",
+    "lat": 31.153,
+    "lng": -83.781,
+    "source_name": "Ice House America"
+  }
+]
