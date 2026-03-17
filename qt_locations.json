@@ -1,0 +1,731 @@
+[
+  {
+    "name": "QuikTrip",
+    "address": "3888 Cobb Pkwy",
+    "city": "Acworth",
+    "state": "GA",
+    "zip": "30101",
+    "lat": 34.0534,
+    "lng": -84.6764
+  },
+  {
+    "name": "QuikTrip",
+    "address": "6090 Hwy 92",
+    "city": "Acworth",
+    "state": "GA",
+    "zip": "30102",
+    "lat": 34.0689,
+    "lng": -84.6413
+  },
+  {
+    "name": "QuikTrip",
+    "address": "11700 Haynes Bridge Rd",
+    "city": "Alpharetta",
+    "state": "GA",
+    "zip": "30009",
+    "lat": 34.0549,
+    "lng": -84.2741
+  },
+  {
+    "name": "QuikTrip",
+    "address": "2805 Chamblee Tucker Rd",
+    "city": "Atlanta",
+    "state": "GA",
+    "zip": "30341",
+    "lat": 33.8823,
+    "lng": -84.2938
+  },
+  {
+    "name": "QuikTrip",
+    "address": "2746 Clairmont Rd NE",
+    "city": "Atlanta",
+    "state": "GA",
+    "zip": "30329",
+    "lat": 33.8186,
+    "lng": -84.3164
+  },
+  {
+    "name": "QuikTrip",
+    "address": "630 10th St NW",
+    "city": "Atlanta",
+    "state": "GA",
+    "zip": "30318",
+    "lat": 33.7817,
+    "lng": -84.4039
+  },
+  {
+    "name": "QuikTrip",
+    "address": "761 Sidney Marcus Blvd",
+    "city": "Atlanta",
+    "state": "GA",
+    "zip": "30324",
+    "lat": 33.8114,
+    "lng": -84.3667
+  },
+  {
+    "name": "QuikTrip",
+    "address": "4675 Atlanta Hwy",
+    "city": "Loganville",
+    "state": "GA",
+    "zip": "30052",
+    "lat": 33.8412,
+    "lng": -83.8921
+  },
+  {
+    "name": "QuikTrip",
+    "address": "30839 Hwy 441",
+    "city": "Commerce",
+    "state": "GA",
+    "zip": "30529",
+    "lat": 34.2131,
+    "lng": -83.4553
+  },
+  {
+    "name": "QuikTrip",
+    "address": "1910 Jesse Jewell Pkwy NE",
+    "city": "Gainesville",
+    "state": "GA",
+    "zip": "30501",
+    "lat": 34.3103,
+    "lng": -83.8239
+  },
+  {
+    "name": "QuikTrip",
+    "address": "2949 Five Forks Trickum Rd",
+    "city": "Lawrenceville",
+    "state": "GA",
+    "zip": "30044",
+    "lat": 33.9148,
+    "lng": -84.0394
+  },
+  {
+    "name": "QuikTrip",
+    "address": "3359 Hwy 317",
+    "city": "Suwanee",
+    "state": "GA",
+    "zip": "30024",
+    "lat": 34.0382,
+    "lng": -84.0504
+  },
+  {
+    "name": "QuikTrip",
+    "address": "1490 Riverstone Pkwy",
+    "city": "Canton",
+    "state": "GA",
+    "zip": "30114",
+    "lat": 34.2256,
+    "lng": -84.4908
+  },
+  {
+    "name": "QuikTrip",
+    "address": "4865 Holly Springs Pkwy",
+    "city": "Canton",
+    "state": "GA",
+    "zip": "30115",
+    "lat": 34.1638,
+    "lng": -84.5044
+  },
+  {
+    "name": "QuikTrip",
+    "address": "2830 Keith Bridge Rd",
+    "city": "Cumming",
+    "state": "GA",
+    "zip": "30041",
+    "lat": 34.2507,
+    "lng": -84.1287
+  },
+  {
+    "name": "QuikTrip",
+    "address": "1655 Buford Hwy",
+    "city": "Cumming",
+    "state": "GA",
+    "zip": "30041",
+    "lat": 34.1903,
+    "lng": -84.0837
+  },
+  {
+    "name": "QuikTrip",
+    "address": "2460 Hamilton Mill Rd",
+    "city": "Dacula",
+    "state": "GA",
+    "zip": "30019",
+    "lat": 33.9897,
+    "lng": -83.8957
+  },
+  {
+    "name": "QuikTrip",
+    "address": "1750 Winder Hwy",
+    "city": "Dacula",
+    "state": "GA",
+    "zip": "30019",
+    "lat": 33.9908,
+    "lng": -83.8712
+  },
+  {
+    "name": "QuikTrip",
+    "address": "1565 Pleasant Hill Rd",
+    "city": "Duluth",
+    "state": "GA",
+    "zip": "30096",
+    "lat": 33.9608,
+    "lng": -84.1546
+  },
+  {
+    "name": "QuikTrip",
+    "address": "3195 Peachtree Industrial Blvd",
+    "city": "Duluth",
+    "state": "GA",
+    "zip": "30097",
+    "lat": 34.0024,
+    "lng": -84.1479
+  },
+  {
+    "name": "QuikTrip",
+    "address": "4006 Buford Hwy NW",
+    "city": "Duluth",
+    "state": "GA",
+    "zip": "30096",
+    "lat": 33.9752,
+    "lng": -84.1568
+  },
+  {
+    "name": "QuikTrip",
+    "address": "3844 Satellite Blvd",
+    "city": "Duluth",
+    "state": "GA",
+    "zip": "30096",
+    "lat": 33.9693,
+    "lng": -84.1224
+  },
+  {
+    "name": "QuikTrip",
+    "address": "100 Ashwood Pkwy",
+    "city": "Dunwoody",
+    "state": "GA",
+    "zip": "30338",
+    "lat": 33.9288,
+    "lng": -84.3256
+  },
+  {
+    "name": "QuikTrip",
+    "address": "4086 Pleasantdale Rd",
+    "city": "Doraville",
+    "state": "GA",
+    "zip": "30340",
+    "lat": 33.8982,
+    "lng": -84.2673
+  },
+  {
+    "name": "QuikTrip",
+    "address": "5500 Buford Hwy NE",
+    "city": "Doraville",
+    "state": "GA",
+    "zip": "30340",
+    "lat": 33.8874,
+    "lng": -84.2747
+  },
+  {
+    "name": "QuikTrip",
+    "address": "6901 Peachtree Industrial Blvd",
+    "city": "Doraville",
+    "state": "GA",
+    "zip": "30360",
+    "lat": 33.9218,
+    "lng": -84.2508
+  },
+  {
+    "name": "QuikTrip",
+    "address": "1075 Peachtree Ind Blvd",
+    "city": "Suwanee",
+    "state": "GA",
+    "zip": "30024",
+    "lat": 34.0139,
+    "lng": -84.0789
+  },
+  {
+    "name": "QuikTrip",
+    "address": "3611 Peachtree Pkwy",
+    "city": "Suwanee",
+    "state": "GA",
+    "zip": "30024",
+    "lat": 34.0432,
+    "lng": -84.0692
+  },
+  {
+    "name": "QuikTrip",
+    "address": "6140 Jimmy Carter Blvd",
+    "city": "Norcross",
+    "state": "GA",
+    "zip": "30071",
+    "lat": 33.9201,
+    "lng": -84.1879
+  },
+  {
+    "name": "QuikTrip",
+    "address": "5795 Jimmy Carter Blvd",
+    "city": "Norcross",
+    "state": "GA",
+    "zip": "30071",
+    "lat": 33.9157,
+    "lng": -84.2091
+  },
+  {
+    "name": "QuikTrip",
+    "address": "5255 Peachtree Pkwy",
+    "city": "Norcross",
+    "state": "GA",
+    "zip": "30092",
+    "lat": 33.9584,
+    "lng": -84.1672
+  },
+  {
+    "name": "QuikTrip",
+    "address": "4635 Woodstock Rd",
+    "city": "Roswell",
+    "state": "GA",
+    "zip": "30075",
+    "lat": 34.0413,
+    "lng": -84.3887
+  },
+  {
+    "name": "QuikTrip",
+    "address": "20 E Crossville Rd",
+    "city": "Roswell",
+    "state": "GA",
+    "zip": "30075",
+    "lat": 34.0327,
+    "lng": -84.3513
+  },
+  {
+    "name": "QuikTrip",
+    "address": "10920 State Bridge Rd",
+    "city": "Johns Creek",
+    "state": "GA",
+    "zip": "30022",
+    "lat": 34.0289,
+    "lng": -84.1613
+  },
+  {
+    "name": "QuikTrip",
+    "address": "1470 Towne Lake Pkwy",
+    "city": "Woodstock",
+    "state": "GA",
+    "zip": "30189",
+    "lat": 34.0997,
+    "lng": -84.5121
+  },
+  {
+    "name": "QuikTrip",
+    "address": "9765 Hwy 92",
+    "city": "Woodstock",
+    "state": "GA",
+    "zip": "30188",
+    "lat": 34.1067,
+    "lng": -84.5312
+  },
+  {
+    "name": "QuikTrip",
+    "address": "1395 Georgia Hwy 138",
+    "city": "Conyers",
+    "state": "GA",
+    "zip": "30013",
+    "lat": 33.6618,
+    "lng": -84.0053
+  },
+  {
+    "name": "QuikTrip",
+    "address": "2400 Salem Rd SE",
+    "city": "Conyers",
+    "state": "GA",
+    "zip": "30013",
+    "lat": 33.6347,
+    "lng": -83.9933
+  },
+  {
+    "name": "QuikTrip",
+    "address": "1870 Hwy 20 S",
+    "city": "Conyers",
+    "state": "GA",
+    "zip": "30013",
+    "lat": 33.6389,
+    "lng": -84.0307
+  },
+  {
+    "name": "QuikTrip",
+    "address": "11124 Hwy 142",
+    "city": "Covington",
+    "state": "GA",
+    "zip": "30014",
+    "lat": 33.6283,
+    "lng": -83.8613
+  },
+  {
+    "name": "QuikTrip",
+    "address": "3214 Hwy 278 NW",
+    "city": "Covington",
+    "state": "GA",
+    "zip": "30014",
+    "lat": 33.6173,
+    "lng": -83.8819
+  },
+  {
+    "name": "QuikTrip",
+    "address": "5260 N Henry Blvd",
+    "city": "Stockbridge",
+    "state": "GA",
+    "zip": "30281",
+    "lat": 33.5471,
+    "lng": -84.2313
+  },
+  {
+    "name": "QuikTrip",
+    "address": "1614 Hudson Bridge Rd",
+    "city": "Stockbridge",
+    "state": "GA",
+    "zip": "30281",
+    "lat": 33.5282,
+    "lng": -84.2127
+  },
+  {
+    "name": "QuikTrip",
+    "address": "7390 Jonesboro Rd",
+    "city": "Morrow",
+    "state": "GA",
+    "zip": "30260",
+    "lat": 33.5783,
+    "lng": -84.3478
+  },
+  {
+    "name": "QuikTrip",
+    "address": "6801 Mt Zion Blvd",
+    "city": "Morrow",
+    "state": "GA",
+    "zip": "30260",
+    "lat": 33.5693,
+    "lng": -84.3301
+  },
+  {
+    "name": "QuikTrip",
+    "address": "4745 Jonesboro Rd",
+    "city": "Union City",
+    "state": "GA",
+    "zip": "30291",
+    "lat": 33.5618,
+    "lng": -84.3927
+  },
+  {
+    "name": "QuikTrip",
+    "address": "2671 Spring Rd",
+    "city": "Smyrna",
+    "state": "GA",
+    "zip": "30080",
+    "lat": 33.8704,
+    "lng": -84.5192
+  },
+  {
+    "name": "QuikTrip",
+    "address": "2180 Windy Hill Rd",
+    "city": "Smyrna",
+    "state": "GA",
+    "zip": "30080",
+    "lat": 33.9018,
+    "lng": -84.4851
+  },
+  {
+    "name": "QuikTrip",
+    "address": "4495 S Cobb Dr SE",
+    "city": "Smyrna",
+    "state": "GA",
+    "zip": "30080",
+    "lat": 33.8419,
+    "lng": -84.4893
+  },
+  {
+    "name": "QuikTrip",
+    "address": "1400 Earnest Barrett Pkwy",
+    "city": "Kennesaw",
+    "state": "GA",
+    "zip": "30152",
+    "lat": 34.0167,
+    "lng": -84.6183
+  },
+  {
+    "name": "QuikTrip",
+    "address": "2761 Cobb Pkwy",
+    "city": "Kennesaw",
+    "state": "GA",
+    "zip": "30152",
+    "lat": 34.0137,
+    "lng": -84.5864
+  },
+  {
+    "name": "QuikTrip",
+    "address": "4340 Bells Ferry Rd",
+    "city": "Kennesaw",
+    "state": "GA",
+    "zip": "30144",
+    "lat": 34.0487,
+    "lng": -84.5912
+  },
+  {
+    "name": "QuikTrip",
+    "address": "4433 Wade Green Rd",
+    "city": "Kennesaw",
+    "state": "GA",
+    "zip": "30144",
+    "lat": 34.0589,
+    "lng": -84.5768
+  },
+  {
+    "name": "QuikTrip",
+    "address": "692 Powder Springs St",
+    "city": "Marietta",
+    "state": "GA",
+    "zip": "30064",
+    "lat": 33.9428,
+    "lng": -84.5783
+  },
+  {
+    "name": "QuikTrip",
+    "address": "3110 Roswell Rd",
+    "city": "Marietta",
+    "state": "GA",
+    "zip": "30062",
+    "lat": 33.9603,
+    "lng": -84.4576
+  },
+  {
+    "name": "QuikTrip",
+    "address": "491 Nathan Dean Blvd",
+    "city": "Dallas",
+    "state": "GA",
+    "zip": "30132",
+    "lat": 33.9173,
+    "lng": -84.8413
+  },
+  {
+    "name": "QuikTrip",
+    "address": "650 Hwy 61",
+    "city": "Villa Rica",
+    "state": "GA",
+    "zip": "30180",
+    "lat": 33.7284,
+    "lng": -84.9179
+  },
+  {
+    "name": "QuikTrip",
+    "address": "946 Carrollton St",
+    "city": "Temple",
+    "state": "GA",
+    "zip": "30179",
+    "lat": 33.7358,
+    "lng": -85.0324
+  },
+  {
+    "name": "QuikTrip",
+    "address": "1240 Oconee Connector",
+    "city": "Athens",
+    "state": "GA",
+    "zip": "30606",
+    "lat": 33.9288,
+    "lng": -83.4147
+  },
+  {
+    "name": "QuikTrip",
+    "address": "4113 Covington Hwy",
+    "city": "Decatur",
+    "state": "GA",
+    "zip": "30035",
+    "lat": 33.7427,
+    "lng": -84.2387
+  },
+  {
+    "name": "QuikTrip",
+    "address": "1094 Duluth Hwy",
+    "city": "Lawrenceville",
+    "state": "GA",
+    "zip": "30043",
+    "lat": 33.9587,
+    "lng": -84.0827
+  },
+  {
+    "name": "QuikTrip",
+    "address": "5390 Riverdale Rd",
+    "city": "College Park",
+    "state": "GA",
+    "zip": "30349",
+    "lat": 33.6134,
+    "lng": -84.4279
+  },
+  {
+    "name": "QuikTrip",
+    "address": "7350 Georgia Hwy 85",
+    "city": "Riverdale",
+    "state": "GA",
+    "zip": "30274",
+    "lat": 33.5718,
+    "lng": -84.4089
+  },
+  {
+    "name": "QuikTrip",
+    "address": "93 Upper Riverdale Rd",
+    "city": "Riverdale",
+    "state": "GA",
+    "zip": "30274",
+    "lat": 33.5693,
+    "lng": -84.3892
+  },
+  {
+    "name": "QuikTrip",
+    "address": "7225 Rockbridge Rd",
+    "city": "Lithonia",
+    "state": "GA",
+    "zip": "30058",
+    "lat": 33.7012,
+    "lng": -84.1087
+  },
+  {
+    "name": "QuikTrip",
+    "address": "2776 Panola Rd",
+    "city": "Lithonia",
+    "state": "GA",
+    "zip": "30058",
+    "lat": 33.7318,
+    "lng": -84.1413
+  },
+  {
+    "name": "QuikTrip",
+    "address": "2841 Turner Hill Rd",
+    "city": "Lithonia",
+    "state": "GA",
+    "zip": "30038",
+    "lat": 33.6876,
+    "lng": -84.1187
+  },
+  {
+    "name": "QuikTrip",
+    "address": "5065 Stone Mountain Hwy",
+    "city": "Stone Mountain",
+    "state": "GA",
+    "zip": "30087",
+    "lat": 33.8178,
+    "lng": -84.1493
+  },
+  {
+    "name": "QuikTrip",
+    "address": "1676 Bankhead Hwy",
+    "city": "Carrollton",
+    "state": "GA",
+    "zip": "30116",
+    "lat": 33.5689,
+    "lng": -85.0813
+  },
+  {
+    "name": "QuikTrip",
+    "address": "1060 Bullsboro Dr",
+    "city": "Newnan",
+    "state": "GA",
+    "zip": "30265",
+    "lat": 33.3864,
+    "lng": -84.7713
+  },
+  {
+    "name": "QuikTrip",
+    "address": "1846 Hwy 85 N",
+    "city": "Fayetteville",
+    "state": "GA",
+    "zip": "30214",
+    "lat": 33.4637,
+    "lng": -84.4629
+  },
+  {
+    "name": "QuikTrip",
+    "address": "1168 GA-20",
+    "city": "McDonough",
+    "state": "GA",
+    "zip": "30253",
+    "lat": 33.4379,
+    "lng": -84.1289
+  },
+  {
+    "name": "QuikTrip",
+    "address": "1494 Jonesboro Rd",
+    "city": "McDonough",
+    "state": "GA",
+    "zip": "30253",
+    "lat": 33.4487,
+    "lng": -84.1513
+  },
+  {
+    "name": "QuikTrip",
+    "address": "927 Gainesville Hwy",
+    "city": "Buford",
+    "state": "GA",
+    "zip": "30518",
+    "lat": 34.1242,
+    "lng": -83.9957
+  },
+  {
+    "name": "QuikTrip",
+    "address": "4080 Buford Dr",
+    "city": "Buford",
+    "state": "GA",
+    "zip": "30518",
+    "lat": 34.0893,
+    "lng": -84.0112
+  },
+  {
+    "name": "QuikTrip",
+    "address": "2900 Buford Dr",
+    "city": "Buford",
+    "state": "GA",
+    "zip": "30519",
+    "lat": 34.0718,
+    "lng": -84.0034
+  },
+  {
+    "name": "QuikTrip",
+    "address": "5502 Hwy 53",
+    "city": "Braselton",
+    "state": "GA",
+    "zip": "30517",
+    "lat": 34.1037,
+    "lng": -83.7893
+  },
+  {
+    "name": "QuikTrip",
+    "address": "3229 Peachtree Corners Cir",
+    "city": "Peachtree Corners",
+    "state": "GA",
+    "zip": "30092",
+    "lat": 33.9687,
+    "lng": -84.2218
+  },
+  {
+    "name": "QuikTrip",
+    "address": "5705 Fulton Industrial Blvd",
+    "city": "Atlanta",
+    "state": "GA",
+    "zip": "30336",
+    "lat": 33.7524,
+    "lng": -84.5434
+  },
+  {
+    "name": "QuikTrip",
+    "address": "3590 Canton Hwy",
+    "city": "Cumming",
+    "state": "GA",
+    "zip": "30040",
+    "lat": 34.1812,
+    "lng": -84.1978
+  },
+  {
+    "name": "QuikTrip",
+    "address": "7975 Senoia Rd",
+    "city": "Fairburn",
+    "state": "GA",
+    "zip": "30213",
+    "lat": 33.5287,
+    "lng": -84.5812
+  }
+]

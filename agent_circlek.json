@@ -1,0 +1,1118 @@
+[
+  {
+    "name": "Circle K - Atlanta Whitehall",
+    "address": "490 Whitehall St SW",
+    "city": "Atlanta",
+    "state": "GA",
+    "zip": "30303",
+    "lat": 33.7455,
+    "lng": -84.3965
+  },
+  {
+    "name": "Circle K - Atlanta Ponce De Leon",
+    "address": "486 Ponce De Leon Ave NE",
+    "city": "Atlanta",
+    "state": "GA",
+    "zip": "30308",
+    "lat": 33.773,
+    "lng": -84.373
+  },
+  {
+    "name": "Circle K - Atlanta Candler Rd",
+    "address": "202 Candler Rd SE",
+    "city": "Atlanta",
+    "state": "GA",
+    "zip": "30317",
+    "lat": 33.74,
+    "lng": -84.332
+  },
+  {
+    "name": "Circle K - Atlanta Boulevard",
+    "address": "111 Boulevard St NE",
+    "city": "Atlanta",
+    "state": "GA",
+    "zip": "30312",
+    "lat": 33.754,
+    "lng": -84.377
+  },
+  {
+    "name": "Circle K - Atlanta Joseph Lowery",
+    "address": "343 Joseph Lowery Blvd SW",
+    "city": "Atlanta",
+    "state": "GA",
+    "zip": "30310",
+    "lat": 33.748,
+    "lng": -84.415
+  },
+  {
+    "name": "Circle K - Atlanta Northside 548",
+    "address": "548 Northside Dr NW",
+    "city": "Atlanta",
+    "state": "GA",
+    "zip": "30318",
+    "lat": 33.771,
+    "lng": -84.41
+  },
+  {
+    "name": "Circle K - Atlanta Marietta Blvd",
+    "address": "1720 Marietta Blvd NW",
+    "city": "Atlanta",
+    "state": "GA",
+    "zip": "30318",
+    "lat": 33.793,
+    "lng": -84.433
+  },
+  {
+    "name": "Circle K - Atlanta Norman Dr",
+    "address": "1697 Norman Dr",
+    "city": "Atlanta",
+    "state": "GA",
+    "zip": "30349",
+    "lat": 33.611,
+    "lng": -84.418
+  },
+  {
+    "name": "Circle K - Riverdale Hwy 85",
+    "address": "5883 Highway 85",
+    "city": "Riverdale",
+    "state": "GA",
+    "zip": "30274",
+    "lat": 33.556,
+    "lng": -84.403
+  },
+  {
+    "name": "Circle K - Riverdale Hwy 85 S",
+    "address": "8060 Hwy 85",
+    "city": "Riverdale",
+    "state": "GA",
+    "zip": "30274",
+    "lat": 33.524,
+    "lng": -84.407
+  },
+  {
+    "name": "Circle K - College Park Old National",
+    "address": "4903 Old National Hwy",
+    "city": "College Park",
+    "state": "GA",
+    "zip": "30337",
+    "lat": 33.619,
+    "lng": -84.462
+  },
+  {
+    "name": "Circle K - Morrow Jonesboro Rd",
+    "address": "6629 Jonesboro Rd",
+    "city": "Morrow",
+    "state": "GA",
+    "zip": "30260",
+    "lat": 33.58,
+    "lng": -84.358
+  },
+  {
+    "name": "Circle K - Morrow Mt Zion",
+    "address": "2058 Mt Zion Rd",
+    "city": "Morrow",
+    "state": "GA",
+    "zip": "30260",
+    "lat": 33.566,
+    "lng": -84.345
+  },
+  {
+    "name": "Circle K - Locust Grove Bill Gardner",
+    "address": "5080 Bill Gardner Pkwy",
+    "city": "Locust Grove",
+    "state": "GA",
+    "zip": "30248",
+    "lat": 33.35,
+    "lng": -84.107
+  },
+  {
+    "name": "Circle K - Locust Grove Bill Gardner S",
+    "address": "3010 Bill Gardner Pkwy",
+    "city": "Locust Grove",
+    "state": "GA",
+    "zip": "30248",
+    "lat": 33.338,
+    "lng": -84.11
+  },
+  {
+    "name": "Circle K - Hampton",
+    "address": "32 E Main St S",
+    "city": "Hampton",
+    "state": "GA",
+    "zip": "30228",
+    "lat": 33.386,
+    "lng": -84.282
+  },
+  {
+    "name": "Circle K - Decatur Flat Shoals",
+    "address": "3801 Flat Shoals Pkwy",
+    "city": "Decatur",
+    "state": "GA",
+    "zip": "30034",
+    "lat": 33.706,
+    "lng": -84.258
+  },
+  {
+    "name": "Circle K - Decatur Candler Rd",
+    "address": "2050 Candler Rd",
+    "city": "Decatur",
+    "state": "GA",
+    "zip": "30032",
+    "lat": 33.736,
+    "lng": -84.287
+  },
+  {
+    "name": "Circle K - Decatur N Decatur Rd",
+    "address": "2077 N Decatur Rd",
+    "city": "Decatur",
+    "state": "GA",
+    "zip": "30033",
+    "lat": 33.783,
+    "lng": -84.3
+  },
+  {
+    "name": "Circle K - Decatur Glenwood",
+    "address": "4265 Glenwood Rd",
+    "city": "Decatur",
+    "state": "GA",
+    "zip": "30035",
+    "lat": 33.72,
+    "lng": -84.239
+  },
+  {
+    "name": "Circle K - Peachtree City",
+    "address": "1001 Crosstown Dr",
+    "city": "Peachtree City",
+    "state": "GA",
+    "zip": "30269",
+    "lat": 33.397,
+    "lng": -84.57
+  },
+  {
+    "name": "Circle K - Fayetteville Lanier",
+    "address": "340 E Lanier Ave",
+    "city": "Fayetteville",
+    "state": "GA",
+    "zip": "30214",
+    "lat": 33.449,
+    "lng": -84.448
+  },
+  {
+    "name": "Circle K - Fayetteville Hwy 54",
+    "address": "973 Highway 54 East",
+    "city": "Fayetteville",
+    "state": "GA",
+    "zip": "30214",
+    "lat": 33.441,
+    "lng": -84.434
+  },
+  {
+    "name": "Circle K - Fayetteville Glynn",
+    "address": "761 Glynn St N",
+    "city": "Fayetteville",
+    "state": "GA",
+    "zip": "30214",
+    "lat": 33.462,
+    "lng": -84.457
+  },
+  {
+    "name": "Circle K - Athens Lumpkin",
+    "address": "1333 S Lumpkin St",
+    "city": "Athens",
+    "state": "GA",
+    "zip": "30605",
+    "lat": 33.944,
+    "lng": -83.377
+  },
+  {
+    "name": "Circle K - Athens Prince",
+    "address": "990 Prince Ave",
+    "city": "Athens",
+    "state": "GA",
+    "zip": "30606",
+    "lat": 33.968,
+    "lng": -83.399
+  },
+  {
+    "name": "Circle K - Augusta Wheeler",
+    "address": "3744 Wheeler Rd",
+    "city": "Augusta",
+    "state": "GA",
+    "zip": "30909",
+    "lat": 33.473,
+    "lng": -82.048
+  },
+  {
+    "name": "Circle K - Augusta Old Evans",
+    "address": "457 Old Evans Rd",
+    "city": "Augusta",
+    "state": "GA",
+    "zip": "30907",
+    "lat": 33.501,
+    "lng": -82.077
+  },
+  {
+    "name": "Circle K - Augusta Lumpkin",
+    "address": "2572 Lumpkin Rd",
+    "city": "Augusta",
+    "state": "GA",
+    "zip": "30906",
+    "lat": 33.424,
+    "lng": -82.007
+  },
+  {
+    "name": "Circle K - Augusta Wrightsboro 3434",
+    "address": "3434 Wrightsboro Rd",
+    "city": "Augusta",
+    "state": "GA",
+    "zip": "30909",
+    "lat": 33.465,
+    "lng": -82.035
+  },
+  {
+    "name": "Circle K - Augusta Walton Way",
+    "address": "1739 Walton Way",
+    "city": "Augusta",
+    "state": "GA",
+    "zip": "30904",
+    "lat": 33.472,
+    "lng": -81.999
+  },
+  {
+    "name": "Circle K - Augusta Columbia",
+    "address": "4473 Columbia Rd",
+    "city": "Augusta",
+    "state": "GA",
+    "zip": "30907",
+    "lat": 33.506,
+    "lng": -82.088
+  },
+  {
+    "name": "Circle K - Evans Washington",
+    "address": "4403 Washington Rd",
+    "city": "Evans",
+    "state": "GA",
+    "zip": "30809",
+    "lat": 33.518,
+    "lng": -82.113
+  },
+  {
+    "name": "Circle K - Evans Washington 4256",
+    "address": "4256 Washington Rd",
+    "city": "Evans",
+    "state": "GA",
+    "zip": "30809",
+    "lat": 33.515,
+    "lng": -82.108
+  },
+  {
+    "name": "Circle K - Grovetown Gordon",
+    "address": "3011 Gordon Hwy",
+    "city": "Grovetown",
+    "state": "GA",
+    "zip": "30813",
+    "lat": 33.453,
+    "lng": -82.192
+  },
+  {
+    "name": "Circle K - Grovetown Lewiston",
+    "address": "440 Lewiston Rd",
+    "city": "Grovetown",
+    "state": "GA",
+    "zip": "30813",
+    "lat": 33.453,
+    "lng": -82.2
+  },
+  {
+    "name": "Circle K - Hephzibah Tobacco",
+    "address": "2574 Tobacco Rd",
+    "city": "Hephzibah",
+    "state": "GA",
+    "zip": "30815",
+    "lat": 33.37,
+    "lng": -82.023
+  },
+  {
+    "name": "Circle K - Columbus 12th Ave",
+    "address": "1801 12th Ave",
+    "city": "Columbus",
+    "state": "GA",
+    "zip": "31901",
+    "lat": 32.454,
+    "lng": -84.974
+  },
+  {
+    "name": "Circle K - Columbus Lumpkin",
+    "address": "1715 S Lumpkin Rd",
+    "city": "Columbus",
+    "state": "GA",
+    "zip": "31903",
+    "lat": 32.435,
+    "lng": -84.935
+  },
+  {
+    "name": "Circle K - Columbus Veterans 7330",
+    "address": "7330 Veterans Pkwy",
+    "city": "Columbus",
+    "state": "GA",
+    "zip": "31909",
+    "lat": 32.541,
+    "lng": -84.939
+  },
+  {
+    "name": "Circle K - Macon Hartley Bridge",
+    "address": "4700 Hartley Bridge Rd",
+    "city": "Macon",
+    "state": "GA",
+    "zip": "31216",
+    "lat": 32.753,
+    "lng": -83.682
+  },
+  {
+    "name": "Circle K - Macon Forsyth",
+    "address": "1194 Forsyth St",
+    "city": "Macon",
+    "state": "GA",
+    "zip": "31201",
+    "lat": 32.828,
+    "lng": -83.636
+  },
+  {
+    "name": "Circle K - Macon Mercer",
+    "address": "3391 Mercer University Dr",
+    "city": "Macon",
+    "state": "GA",
+    "zip": "31204",
+    "lat": 32.839,
+    "lng": -83.675
+  },
+  {
+    "name": "Circle K - Macon Pio Nono",
+    "address": "4314 Pio Nono Ave",
+    "city": "Macon",
+    "state": "GA",
+    "zip": "31206",
+    "lat": 32.792,
+    "lng": -83.662
+  },
+  {
+    "name": "Circle K - Macon Northside",
+    "address": "4001 Northside Dr",
+    "city": "Macon",
+    "state": "GA",
+    "zip": "31210",
+    "lat": 32.869,
+    "lng": -83.711
+  },
+  {
+    "name": "Circle K - Macon Chambers",
+    "address": "4775 Chambers Rd",
+    "city": "Macon",
+    "state": "GA",
+    "zip": "31206",
+    "lat": 32.784,
+    "lng": -83.69
+  },
+  {
+    "name": "Circle K - Macon Zebulon",
+    "address": "6205 Zebulon Rd",
+    "city": "Macon",
+    "state": "GA",
+    "zip": "31210",
+    "lat": 32.853,
+    "lng": -83.748
+  },
+  {
+    "name": "Circle K - Macon Bass",
+    "address": "1608 Bass Rd",
+    "city": "Macon",
+    "state": "GA",
+    "zip": "31210",
+    "lat": 32.864,
+    "lng": -83.718
+  },
+  {
+    "name": "Circle K - Macon Riverside 2580",
+    "address": "2580 Riverside Dr",
+    "city": "Macon",
+    "state": "GA",
+    "zip": "31204",
+    "lat": 32.857,
+    "lng": -83.685
+  },
+  {
+    "name": "Circle K - Savannah Quacco",
+    "address": "2 Quacco Rd",
+    "city": "Savannah",
+    "state": "GA",
+    "zip": "31419",
+    "lat": 32.006,
+    "lng": -81.115
+  },
+  {
+    "name": "Circle K - Savannah Dean Forrest",
+    "address": "2404 Dean Forrest Rd",
+    "city": "Savannah",
+    "state": "GA",
+    "zip": "31408",
+    "lat": 32.075,
+    "lng": -81.163
+  },
+  {
+    "name": "Circle K - Savannah King George",
+    "address": "1006 King George Blvd",
+    "city": "Savannah",
+    "state": "GA",
+    "zip": "31419",
+    "lat": 32.009,
+    "lng": -81.112
+  },
+  {
+    "name": "Circle K - Savannah Abercorn",
+    "address": "7203 Abercorn St",
+    "city": "Savannah",
+    "state": "GA",
+    "zip": "31406",
+    "lat": 32.01,
+    "lng": -81.097
+  },
+  {
+    "name": "Circle K - Pooler",
+    "address": "1080 Hwy 80 E",
+    "city": "Pooler",
+    "state": "GA",
+    "zip": "31322",
+    "lat": 32.115,
+    "lng": -81.253
+  },
+  {
+    "name": "Circle K - Valdosta St Augustine 1201",
+    "address": "1201 St Augustine Rd",
+    "city": "Valdosta",
+    "state": "GA",
+    "zip": "31601",
+    "lat": 30.81,
+    "lng": -83.283
+  },
+  {
+    "name": "Circle K - Warner Robins Hawkinsville",
+    "address": "10136 Hawkinsville Rd",
+    "city": "Warner Robins",
+    "state": "GA",
+    "zip": "31088",
+    "lat": 32.561,
+    "lng": -83.653
+  },
+  {
+    "name": "Circle K - Warner Robins Hwy 96",
+    "address": "801 GA Hwy 96",
+    "city": "Warner Robins",
+    "state": "GA",
+    "zip": "31088",
+    "lat": 32.581,
+    "lng": -83.634
+  },
+  {
+    "name": "Circle K - Warner Robins Russell",
+    "address": "1242 Russell Pkwy",
+    "city": "Warner Robins",
+    "state": "GA",
+    "zip": "31088",
+    "lat": 32.593,
+    "lng": -83.674
+  },
+  {
+    "name": "Circle K - Perry Pkwy",
+    "address": "285 Perry Pkwy",
+    "city": "Perry",
+    "state": "GA",
+    "zip": "31069",
+    "lat": 32.451,
+    "lng": -83.728
+  },
+  {
+    "name": "Circle K - Perry Sam Nunn",
+    "address": "1505 Sam Nunn Blvd",
+    "city": "Perry",
+    "state": "GA",
+    "zip": "31069",
+    "lat": 32.454,
+    "lng": -83.725
+  },
+  {
+    "name": "Circle K - Perry Marshallville",
+    "address": "201 Marshallville Rd",
+    "city": "Perry",
+    "state": "GA",
+    "zip": "31069",
+    "lat": 32.453,
+    "lng": -83.736
+  },
+  {
+    "name": "Circle K - Perry Iffie",
+    "address": "107 Iffie Rd",
+    "city": "Perry",
+    "state": "GA",
+    "zip": "31069",
+    "lat": 32.462,
+    "lng": -83.722
+  },
+  {
+    "name": "Circle K - Rome Calhoun Hwy",
+    "address": "5880 Calhoun Hwy",
+    "city": "Rome",
+    "state": "GA",
+    "zip": "30161",
+    "lat": 34.338,
+    "lng": -85.104
+  },
+  {
+    "name": "Circle K - Rome Old Calhoun",
+    "address": "1881 Old Calhoun Hwy NE",
+    "city": "Rome",
+    "state": "GA",
+    "zip": "30161",
+    "lat": 34.302,
+    "lng": -85.135
+  },
+  {
+    "name": "Circle K - Rome Cartersville Hwy",
+    "address": "1050 Cartersville Hwy SE",
+    "city": "Rome",
+    "state": "GA",
+    "zip": "30161",
+    "lat": 34.235,
+    "lng": -85.12
+  },
+  {
+    "name": "Circle K - Rome Cedartown Hwy",
+    "address": "3070 Cedartown Hwy SW",
+    "city": "Rome",
+    "state": "GA",
+    "zip": "30161",
+    "lat": 34.22,
+    "lng": -85.2
+  },
+  {
+    "name": "Circle K - Ringgold Hwy 41",
+    "address": "11418 Hwy 41",
+    "city": "Ringgold",
+    "state": "GA",
+    "zip": "30736",
+    "lat": 34.91,
+    "lng": -85.11
+  },
+  {
+    "name": "Circle K - Ringgold Alabama Hwy",
+    "address": "5337 Alabama Hwy",
+    "city": "Ringgold",
+    "state": "GA",
+    "zip": "30736",
+    "lat": 34.92,
+    "lng": -85.13
+  },
+  {
+    "name": "Circle K - Ringgold Battlefield",
+    "address": "6855 Battlefield Pkwy",
+    "city": "Ringgold",
+    "state": "GA",
+    "zip": "30736",
+    "lat": 34.94,
+    "lng": -85.22
+  },
+  {
+    "name": "Circle K - Fort Oglethorpe",
+    "address": "4257 Cloud Springs Rd",
+    "city": "Fort Oglethorpe",
+    "state": "GA",
+    "zip": "30742",
+    "lat": 34.935,
+    "lng": -85.247
+  },
+  {
+    "name": "Circle K - Chatsworth Hwy 52",
+    "address": "3120 Hwy 52 Alt",
+    "city": "Chatsworth",
+    "state": "GA",
+    "zip": "30705",
+    "lat": 34.748,
+    "lng": -84.786
+  },
+  {
+    "name": "Circle K - Chatsworth 3rd Ave",
+    "address": "630 S 3rd Ave",
+    "city": "Chatsworth",
+    "state": "GA",
+    "zip": "30705",
+    "lat": 34.758,
+    "lng": -84.771
+  },
+  {
+    "name": "Circle K - Chatsworth Hwy 76",
+    "address": "1194 Hwy 76",
+    "city": "Chatsworth",
+    "state": "GA",
+    "zip": "30705",
+    "lat": 34.766,
+    "lng": -84.763
+  },
+  {
+    "name": "Circle K - Albany Old Dawson",
+    "address": "2825 Old Dawson Rd",
+    "city": "Albany",
+    "state": "GA",
+    "zip": "31707",
+    "lat": 31.564,
+    "lng": -84.186
+  },
+  {
+    "name": "Circle K - Albany Oakridge",
+    "address": "300 E Oakridge Dr",
+    "city": "Albany",
+    "state": "GA",
+    "zip": "31707",
+    "lat": 31.558,
+    "lng": -84.14
+  },
+  {
+    "name": "Circle K - Americus Hwy 49",
+    "address": "1101 GA Hwy 49 N",
+    "city": "Americus",
+    "state": "GA",
+    "zip": "31709",
+    "lat": 32.09,
+    "lng": -84.227
+  },
+  {
+    "name": "Circle K - Brunswick Millennium",
+    "address": "160 Millennium Blvd",
+    "city": "Brunswick",
+    "state": "GA",
+    "zip": "31525",
+    "lat": 31.208,
+    "lng": -81.505
+  },
+  {
+    "name": "Circle K - Brunswick Community",
+    "address": "4041 Community Rd",
+    "city": "Brunswick",
+    "state": "GA",
+    "zip": "31520",
+    "lat": 31.186,
+    "lng": -81.51
+  },
+  {
+    "name": "Circle K - Hinesville Oglethorpe 1025",
+    "address": "1025 W Oglethorpe Hwy",
+    "city": "Hinesville",
+    "state": "GA",
+    "zip": "31313",
+    "lat": 31.842,
+    "lng": -81.645
+  },
+  {
+    "name": "Circle K - Hinesville Oglethorpe 463",
+    "address": "463 W Oglethorpe Hwy",
+    "city": "Hinesville",
+    "state": "GA",
+    "zip": "31313",
+    "lat": 31.846,
+    "lng": -81.635
+  },
+  {
+    "name": "Circle K - Statesboro S Main",
+    "address": "1088 S Main St",
+    "city": "Statesboro",
+    "state": "GA",
+    "zip": "30458",
+    "lat": 32.424,
+    "lng": -81.783
+  },
+  {
+    "name": "Circle K - Statesboro US 301",
+    "address": "12440 US-301 S",
+    "city": "Statesboro",
+    "state": "GA",
+    "zip": "30458",
+    "lat": 32.37,
+    "lng": -81.768
+  },
+  {
+    "name": "Circle K - Kingsland Hwy 40",
+    "address": "1321 Hwy 40 E",
+    "city": "Kingsland",
+    "state": "GA",
+    "zip": "31548",
+    "lat": 30.813,
+    "lng": -81.663
+  },
+  {
+    "name": "Circle K - Kingsland Lee St",
+    "address": "490 S Lee St",
+    "city": "Kingsland",
+    "state": "GA",
+    "zip": "31548",
+    "lat": 30.796,
+    "lng": -81.686
+  },
+  {
+    "name": "Circle K - Kingsland King Ave",
+    "address": "790 E King Ave",
+    "city": "Kingsland",
+    "state": "GA",
+    "zip": "31548",
+    "lat": 30.8,
+    "lng": -81.674
+  },
+  {
+    "name": "Circle K - St Marys",
+    "address": "2500 Osborne Rd",
+    "city": "St Marys",
+    "state": "GA",
+    "zip": "31558",
+    "lat": 30.767,
+    "lng": -81.587
+  },
+  {
+    "name": "Circle K - Folkston",
+    "address": "1116 Kingsland Dr",
+    "city": "Folkston",
+    "state": "GA",
+    "zip": "31537",
+    "lat": 30.839,
+    "lng": -81.969
+  },
+  {
+    "name": "Circle K - Blackshear Hwy 84",
+    "address": "3359 W Hwy 84",
+    "city": "Blackshear",
+    "state": "GA",
+    "zip": "31516",
+    "lat": 31.308,
+    "lng": -82.305
+  },
+  {
+    "name": "Circle K - Blackshear Gordon",
+    "address": "114 Gordon St",
+    "city": "Blackshear",
+    "state": "GA",
+    "zip": "31516",
+    "lat": 31.307,
+    "lng": -82.243
+  },
+  {
+    "name": "Circle K - Baxley",
+    "address": "640 S Main St",
+    "city": "Baxley",
+    "state": "GA",
+    "zip": "31513",
+    "lat": 31.77,
+    "lng": -82.351
+  },
+  {
+    "name": "Circle K - Tifton 8th St",
+    "address": "1002 8th St W",
+    "city": "Tifton",
+    "state": "GA",
+    "zip": "31794",
+    "lat": 31.453,
+    "lng": -83.523
+  },
+  {
+    "name": "Circle K - Tifton 7th St",
+    "address": "802 W 7th St",
+    "city": "Tifton",
+    "state": "GA",
+    "zip": "31794",
+    "lat": 31.454,
+    "lng": -83.52
+  },
+  {
+    "name": "Circle K - Milledgeville Jefferson",
+    "address": "1935 N Jefferson St",
+    "city": "Milledgeville",
+    "state": "GA",
+    "zip": "31061",
+    "lat": 33.101,
+    "lng": -83.234
+  },
+  {
+    "name": "Circle K - Milledgeville Hwy 49",
+    "address": "166 W 49 Hwy",
+    "city": "Milledgeville",
+    "state": "GA",
+    "zip": "31061",
+    "lat": 33.077,
+    "lng": -83.244
+  },
+  {
+    "name": "Circle K - Milledgeville Columbia",
+    "address": "3056 N Columbia St",
+    "city": "Milledgeville",
+    "state": "GA",
+    "zip": "31061",
+    "lat": 33.11,
+    "lng": -83.22
+  },
+  {
+    "name": "Circle K - Dublin Hwy 441",
+    "address": "2180 US Hwy 441 S",
+    "city": "Dublin",
+    "state": "GA",
+    "zip": "31021",
+    "lat": 32.516,
+    "lng": -82.922
+  },
+  {
+    "name": "Circle K - Dublin Veterans",
+    "address": "2100 Veterans Blvd",
+    "city": "Dublin",
+    "state": "GA",
+    "zip": "31021",
+    "lat": 32.527,
+    "lng": -82.924
+  },
+  {
+    "name": "Circle K - Thomasville",
+    "address": "6358 S US Hwy 319",
+    "city": "Thomasville",
+    "state": "GA",
+    "zip": "31792",
+    "lat": 30.793,
+    "lng": -83.963
+  },
+  {
+    "name": "Circle K - Bainbridge Tallahassee Hwy",
+    "address": "1405 Tallahassee Hwy",
+    "city": "Bainbridge",
+    "state": "GA",
+    "zip": "39819",
+    "lat": 30.892,
+    "lng": -84.582
+  },
+  {
+    "name": "Circle K - Bainbridge Dothan Rd",
+    "address": "1800 Dothan Rd",
+    "city": "Bainbridge",
+    "state": "GA",
+    "zip": "39819",
+    "lat": 30.887,
+    "lng": -84.606
+  },
+  {
+    "name": "Circle K - Cordele 16th Ave",
+    "address": "1717 E 16th Ave",
+    "city": "Cordele",
+    "state": "GA",
+    "zip": "31015",
+    "lat": 31.964,
+    "lng": -83.75
+  },
+  {
+    "name": "Circle K - Barnesville",
+    "address": "771 Veterans Pkwy",
+    "city": "Barnesville",
+    "state": "GA",
+    "zip": "30204",
+    "lat": 33.038,
+    "lng": -84.151
+  },
+  {
+    "name": "Circle K - Forsyth Clarke Pkwy",
+    "address": "306 Harold G Clarke Pkwy",
+    "city": "Forsyth",
+    "state": "GA",
+    "zip": "31029",
+    "lat": 33.031,
+    "lng": -83.942
+  },
+  {
+    "name": "Circle K - Monticello",
+    "address": "1468 W Washington St",
+    "city": "Monticello",
+    "state": "GA",
+    "zip": "31064",
+    "lat": 33.303,
+    "lng": -83.698
+  },
+  {
+    "name": "Circle K - Gray",
+    "address": "283 W Clinton St",
+    "city": "Gray",
+    "state": "GA",
+    "zip": "31032",
+    "lat": 33.01,
+    "lng": -83.539
+  },
+  {
+    "name": "Circle K - Thomaston",
+    "address": "1501 Hwy 19 N",
+    "city": "Thomaston",
+    "state": "GA",
+    "zip": "30286",
+    "lat": 32.904,
+    "lng": -84.321
+  },
+  {
+    "name": "Circle K - Zebulon",
+    "address": "701 Thomaston St",
+    "city": "Zebulon",
+    "state": "GA",
+    "zip": "30295",
+    "lat": 33.101,
+    "lng": -84.346
+  },
+  {
+    "name": "Circle K - Hawkinsville",
+    "address": "167 Broad St",
+    "city": "Hawkinsville",
+    "state": "GA",
+    "zip": "31036",
+    "lat": 32.284,
+    "lng": -83.472
+  },
+  {
+    "name": "Circle K - Cochran",
+    "address": "148 E Dykes St",
+    "city": "Cochran",
+    "state": "GA",
+    "zip": "31014",
+    "lat": 32.386,
+    "lng": -83.348
+  },
+  {
+    "name": "Circle K - Vidalia",
+    "address": "201 Smith St",
+    "city": "Vidalia",
+    "state": "GA",
+    "zip": "30474",
+    "lat": 32.218,
+    "lng": -82.414
+  },
+  {
+    "name": "Circle K - Douglas Baker Hwy",
+    "address": "101 E Baker Hwy",
+    "city": "Douglas",
+    "state": "GA",
+    "zip": "31533",
+    "lat": 31.511,
+    "lng": -82.842
+  },
+  {
+    "name": "Circle K - Douglas Peterson",
+    "address": "1716 Peterson Ave N",
+    "city": "Douglas",
+    "state": "GA",
+    "zip": "31533",
+    "lat": 31.521,
+    "lng": -82.858
+  },
+  {
+    "name": "Circle K - Hazlehurst Jarman",
+    "address": "100 E Jarman St",
+    "city": "Hazlehurst",
+    "state": "GA",
+    "zip": "31539",
+    "lat": 31.862,
+    "lng": -82.594
+  },
+  {
+    "name": "Circle K - Hazlehurst Alma Hwy",
+    "address": "284 Alma Hwy",
+    "city": "Hazlehurst",
+    "state": "GA",
+    "zip": "31539",
+    "lat": 31.866,
+    "lng": -82.61
+  },
+  {
+    "name": "Circle K - Soperton",
+    "address": "7905 Metter Rd",
+    "city": "Soperton",
+    "state": "GA",
+    "zip": "30457",
+    "lat": 32.359,
+    "lng": -82.583
+  },
+  {
+    "name": "Circle K - Wrightsville",
+    "address": "213 N Marcus St",
+    "city": "Wrightsville",
+    "state": "GA",
+    "zip": "31096",
+    "lat": 32.731,
+    "lng": -82.72
+  },
+  {
+    "name": "Circle K - Elberton",
+    "address": "211 N Oliver St",
+    "city": "Elberton",
+    "state": "GA",
+    "zip": "30635",
+    "lat": 34.113,
+    "lng": -82.865
+  },
+  {
+    "name": "Circle K - Nashville",
+    "address": "519 S Davis St",
+    "city": "Nashville",
+    "state": "GA",
+    "zip": "31639",
+    "lat": 31.2,
+    "lng": -83.251
+  },
+  {
+    "name": "Circle K - Adel",
+    "address": "1402 4th St",
+    "city": "Adel",
+    "state": "GA",
+    "zip": "31620",
+    "lat": 31.134,
+    "lng": -83.424
+  },
+  {
+    "name": "Circle K - Pearson",
+    "address": "105 W Albany Ave",
+    "city": "Pearson",
+    "state": "GA",
+    "zip": "31642",
+    "lat": 31.298,
+    "lng": -82.856
+  },
+  {
+    "name": "Circle K - Colquitt",
+    "address": "359 S 4th St",
+    "city": "Colquitt",
+    "state": "GA",
+    "zip": "39837",
+    "lat": 31.169,
+    "lng": -84.733
+  },
+  {
+    "name": "Circle K - Fitzgerald Grant St",
+    "address": "603 N Grant St",
+    "city": "Fitzgerald",
+    "state": "GA",
+    "zip": "31750",
+    "lat": 31.724,
+    "lng": -83.256
+  },
+  {
+    "name": "Circle K - Forest Park Old Dixie",
+    "address": "6142 Old Dixie Hwy",
+    "city": "Forest Park",
+    "state": "GA",
+    "zip": "30297",
+    "lat": 33.618,
+    "lng": -84.367
+  },
+  {
+    "name": "Circle K - Clarkston Montreal",
+    "address": "1109 Montreal Rd",
+    "city": "Clarkston",
+    "state": "GA",
+    "zip": "30021",
+    "lat": 33.809,
+    "lng": -84.235
+  }
+]
